@@ -1,0 +1,40 @@
+define(["../../app"], function(app) {
+  app_cached_providers.$controllerProvider.register(
+    "customerHomeController",
+    function(
+      $scope,
+      $rootScope,
+      $state,
+      $config,
+      Principal,
+      Auth,
+      Translation,
+      $config
+    ) {
+      $scope.testStandLogo = $config.testStandLogo;
+      $scope.fullUrl = $config.fullUrl;
+      $scope.extensionID = Translation.getExtensionId();
+      Principal.identity().then(function(account) {
+        $scope.account = account;
+
+        if (account.tariffExpiredDate) {
+          var notificationTime = 1000 * 60 * 60 * 24 * 7; // 7 дней
+          var nowDate = moment(),
+            expiredDate = moment(account.tariffExpiredDate, "DD.MM.YYYY");
+
+          $scope.showTariffNotification =
+            expiredDate - nowDate < notificationTime;
+        }
+
+        $scope.$watch("$root.draftSaved", function(newValue, oldValue) {
+          if (newValue != null) {
+            $("#draftSavedId").addClass("draft-saved");
+            setInterval(function() {
+              $("#draftSavedId").removeClass("draft-saved");
+            }, 1000);
+          }
+        });
+      });
+    }
+  );
+});

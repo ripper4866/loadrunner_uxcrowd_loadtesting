@@ -1,0 +1,17 @@
+[t25]
+FileName1=t25.html
+URL1=https://loadtest.uxcrowd.ru/api/v3/customer/orders
+Total=4
+RequestHeaderFile=t25_RequestHeader.txt
+RequestBodyFile=t25_RequestBody.txt
+ResponseHeaderFile=t25_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_24.xml
+FileName2=t25_2.a431f707.chunk.html
+URL2=https://loadtest.uxcrowd.ru/assets/js/customer_js/react/new_video/2.a431f707.chunk.js?_=1597923385157
+FileName3=t25_main.5e193360.chunk.html
+URL3=https://loadtest.uxcrowd.ru/assets/js/customer_js/react/new_video/main.5e193360.chunk.js?_=1597923385158
+FileName4=t25_runtime-main.1a5f5893.html
+URL4=https://loadtest.uxcrowd.ru/assets/js/customer_js/react/new_video/runtime-main.1a5f5893.js?_=1597923385159
+[ProtocolInfo]
+ProtocolId=QTWeb

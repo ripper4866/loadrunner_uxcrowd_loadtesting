@@ -1,0 +1,9 @@
+[t46]
+FileName1=t46.html
+URL1=https://loadtest.uxcrowd.ru/
+Total=1
+RequestHeaderFile=t46_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t46_ResponseHeader.txt
+ContentType=
+SnapshotXmlFile=snapshot_41.xml

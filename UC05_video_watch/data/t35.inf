@@ -1,0 +1,13 @@
+[t35]
+SnapshotXmlFile=snapshot_34.xml
+FileName1=t35.mp4.html
+URL1=https://loadtest.uxcrowd.ru/videos/2020-08-20-10-09-46-17002087-blob.mp4
+Total=2
+RequestHeaderFile=t35_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t35_ResponseHeader.txt
+ContentType=video/mp4
+FileName2=t35_favicon114w.png
+URL2=https://loadtest.uxcrowd.ru/favicon114w.png
+[ProtocolInfo]
+ProtocolId=QTWeb

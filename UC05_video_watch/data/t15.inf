@@ -1,0 +1,17 @@
+[t15]
+FileName1=t15_account.html
+URL1=https://loadtest.uxcrowd.ru/api/account
+Total=4
+ContentType=application/json
+SnapshotXmlFile=snapshot_14.xml
+RequestHeaderFile=t15_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t15_ResponseHeader.txt
+FileName2=t15_home.controller.html
+URL2=https://loadtest.uxcrowd.ru/controller/controller_customer/home.controller.js?bust=1597923386110
+FileName3=t15_header.controller.html
+URL3=https://loadtest.uxcrowd.ru/controller/controller_customer/header.controller.js?bust=1597923386110
+FileName4=t15_app.html
+URL4=https://loadtest.uxcrowd.ru/app.js?bust=1597923386110
+[ProtocolInfo]
+ProtocolId=QTWeb

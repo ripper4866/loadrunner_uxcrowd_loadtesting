@@ -1,0 +1,7 @@
+"app_id=fkbc3no8&v=3&g=b328554bf0d56eab47f83ce47cf7e7dd3670982f&s=0653de7e-6647-4fad-9a3f-6b630"
+"e925b39&i=&r=https%3A%2F%2Floadtest.uxcrowd.ru%2F&platform=web&Idempotency-Key=873208c9816e3f4"
+"c&user_data=%7B%22email%22%3A%22matt.jeevas%40mail.ru%22%2C%22user_id%22%3A493309903%2C%22anon"
+"ymous_id%22%3A%22d11c0c8f-087f-4628-b90f-26b5b9661d3d%22%7D&internal=%7B%7D&page_title=%D0%92%"
+"D1%81%D0%B5%20%D1%82%D0%B5%D1%81%D1%82%D1%8B&user_active_company_id=undefined&source=apiBoot&s"
+"ampling=false&h=false&referer=https%3A%2F%2Floadtest.uxcrowd.ru%2Fapp-customer-home%2Flist-ord"
+"ers"
