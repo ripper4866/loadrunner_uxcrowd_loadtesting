@@ -1,9 +1,0 @@
-[t41]
-FileName1=t41.html
-URL1=https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/home.html
-Total=1
-RequestHeaderFile=t41_RequestHeader.txt
-RequestBodyFile=NONE
-ResponseHeaderFile=t41_ResponseHeader.txt
-ContentType=
-SnapshotXmlFile=snapshot_41.xml
