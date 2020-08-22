@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Asus\Documents\VuGen\Scripts\uxcroud_inkognito\uxcroud_inkognito
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\asus\documents\vugen\scripts\uxcroud_inkognito\uxcroud_inkognito\\logfile.log
+c:\users\asus\documents\vugen\scripts\uxcroud_inkognito\uxcroud_inkognito\\combined_uxcroud_inkognito.c
+c:\users\asus\documents\vugen\scripts\uxcroud_inkognito\uxcroud_inkognito\\pre_cci.c
