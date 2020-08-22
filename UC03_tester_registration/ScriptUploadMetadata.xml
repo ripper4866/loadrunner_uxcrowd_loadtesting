@@ -28,6 +28,7 @@
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
     <FileEntry Name="shortestVersionTesterReg.prm.bak" Filter="1" />
+    <FileEntry Name="UC03_tester_registration.prm.bak" Filter="1" />
     <FileEntry Name="UC03_tester_registration.sdf" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />

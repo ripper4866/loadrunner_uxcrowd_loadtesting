@@ -91,7 +91,7 @@ Action()
 		"Snapshot=t11.inf", 
 		"Mode=HTML", 
 		"EncType=application/json;charset=UTF-8", 
-		"Body={\"email\":\"nevermind{randomNumber}{randomNumber2}\",\"role\":\"ROLE_NEW_TESTER\",\"tariffType\":null}", 
+		"Body={\"email\":\"totoro{randomNumber}@bmth.com\",\"role\":\"ROLE_NEW_TESTER\",\"tariffType\":null}", 
 		LAST);
 	
 	lr_end_transaction("UC03_TR02_signupdata_post",LR_AUTO);
