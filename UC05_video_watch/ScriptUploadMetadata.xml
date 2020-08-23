@@ -16,6 +16,7 @@
     <FileEntry Name="WebSocketCB.c" Filter="2" />
     <FileEntry Name="combined_UC05_video_watch.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name=".gitignore" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />

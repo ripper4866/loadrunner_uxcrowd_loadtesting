@@ -2,6 +2,28 @@ vuser_init()
 {
 
 	web_set_sockets_option("SSL_VERSION", "TLS1.2");
+	
+	char *VtsServer = "192.168.0.10"; //указывайте свой IP
+	int nPort = 4001; //порт instanceъ
+	int rc;
+
+	rc = lrvtc_connect(VtsServer, nPort, VTOPT_KEEP_ALIVE); //подсоединение к vts
+	lr_log_message("Connect result rc=%d\n", rc); 
+	
+	
+//	Наша главная ф-ия, она будет брать значение и после этого закидывать его обратно вниз VTS
+	lrvtc_rotate_message("test", VTSEND_STACKED); //положить в переменную email первое значение из одноименного столбца
+	
+	
+	lr_log_message("Retrieved value is: %s", lr_eval_string("{test}")); //отладка
+	
+	lr_save_string(lr_eval_string("email"), "our_email");
+	
+//	lrvtc_send_message("db_clients", "{raw_clients}");//добавление в колонку db_clients последним значением raw_clients
+
+	lrvtc_disconnect();//отсоединение от vts
+	
+	return 0;
 
 
 
