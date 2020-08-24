@@ -1,1 +1,0 @@
-"{"email":"avatar37@perflab.ru","role":"ROLE_NEW_TESTER","tariffType":null}"

@@ -2689,7 +2689,7 @@ Action()
 		"Snapshot=t11.inf", 
 		"Mode=HTML", 
 		"EncType=application/json;charset=UTF-8", 
-		"Body={\"email\":\"avatar{counter}@perflab.ru\",\"role\":\"ROLE_NEW_TESTER\",\"tariffType\":null}", 
+		"Body={\"email\":\"avatar{randomNumber}@perflab.ru\",\"role\":\"ROLE_NEW_TESTER\",\"tariffType\":null}", 
 		"LAST");
 	
 	lr_end_transaction("UC03_TR02_signupdata_post",2);
@@ -2739,19 +2739,19 @@ Action()
     
   lr_db_executeSQLStatement("StepName=updatePassword", 
                       "ConnectionName=connection", 
-                      "SQLStatement=update users set password = '$2a$10$lDyjp2iJ2HhWwrDHI5q37O32CIVqENgrztOCxGyCoJqT7TbxzXX92' where email = 'avatar{counter}@perflab.ru';",
+                      "SQLStatement=update users set password = '$2a$10$lDyjp2iJ2HhWwrDHI5q37O32CIVqENgrztOCxGyCoJqT7TbxzXX92' where email = 'avatar{randomNumber}@perflab.ru';",
                       "DatasetName=MyDataset",
                       "LAST" );
   
   lr_db_executeSQLStatement("StepName=updateRole", 
                       "ConnectionName=connection", 
-                      "SQLStatement=update users set role = 'ROLE_TESTER', gender = 'MALE', birthday = TO_DATE('08/02/2000', 'DD/MM/YYYY') where email = 'avatar{counter}@perflab.ru';",
+                      "SQLStatement=update users set role = 'ROLE_TESTER', gender = 'MALE', birthday = TO_DATE('08/02/2000', 'DD/MM/YYYY') where email = 'avatar{randomNumber}@perflab.ru';",
                       "DatasetName=MyDataset",
                       "LAST" );
   
   lr_db_executeSQLStatement("StepName=updateTesterData", 
                       "ConnectionName=connection", 
-                      "SQLStatement=update tester set city = 'Russia', country = 'Pscov', family_status = 'NOT_MARRIED', fio = 'Ivanov Ivan Ivanovich', income = 40000, kids = 'NONE', education_id = 6, social_status_id = 3 where id = (select id from users where email = 'avatar{counter}@perflab.ru');",
+                      "SQLStatement=update tester set city = 'Russia', country = 'Pscov', family_status = 'NOT_MARRIED', fio = 'Ivanov Ivan Ivanovich', income = 40000, kids = 'NONE', education_id = 6, social_status_id = 3 where id = (select id from users where email = 'avatar{randomNumber}@perflab.ru');",
                       "DatasetName=MyDataset",
                       "LAST" );
 	
@@ -2762,10 +2762,10 @@ Action()
 	
 	lrvtc_connect(VtsServer,nPort,0x01);  
 	
-	lrvtc_send_message("t_username", "avatar{counter}@perflab.ru");
+	lrvtc_send_message("t_username", "avatar{randomNumber}@perflab.ru");
 	
 	
-	lrvtc_disconnect(); 
+	lrvtc_disconnect();
 	
 	return 0;
 }
