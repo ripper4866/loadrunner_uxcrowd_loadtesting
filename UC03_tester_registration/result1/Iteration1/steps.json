@@ -3,60 +3,60 @@
         "stepId": "STEP1",
         "stepName": "Url: loadtest.uxcrowd.ru",
         "infFile": "t1.inf",
-        "time": 1598135781916
+        "time": 1598258373481
     },
     {
         "stepId": "STEP2",
         "stepName": "Url: ru.json",
         "infFile": "t3.inf",
-        "time": 1598135782450
+        "time": 1598258374118
     },
     {
         "stepId": "STEP3",
         "stepName": "Url: headerGreenWhite.html",
         "infFile": "t4.inf",
-        "time": 1598135783128
+        "time": 1598258374804
     },
     {
         "stepId": "STEP4",
         "stepName": "Url: home.html",
         "infFile": "t5.inf",
-        "time": 1598135784527
+        "time": 1598258376666
     },
     {
         "stepId": "STEP5",
         "stepName": "Url: footer.html",
         "infFile": "t6.inf",
-        "time": 1598135785046
+        "time": 1598258377185
     },
     {
         "stepId": "STEP6",
         "stepName": "Url: modal-login.html",
         "infFile": "t7.inf",
-        "time": 1598135785306
+        "time": 1598258377476
     },
     {
         "stepId": "STEP7",
         "stepName": "Custom Request: register",
         "infFile": "t8.inf",
-        "time": 1598135785822
+        "time": 1598258377993
     },
     {
         "stepId": "STEP8",
         "stepName": "Url: modal_window.html",
         "infFile": "t9.inf",
-        "time": 1598135786091
+        "time": 1598258378256
     },
     {
         "stepId": "STEP9",
         "stepName": "Url: footerWhite.html",
         "infFile": "t10.inf",
-        "time": 1598135786601
+        "time": 1598258378801
     },
     {
         "stepId": "STEP10",
         "stepName": "Url: header.html",
         "infFile": "t11.inf",
-        "time": 1598135787104
+        "time": 1598258379289
     }
 ]

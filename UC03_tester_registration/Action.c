@@ -91,13 +91,13 @@ Action()
 		"Snapshot=t11.inf", 
 		"Mode=HTML", 
 		"EncType=application/json;charset=UTF-8", 
-		"Body={\"email\":\"totoro{randomNumber}@bmth.com\",\"role\":\"ROLE_NEW_TESTER\",\"tariffType\":null}", 
+		"Body={\"email\":\"totoro{counter}@perflab.ru\",\"role\":\"ROLE_NEW_TESTER\",\"tariffType\":null}", 
 		LAST);
 	
 	lr_end_transaction("UC03_TR02_signupdata_post",LR_AUTO);
 	
 	//open after_reg_success_page
-	lr_start_transaction("UC03_TR02_successpage_open");
+	lr_start_transaction("UC03_TR03_successpage_open");
 	
 	web_url("modal_window.html", 
 		"URL=https://loadtest.uxcrowd.ru/tmpl/tmpl_home/modal_window.html", 
@@ -129,7 +129,38 @@ Action()
 		"Mode=HTML", 
 		LAST);
 	
-	lr_end_transaction("UC03_TR02_successpage_open",LR_AUTO);
+	lr_end_transaction("UC03_TR03_successpage_open",LR_AUTO);
+	
+	lr_start_transaction("UC03_TR04_DB_PosgreSQL");
+	
+	lr_db_connect("StepName=connectBD",
+        "ConnectionName=connection",
+        "ConnectionString=Driver={PostgreSQL Unicode};Database=do-prod;Server=loadtest.uxcrowd.ru;Port=5432;Uid=do-prod;Pwd=do-prod;",
+        "ConnectionType=ODBC",
+        LAST);
+    
+  lr_db_executeSQLStatement("StepName=updatePassword", 
+                      "ConnectionName=connection", 
+                      "SQLStatement=update users set password = '$2a$10$lDyjp2iJ2HhWwrDHI5q37O32CIVqENgrztOCxGyCoJqT7TbxzXX92' where email = 'totoro{counter}@perflab.ru';",
+                      "DatasetName=MyDataset",
+                      LAST );
+  
+  lr_db_executeSQLStatement("StepName=updateRole", 
+                      "ConnectionName=connection", 
+                      "SQLStatement=update users set role = 'ROLE_TESTER', gender = 'MALE', birthday = TO_DATE('08/02/2000', 'DD/MM/YYYY') where email = 'totoro{counter}@perflab.ru';",
+                      "DatasetName=MyDataset",
+                      LAST );
+  
+  lr_db_executeSQLStatement("StepName=updateTesterData", 
+                      "ConnectionName=connection", 
+                      "SQLStatement=update tester set city = 'Russia', country = 'Pscov', family_status = 'NOT_MARRIED', fio = 'Ivanov Ivan Ivanovich', income = 40000, kids = 'NONE', education_id = 6, social_status_id = 3 where id = (select id from users where email = 'totoro{counter}@perflab.ru');",
+                      "DatasetName=MyDataset",
+                      LAST );
+	
+	lr_db_disconnect("StepName=Disconnect", 
+        "ConnectionName=connection", LAST );
+	
+	lr_end_transaction("UC03_TR04_DB_PosgreSQL",LR_AUTO);
 	
 	return 0;
 }
