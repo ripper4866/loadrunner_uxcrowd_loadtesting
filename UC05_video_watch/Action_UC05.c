@@ -8,7 +8,7 @@ Action_UC05()
 	// ====================================
 	// ====================================
 	// DEFINE TEST ID HERE!!!
-//	lr_save_string("17002587", "video_id");
+	lr_save_string("17002587", "video_id");
 //	lr_save_string("16999189", "testNum");
 	// ====================================
 	// ====================================
@@ -338,11 +338,11 @@ Action_UC05()
 	//	UC05_TR08_video_stream_init
 	// ====================================
 	lr_start_transaction("UC05_TR08_video_stream_init");
-	
+
 	web_stream_open("ID=1",
 		"URL={host}/videos/{videoFileName}.mp4",
 		"Protocol=HTTP",
-		"StreamBufferingTimeout=60",
+//		"StreamBufferingTimeout=900",
 		//"DumpPath=file.mp4", // debug only, saves the video in storage using path address
 		LAST);
 	

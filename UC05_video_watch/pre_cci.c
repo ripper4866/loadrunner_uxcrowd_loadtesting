@@ -2773,16 +2773,16 @@ long WebSocketReceiveLen2   = sizeof(WebSocketReceive2) - 1;
 vuser_init()
 {
 
-	char *VtsServer = "192.168.0.10";
-	int nPort = 4001;
-
  
-	lrvtc_connect(VtsServer, nPort, 0x01);
-
  
-	lrvtc_rotate_message("video_id", 1);
-	
-	lrvtc_disconnect();
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 	
 	return 0;
 }
@@ -2799,7 +2799,7 @@ Action_UC05()
 	 
 	 
 	 
- 
+	lr_save_string("17002587", "video_id");
  
 	 
 	 
@@ -3129,11 +3129,11 @@ Action_UC05()
 	 
 	 
 	lr_start_transaction("UC05_TR08_video_stream_init");
-	
+ 
 	web_stream_open("ID=1",
-		"URL={host}/videos/{videoFileName}.mp4",
+		"URL=https://loadtest.uxcrowd.ru/videos/2020-08-22-18-46-45-49976921-blob.mp4",
 		"Protocol=HTTP",
-		"StreamBufferingTimeout=60",
+ 
 		 
 		"LAST");
 	
