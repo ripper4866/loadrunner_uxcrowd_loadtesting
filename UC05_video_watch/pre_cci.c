@@ -1,4 +1,4 @@
-# 1 "c:\\users\\annihilator\\documents\\vugen\\scripts\\uxcrowdprojectgit\\loadrunner_uxcrowd_loadtesting\\uc05_video_watch\\\\combined_UC05_video_watch.c"
+# 1 "c:\\users\\annihilator\\documents\\vugen\\scripts\\uxcrowdprojectgit\\loadrunner_uxcrowd_loadtesting\\uc05_video_watch\\\\combined_UC05.c"
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h" 1
  
  
@@ -962,7 +962,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\annihilator\\documents\\vugen\\scripts\\uxcrowdprojectgit\\loadrunner_uxcrowd_loadtesting\\uc05_video_watch\\\\combined_UC05_video_watch.c" 2
+# 1 "c:\\users\\annihilator\\documents\\vugen\\scripts\\uxcrowdprojectgit\\loadrunner_uxcrowd_loadtesting\\uc05_video_watch\\\\combined_UC05.c" 2
 
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1126,7 +1126,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\annihilator\\documents\\vugen\\scripts\\uxcrowdprojectgit\\loadrunner_uxcrowd_loadtesting\\uc05_video_watch\\\\combined_UC05_video_watch.c" 2
+# 2 "c:\\users\\annihilator\\documents\\vugen\\scripts\\uxcrowdprojectgit\\loadrunner_uxcrowd_loadtesting\\uc05_video_watch\\\\combined_UC05.c" 2
 
 # 1 "globals.h" 1
 
@@ -2580,6 +2580,54 @@ void
 # 8 "globals.h" 2
 
 # 1 "WebSocketCB.c" 1
+void OnOpenCB0 (const char* connectionID,
+				  const char * AccumulatedHeadersStr,
+				  int AccumulatedHeadersLen)
+{
+	
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+}
+
+void OnMessageCB0 (const char* connectionID,
+				  int isbinary,
+				  const char * data,
+				  int length)
+{
+	
+ 
+ 
+ 
+ 
+ 
+ 
+}
+
+void OnErrorCB0 (const char* connectionID,
+				  const char * message,
+				  int length)
+{
+	
+ 
+}
+
+void OnCloseCB0 (const char* connectionID,
+				  int isClosedByClient,
+				  int code,
+				  const char* reason,
+				  int length)
+{
+	
+ 
+}
+
 void OnOpenCB1 (const char* connectionID,
 				  const char * AccumulatedHeadersStr,
 				  int AccumulatedHeadersLen)
@@ -2676,54 +2724,6 @@ void OnCloseCB2 (const char* connectionID,
  
 }
 
-void OnOpenCB3 (const char* connectionID,
-				  const char * AccumulatedHeadersStr,
-				  int AccumulatedHeadersLen)
-{
-	
- 
- 
- 
- 
- 
- 
- 
- 
-
-}
-
-void OnMessageCB3 (const char* connectionID,
-				  int isbinary,
-				  const char * data,
-				  int length)
-{
-	
- 
- 
- 
- 
- 
- 
-}
-
-void OnErrorCB3 (const char* connectionID,
-				  const char * message,
-				  int length)
-{
-	
- 
-}
-
-void OnCloseCB3 (const char* connectionID,
-				  int isClosedByClient,
-				  int code,
-				  const char* reason,
-				  int length)
-{
-	
- 
-}
-
 # 9 "globals.h" 2
 
 # 1 "WebSocketBuffer.h" 1
@@ -2732,9 +2732,7 @@ void OnCloseCB3 (const char* connectionID,
 
  
 
-char WebSocketReceive0[] = "\\x4D\\x53\\x47\\x23\\x31\\x23\\x33\\x23\\x31\\x23\\x30\\x3A\\x37\\x3A\\x38\\x33"
-                        "\\x3A\\x31\\x39\\x34\\x3A\\x38\\x30\\x3A\\x39\\x36\\x2C\\x31\\x33\\x3D\\x31\\x33"
-                        "\\x3A\\x76\\x36\\x2E\\x33\\x35\\x62\\x31\\x32\\x20\\x46\\x75\\x6C\\x6C\\x3B\x00";
+char WebSocketReceive0[] = "";
 long WebSocketReceiveLen0   = sizeof(WebSocketReceive0) - 1;	 
 
  
@@ -2744,141 +2742,152 @@ long WebSocketReceiveLen1   = sizeof(WebSocketReceive1) - 1;
 
  
 
-char WebSocketReceive2[] = "0xc0e5c0b040 |0| |";
+char WebSocketReceive2[] = "";
 long WebSocketReceiveLen2   = sizeof(WebSocketReceive2) - 1;	 
-
- 
-
-char WebSocketReceive3[] = "{\"eventName\":\"ACK\",\"eventData\":null,\"eventGuid\":1597923346,\"nx.Topics\""
-                        ":null,\"nx.Destination\":null,\"ACK\":{\"endpoint\":\"https://nexus-websocket-a."
-                        "intercom.io/pubsub/5-Mg9VxeTg4rJk0sss5p_mQranNbzrPE5mrd0b630WYMlQ1EbDyb7bhjljBwa"
-                        "mbdDDMUGGpRNl447gHXCMhS7zOPXfuHPXGRWBAo41\",\"sendTime\":1597923347143}}";
-long WebSocketReceiveLen3   = sizeof(WebSocketReceive3) - 1;	 
-
- 
-
-char WebSocketReceive4[] = "";
-long WebSocketReceiveLen4   = sizeof(WebSocketReceive4) - 1;	 
-
- 
-
-char WebSocketReceive5[] = "0xc0a494fcc0 |0| |";
-long WebSocketReceiveLen5   = sizeof(WebSocketReceive5) - 1;	 
-
- 
-
-char WebSocketReceive6[] = "{\"eventName\":\"ACK\",\"eventData\":null,\"eventGuid\":1597923455,\"nx.Topics\""
-                        ":null,\"nx.Destination\":null,\"ACK\":{\"sendTime\":1597923456012,\"endpoint\":\""
-                        "https://nexus-websocket-a.intercom.io/pubsub/5-aqmvc2WDdJRqT4GdTB0JvuL-eJbavHqrT"
-                        "5YJ6IXA1L897mjFSxd3DY2hCHjHsDCABuDEed_ZkNQLQMZbcmNBm1lhU7KLhyU-_CcN\"}}";
-long WebSocketReceiveLen6   = sizeof(WebSocketReceive6) - 1;	 
-
- 
-
-char WebSocketReceive7[] = " ";
-long WebSocketReceiveLen7   = sizeof(WebSocketReceive7) - 1;	 
-
- 
-
-char WebSocketReceive8[] = "{\"eventName\":\"ACK\",\"eventData\":null,\"eventGuid\":1597923515,\"nx.Topics\""
-                        ":null,\"nx.Destination\":null,\"ACK\":{\"sendTime\":1597923515721,\"endpoint\":\""
-                        "https://nexus-websocket-a.intercom.io/pubsub/5-aqmvc2WDdJRqT4GdTB0JvuL-eJbavHqrT"
-                        "5YJ6IXA1L897mjFSxd3DY2hCHjHsDCABuDEed_ZkNQLQMZbcmNBm1lhU7KLhyU-_CcN\"}}";
-long WebSocketReceiveLen8   = sizeof(WebSocketReceive8) - 1;	 
-
- 
-
-char WebSocketReceive9[] = " ";
-long WebSocketReceiveLen9   = sizeof(WebSocketReceive9) - 1;	 
-
- 
-
-char WebSocketReceive10[] = "{\"eventName\":\"ACK\",\"eventData\":null,\"eventGuid\":1597923576,\"nx.Topics\""
-                        ":null,\"nx.Destination\":null,\"ACK\":{\"endpoint\":\"https://nexus-websocket-a."
-                        "intercom.io/pubsub/5-aqmvc2WDdJRqT4GdTB0JvuL-eJbavHqrT5YJ6IXA1L897mjFSxd3DY2hCHj"
-                        "HsDCABuDEed_ZkNQLQMZbcmNBm1lhU7KLhyU-_CcN\",\"sendTime\":1597923576898}}";
-long WebSocketReceiveLen10   = sizeof(WebSocketReceive10) - 1;	 
-
- 
-
-char WebSocketReceive11[] = " ";
-long WebSocketReceiveLen11   = sizeof(WebSocketReceive11) - 1;	 
-
- 
-
-char WebSocketReceive12[] = "{\"eventName\":\"ACK\",\"eventData\":null,\"eventGuid\":1597923635,\"nx.Topics\""
-                        ":null,\"nx.Destination\":null,\"ACK\":{\"sendTime\":1597923635720,\"endpoint\":\""
-                        "https://nexus-websocket-a.intercom.io/pubsub/5-aqmvc2WDdJRqT4GdTB0JvuL-eJbavHqrT"
-                        "5YJ6IXA1L897mjFSxd3DY2hCHjHsDCABuDEed_ZkNQLQMZbcmNBm1lhU7KLhyU-_CcN\"}}";
-long WebSocketReceiveLen12   = sizeof(WebSocketReceive12) - 1;	 
-
- 
-
-char WebSocketReceive13[] = " ";
-long WebSocketReceiveLen13   = sizeof(WebSocketReceive13) - 1;	 
-
- 
-
-char WebSocketReceive14[] = "{\"eventName\":\"ACK\",\"eventData\":null,\"eventGuid\":1597923695,\"nx.Topics\""
-                        ":null,\"nx.Destination\":null,\"ACK\":{\"sendTime\":1597923695719,\"endpoint\":\""
-                        "https://nexus-websocket-a.intercom.io/pubsub/5-aqmvc2WDdJRqT4GdTB0JvuL-eJbavHqrT"
-                        "5YJ6IXA1L897mjFSxd3DY2hCHjHsDCABuDEed_ZkNQLQMZbcmNBm1lhU7KLhyU-_CcN\"}}";
-long WebSocketReceiveLen14   = sizeof(WebSocketReceive14) - 1;	 
-
- 
-
-char WebSocketReceive15[] = "";
-long WebSocketReceiveLen15   = sizeof(WebSocketReceive15) - 1;	 
 
 
 # 10 "globals.h" 2
 
 
+
+
+
+
+
+
+
  
  
 
 
-# 3 "c:\\users\\annihilator\\documents\\vugen\\scripts\\uxcrowdprojectgit\\loadrunner_uxcrowd_loadtesting\\uc05_video_watch\\\\combined_UC05_video_watch.c" 2
+
+
+
+
+
+
+
+# 3 "c:\\users\\annihilator\\documents\\vugen\\scripts\\uxcrowdprojectgit\\loadrunner_uxcrowd_loadtesting\\uc05_video_watch\\\\combined_UC05.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
+	
+	char *VtsServer = "192.168.0.10";
+	int nPort = 4001;
+	int rc;
 
-	web_set_sockets_option("SSL_VERSION", "TLS1.2");
-
-
-
+	lrvtc_connect(VtsServer, nPort, 0x01);
+	
+	lrvtc_rotate_message("video_id", 1);
+	
+ 
+ 
+ 
+	
  
 
-	lr_start_transaction("UC05_TR01_start_page");
+	lrvtc_disconnect(); 
+	
+	return 0;
+}
+# 4 "c:\\users\\annihilator\\documents\\vugen\\scripts\\uxcrowdprojectgit\\loadrunner_uxcrowd_loadtesting\\uc05_video_watch\\\\combined_UC05.c" 2
 
+# 1 "Action.c" 1
+double videoDuration;
+int videoDurationInteger, i, j;
+
+Action()
+{
+	web_set_sockets_option("SSL_VERSION", "TLS1.2");
+	
+	 
+	 
+	 
+	lr_save_string("16997737", "testNum");
+ 
+	 
+	 
+	
+	 
+	 
+	 
+	lr_start_transaction("UC05_TR01_open_mainpage");
+	
+	 
 	web_url("loadtest.uxcrowd.ru", 
-		"URL=https://loadtest.uxcrowd.ru/", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer=", 
-		"Snapshot=t1.inf", 
-		"Mode=HTML", 
+		"URL={host}/",
+		"TargetFrame=",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=",
+		"Snapshot=t1.inf",
+		"Mode=HTTP",
+		"LAST");
+
+	
+
+	 
+	
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+	lr_end_transaction("UC05_TR01_open_mainpage", 2);
+	 
+	 
+	 
+
+	web_reg_save_param_ex(
+		"ParamName=XSRF_TOKEN",
+		"LB/ic=Set-Cookie: XSRF-TOKEN\=",
+		"RB/ic=;",
 		"LAST");
 	
-	lr_end_transaction("UC05_TR01_start_page",2);
-
-
-
- 
-
-	lr_think_time(16);
-
-	lr_start_transaction("UC05_TR02_login");
-
- 
-	web_reg_save_param_regexp (
-		"ParamName=StartXsrfToken",
-		"RegExp=XSRF-TOKEN\=(.*?);",
-		"Ordinal=1",
-	"LAST" );
-
+	web_reg_save_param_ex(
+		"ParamName=CSRF_TOKEN",
+		"LB/ic=Set-Cookie: CSRF-TOKEN\=",
+		"RB/ic=;",
+		"LAST");
+	 
+	 
+	 
+	lr_start_transaction("UC05_TR02_auth_client");
+	
 	web_url("ru.json", 
 		"URL=https://loadtest.uxcrowd.ru/assets/lang/ru.json", 
 		"TargetFrame=", 
@@ -2891,39 +2900,53 @@ vuser_init()
 		"Url=/api/account", "ENDITEM", 
 		"LAST");
 
-	web_add_auto_header("X-XSRF-TOKEN", 
-		"{StartXsrfToken}");
-
- 
-	web_reg_save_param_regexp (
-		"ParamName=authXsrfToken",
+	
+	web_add_cookie("XSRF-TOKEN={XSRF_TOKEN}; DOMAIN=loadtest.uxcrowd.ru");
+	web_add_cookie("CSRF-TOKEN={CSRF_TOKEN}; DOMAIN=loadtest.uxcrowd.ru");
+	
+	web_add_auto_header("X-XSRF-TOKEN", "{XSRF_TOKEN}");
+	
+	web_reg_save_param_regexp(
+		"ParamName=XSRF_TOKEN",
 		"RegExp=XSRF-TOKEN\=(.*?);",
 		"Ordinal=2",
-	"LAST" );
-
+		"LAST");
+	
 	web_submit_data("authentication", 
-		"Action=https://loadtest.uxcrowd.ru/api/authentication", 
+		"Action={host}/api/authentication", 
 		"Method=POST", 
-		"TargetFrame=", 
-		"Referer=https://loadtest.uxcrowd.ru/", 
-		"Snapshot=t12.inf", 
-		"Mode=HTML", 
+		"Referer={host}/", 
+		"Snapshot=t2.inf", 
+		"Mode=HTTP", 
 		"ITEMDATA", 
-		"Name=username", "Value=mattjeevas", "ENDITEM", 
-		"Name=password", "Value=ajbPwV", "ENDITEM", 
+		"Name=username", "Value={username}", "ENDITEM", 
+		"Name=password", "Value={password}", "ENDITEM", 
 		"Name=remember-me", "Value=undefined", "ENDITEM", 
 		"Name=submit", "Value=Login", "ENDITEM", 
+		"EXTRARES",
+		"Url=/api/account", "ENDITEM",
 		"LAST");
-
-	web_add_header("X-XSRF-TOKEN", 
-		"{authXsrfToken}");
-
- 
-	web_reg_save_param_regexp (
+	
+	lr_end_transaction("UC05_TR02_auth_client", 2);
+	 
+	 
+	 
+	
+	(web_remove_auto_header("X-XSRF-TOKEN", "ImplicitGen=Yes", "LAST"));
+	web_add_auto_header("X-XSRF-TOKEN", "{XSRF_TOKEN}");
+	
+	
+	 
+	web_reg_save_param_regexp(
 		"ParamName=pagesAll",
 		"RegExp=totalPages\":(.*?),",
 		"Ordinal=1",
-	"LAST" );
+		"LAST");
+	
+	 
+	 
+	 
+	lr_start_transaction("UC05_TR03_open_orders");
 
 	web_custom_request("orders", 
 		"URL=https://loadtest.uxcrowd.ru/api/v3/customer/orders", 
@@ -2932,38 +2955,29 @@ vuser_init()
 		"Resource=0", 
 		"RecContentType=application/json", 
 		"Referer=https://loadtest.uxcrowd.ru/app-customer-home/list-orders", 
-		"Snapshot=t21.inf", 
+		"Snapshot=t3.inf", 
 		"Mode=HTML", 
 		"EncType=application/json;charset=UTF-8", 
 		"Body={\"direction\":\"DESC\",\"filter\":[\"ACTIVE\",\"COMPLETED\",\"DRAFT\",\"WAIT_CONFIRMATION\"],\"page\":0,\"size\":10,\"sort\":[\"startDate\"]}", 
 		"LAST");
+	
+	lr_end_transaction("UC05_TR03_open_orders", 2);
+	 
+	 
+	 
 
-	lr_end_transaction("UC05_TR02_login",2);
 
-	return 0;
-}
-# 4 "c:\\users\\annihilator\\documents\\vugen\\scripts\\uxcrowdprojectgit\\loadrunner_uxcrowd_loadtesting\\uc05_video_watch\\\\combined_UC05_video_watch.c" 2
 
-# 1 "Action_UC05.c" 1
-int i;
-int j;
 
-Action_UC05()
-{
+	 
+	 
+	 
+	lr_start_transaction("UC05_TR04_list_orders_pages");
 
- 
-
-	lr_think_time(40);
-
-	lr_start_transaction("UC05_TR03_test_find");
-
-	web_add_auto_header("X-XSRF-TOKEN", 
-		"{authXsrfToken}");
-
- 
+	 
 	for(i = 0; i < atoi(lr_eval_string("{pagesAll}")); i++) {
 
- 
+		 
 		lr_param_sprintf("bodyOrders", 
 			"{\"direction\":\"DESC\",\"filter\"" 
 			":[\"ACTIVE\",\"COMPLETED\",\"DRAFT\"," 
@@ -2971,7 +2985,7 @@ Action_UC05()
 			",\"size\":10,\"sort\":[\"startDate\"]}", 
 			i);
 		
- 
+		 
 		web_reg_find("Text=testTitle",
 			"SaveCount=testsOnPage",
 			"LAST" );
@@ -2989,20 +3003,20 @@ Action_UC05()
 			"Body={bodyOrders}", 
 			"LAST");
 
- 
-		for(j = 1; j <= atoi(lr_eval_string("{testsOnPage}")); j++) {
+		 
+		for (j = 1; j <= atoi(lr_eval_string("{testsOnPage}")); j++) {
 			
 			lr_save_int(j, "testCount");
 
- 
-			web_reg_save_param_regexp (
+			 
+			web_reg_save_param_regexp(
 				"ParamName=testBuffer_{testCount}",
 				"RegExp=id\":(\\d{8}),",
 				"Ordinal={testCount}",
-			"LAST" );
+				"LAST");
 		}
 
- 
+		 
 		web_custom_request("orders", 
 			"URL=https://loadtest.uxcrowd.ru/api/v3/customer/orders", 
 			"Method=POST", 
@@ -3016,503 +3030,162 @@ Action_UC05()
 			"Body={bodyOrders}", 
 			"LAST");
 		
- 
-		for(j = 1; j <= atoi(lr_eval_string("{testsOnPage}")); j++){
+		 
+		for (j = 1; j <= atoi(lr_eval_string("{testsOnPage}")); j++){
 			
-			lr_param_sprintf("testCheckBuffer",
-			"{testBuffer_%d}",
-			j);
+			lr_param_sprintf("testCheckBuffer", "{testBuffer_%d}", j);
 
- 
-			if(atoi(lr_eval_string(lr_eval_string("{testCheckBuffer}"))) == 16999189) break;
+			 
+			if (!strcmp(lr_eval_string(lr_eval_string("{testCheckBuffer}")), lr_eval_string("{testNum}"))) break;
 		}
-
-		if(atoi(lr_eval_string(lr_eval_string("{testCheckBuffer}"))) == 16999189) break;
+		if (!strcmp(lr_eval_string(lr_eval_string("{testCheckBuffer}")), lr_eval_string("{testNum}"))) break;
 	}
 	
 	lr_save_string(lr_eval_string(lr_eval_string("{testCheckBuffer}")), "targetTest");
 
-	lr_end_transaction("UC05_TR03_test_find",2);
-
-	web_websocket_send("ID=2", 
-		"Buffer={\"eventName\":\"nx.Ping\",\"eventGuid\":\"1597923515721\",\"eventData\":{\"sendTime\":1597923515721,\"endpoint\":\"https://nexus-websocket-a.intercom.io/pubsub/5-aqmvc2WDdJRqT4GdTB0JvuL-eJbavHqrT5YJ6IXA1L897mjFSxd3DY2hCHjHsDCABuDEed_ZkNQLQMZbcmNBm1lhU7KLhyU-_CcN\"}}", 
-		"IsBinary=0", 
-		"LAST");
+	lr_end_transaction("UC05_TR04_list_orders_pages", 2);
+	 
+	 
+	 
+	
 
 	 
-
-	lr_start_transaction("UC05_TR04_test_open");
-
-	web_url("user_2", 
-		"URL=https://loadtest.uxcrowd.ru/api/v2/tariff/user", 
-		"TargetFrame=", 
+	 
+	 
+	lr_start_transaction("UC05_TR05_open_test_page");
+	
+	web_url("testPage", 
+		"URL={host}/app-customer-home/tests/{testNum}", 
 		"Resource=0", 
-		"RecContentType=application/json", 
-		"Referer=https://loadtest.uxcrowd.ru/app-customer-home/tests/17002087", 
-		"Snapshot=t26.inf", 
-		"Mode=HTML", 
-		"LAST");
-
-	web_url("17002087", 
-		"URL=https://loadtest.uxcrowd.ru/api/v3/customer/order/17002087", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"RecContentType=application/json", 
-		"Referer=https://loadtest.uxcrowd.ru/app-customer-home/tests/17002087", 
-		"Snapshot=t27.inf", 
-		"Mode=HTML", 
-		"EXTRARES", 
-		"Url=/assets/svg/tests/play.svg", "Referer=https://loadtest.uxcrowd.ru/app-customer-home/tests/17002087", "ENDITEM", 
-		"LAST");
-
-	web_url("get-tester_task_link", 
-		"URL=https://loadtest.uxcrowd.ru/api/server/get-tester_task_link?customerOrderId=17002087&targetType=SITE", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"RecContentType=application/json", 
-		"Referer=https://loadtest.uxcrowd.ru/app-customer-home/tests/17002087", 
-		"Snapshot=t28.inf", 
-		"Mode=HTML", 
-		"LAST");
-
-	(web_remove_auto_header("X-XSRF-TOKEN", "ImplicitGen=Yes", "LAST"));
-
-	web_add_cookie("intercom-session-fkbc3no8=VkxPUUxpTHlsc0dyRm02Y2JYTmhxMmV6ODFMeTRIRFdPSEVocEtwQVcwMlBqS3FnQmlOVVdoZm1OWCtLTkVsTS0takFzU0dJVmVTajZrVktCaWJ1TXZBdz09--0427f1ace2cb6cbcc89966a1849e4f5c1f38af99; DOMAIN=loadtest.uxcrowd.ru");
-
-	web_add_auto_header("Sec-Fetch-Site", 
-		"cross-site");
-
-	web_add_header("Origin", 
-		"https://loadtest.uxcrowd.ru");
-
-	web_custom_request("ping_4", 
-		"URL=https://api-iam.intercom.io/messenger/web/ping", 
-		"Method=POST", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"RecContentType=application/json", 
+		"RecContentType=text/html", 
 		"Referer=", 
-		"Snapshot=t29.inf", 
-		"Mode=HTML", 
-		"Body=app_id=fkbc3no8&v=3&g=b328554bf0d56eab47f83ce47cf7e7dd3670982f&s=0653de7e-6647-4fad-9a3f-6b630e925b39&i=&r=https%3A%2F%2Floadtest.uxcrowd.ru%2F&platform=web&Idempotency-Key=48319ae4c1151828&user_data=%7B%22email%22%3A%22matt.jeevas%40mail.ru%22%2C%22user_id%22%3A493309903%2C%22anonymous_id%22%3A%22d11c0c8f-087f-4628-b90f-26b5b9661d3d%22%7D&internal=%7B%7D&page_title=%D0%92%D1%81%D0%B5%20%D1%82%D0%B5%D1%81%D1%82%D1%8B&user_active_company_id=-1&source=apiUpdate&sampling=false&h=false&referer="
-		"https%3A%2F%2Floadtest.uxcrowd.ru%2Fapp-customer-home%2Ftests%2F17002087&anonymous_session=c21kbzJKVTlNbGhNRHJVMmhIZnEvYUVZVEQ1RkE4by9mMUNZRi9ENG96bE56em9ybHNuQjJxSmNGeld6bXl2TC0tZi9kN2FkRytRVHBYWDNzWVBRZllMUT09--15ab64ccfb9cd2814411ecc23096c941dffc67a5", 
-		"EXTRARES", 
-		"Url=https://loadtest.uxcrowd.ru/assets/js/customer_js/react/new_video/2.a431f707.chunk.js?_=1597923385160", "Referer=https://loadtest.uxcrowd.ru/app-customer-home/new-video/398215fc-d04f-4af6-8648-7fddf62a8c63", "ENDITEM", 
-		"Url=https://loadtest.uxcrowd.ru/assets/js/customer_js/react/new_video/main.5e193360.chunk.js?_=1597923385161", "Referer=https://loadtest.uxcrowd.ru/app-customer-home/new-video/398215fc-d04f-4af6-8648-7fddf62a8c63", "ENDITEM", 
-		"Url=https://loadtest.uxcrowd.ru/assets/js/customer_js/react/new_video/runtime-main.1a5f5893.js?_=1597923385162", "Referer=https://loadtest.uxcrowd.ru/app-customer-home/new-video/398215fc-d04f-4af6-8648-7fddf62a8c63", "ENDITEM", 
+		"Snapshot=t658.inf", 
+		"Mode=HTTP", 
 		"LAST");
+	
+	lr_end_transaction("UC05_TR05_open_test_page", 2);
+	 
+	 
+	 
+	
+	web_reg_save_param_regexp(
+		"ParamName=videoId",
+    	"RegExp=videoId\"\:\"(.*?)\"",
+    	"Ordinal=1",
+		"LAST");
+	
+	 
+	 
+	 
+	lr_start_transaction("UC06_TR0X_video_get_id");
+
+	
+	web_url("testJson", 
+		"URL={host}/api/v3/customer/order/{testNum}", 
+		"Resource=0", 
+		"RecContentType=application/json", 
+		"Referer={host}/app-customer-home/tests/{testNum}", 
+		"Snapshot=t673.inf", 
+		"Mode=HTTP", 
+		"LAST");
+	
+	web_url("videoName", 
+		"URL={host}/app-customer-home/new-video/{videoId}", 
+		"Resource=0", 
+		"RecContentType=application/json", 
+		"Referer={host}/app-customer-home/tests/{testNum}", 
+		"Snapshot=t674.inf", 
+		"Mode=HTTP", 
+		"LAST");	
+	
+	lr_end_transaction("UC06_TR0X_video_get_id", 2);
+	 
+	 
+	 
+	
+	
+	web_reg_save_param_regexp(
+		"ParamName=videoFileName",
+    	"RegExp=\"fileName\":\"(.*?)\.(?:webm|mp4)\"",
+    	"Ordinal=1",
+		"LAST");
+	
+	 
+	 
+	 
+	lr_start_transaction("UC05_TR07_video_get_filename");
+	
+	web_url("videoName", 
+		"URL={host}/api/v3/video/{videoId}", 
+		"TargetFrame=", 
+		"Resource=0", 
+		"RecContentType=application/json", 
+		"Referer={host}/app-customer-home/new-video/{videoId}", 
+		"Snapshot=t1099.inf", 
+		"Mode=HTML", 
+		"LAST");
+	
+	lr_end_transaction("UC05_TR07_video_get_filename", 2);
+	 
+	 
+	 
+	
+	 
+	 
+	 
+	lr_start_transaction("UC05_TR08_video_stream_init");
+	
+	web_stream_open("ID=1",
+		"URL={host}/videos/{videoFileName}.mp4",
+		"Protocol=HTTP",
+		"StreamBufferingTimeout=60",
+		 
+		"LAST");
+	
+	web_stream_set_param_double("1", 13, 1.0);
+	web_stream_set_param_int("1", 12, 60);
+	
+	lr_end_transaction("UC05_TR08_video_stream_init", 2);
+	 
+	 
+	 
+	
+	videoDuration = web_stream_get_param_double("1", 6);
+	videoDurationInteger = videoDuration;
+	
+	lr_output_message("Actual movie length : %lf", videoDuration);
+	lr_output_message("Movie length to watch (integer seconds): %d", videoDurationInteger);
+	
+
+	lr_think_time(15);
+
+	 
+	 
+	 
+	lr_start_transaction("UC05_TR09_video_streaming");
+	
+	lr_param_sprintf("videoDurationStreamParam", "PlayingDuration=%d", videoDurationInteger);
+	web_stream_play("ID=1", lr_eval_string("{videoDurationStreamParam}"), "Speed=1", "LAST");
+	
 
 	 
 
-	web_websocket_send("ID=2", 
-		"Buffer={\"eventName\":\"nx.UserPresence\",\"eventData\":{\"current_page\":\"https://loadtest.uxcrowd.ru/app-customer-home/tests/17002087\"}}", 
-		"IsBinary=0", 
-		"LAST");
-
-	lr_end_transaction("UC05_TR04_test_open",2);
-
-	lr_start_transaction("UC05_TR05_video_open");
-
-	web_add_auto_header("Sec-Fetch-Site", 
-		"same-origin");
-
-	web_add_auto_header("X-XSRF-TOKEN", 
-		"f9e19e06-4fbe-436c-94fd-64f671e58231");
-
-	web_url("user_3", 
-		"URL=https://loadtest.uxcrowd.ru/api/v2/tariff/user", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"RecContentType=application/json", 
-		"Referer=https://loadtest.uxcrowd.ru/app-customer-home/new-video/398215fc-d04f-4af6-8648-7fddf62a8c63", 
-		"Snapshot=t30.inf", 
-		"Mode=HTML", 
-		"EXTRARES", 
-		"Url=/assets/svg/video-player/bigPlay.svg", "Referer=https://loadtest.uxcrowd.ru/app-customer-home/new-video/398215fc-d04f-4af6-8648-7fddf62a8c63", "ENDITEM", 
-		"LAST");
-
-	web_websocket_send("ID=2", 
-		"Buffer={\"eventName\":\"nx.Ping\",\"eventGuid\":\"1597923576898\",\"eventData\":{\"sendTime\":1597923576898,\"endpoint\":\"https://nexus-websocket-a.intercom.io/pubsub/5-aqmvc2WDdJRqT4GdTB0JvuL-eJbavHqrT5YJ6IXA1L897mjFSxd3DY2hCHjHsDCABuDEed_ZkNQLQMZbcmNBm1lhU7KLhyU-_CcN\"}}", 
-		"IsBinary=0", 
-		"LAST");
-
-	 
-
-	web_url("relatedVideoIds", 
-		"URL=https://loadtest.uxcrowd.ru/api/video/relatedVideoIds?videoId=398215fc-d04f-4af6-8648-7fddf62a8c63", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"RecContentType=application/json", 
-		"Referer=https://loadtest.uxcrowd.ru/app-customer-home/new-video/398215fc-d04f-4af6-8648-7fddf62a8c63", 
-		"Snapshot=t31.inf", 
-		"Mode=HTML", 
-		"LAST");
-
-	web_url("398215fc-d04f-4af6-8648-7fddf62a8c63", 
-		"URL=https://loadtest.uxcrowd.ru/api/v3/video/398215fc-d04f-4af6-8648-7fddf62a8c63", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"RecContentType=application/json", 
-		"Referer=https://loadtest.uxcrowd.ru/app-customer-home/new-video/398215fc-d04f-4af6-8648-7fddf62a8c63", 
-		"Snapshot=t32.inf", 
-		"Mode=HTML", 
-		"LAST");
-
-	web_url("tags", 
-		"URL=https://loadtest.uxcrowd.ru/api/v3/video/398215fc-d04f-4af6-8648-7fddf62a8c63/tags", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"RecContentType=application/json", 
-		"Referer=https://loadtest.uxcrowd.ru/app-customer-home/new-video/398215fc-d04f-4af6-8648-7fddf62a8c63", 
-		"Snapshot=t33.inf", 
-		"Mode=HTML", 
-		"EXTRARES", 
-		"Url=/assets/svg/video-player/AddComment.svg", "Referer=https://loadtest.uxcrowd.ru/app-customer-home/new-video/398215fc-d04f-4af6-8648-7fddf62a8c63", "ENDITEM", 
-		"LAST");
-
-	web_url("notes", 
-		"URL=https://loadtest.uxcrowd.ru/api/v3/video/398215fc-d04f-4af6-8648-7fddf62a8c63/notes", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"RecContentType=application/json", 
-		"Referer=https://loadtest.uxcrowd.ru/app-customer-home/new-video/398215fc-d04f-4af6-8648-7fddf62a8c63", 
-		"Snapshot=t34.inf", 
-		"Mode=HTML", 
-		"EXTRARES", 
-		"Url=/assets/svg/video-player/TranscriptExample.png", "Referer=https://loadtest.uxcrowd.ru/app-customer-home/new-video/398215fc-d04f-4af6-8648-7fddf62a8c63", "ENDITEM", 
-		"Url=/assets/svg/video-player/download.svg", "Referer=https://loadtest.uxcrowd.ru/app-customer-home/new-video/398215fc-d04f-4af6-8648-7fddf62a8c63", "ENDITEM", 
-		"Url=/assets/svg/down-chevron.svg", "Referer=https://loadtest.uxcrowd.ru/app-customer-home/new-video/398215fc-d04f-4af6-8648-7fddf62a8c63", "ENDITEM", 
-		"LAST");
-
-	(web_remove_auto_header("X-XSRF-TOKEN", "ImplicitGen=Yes", "LAST"));
-
-	web_add_auto_header("Sec-Fetch-Mode", 
-		"no-cors");
-
-	web_add_auto_header("Sec-Fetch-Dest", 
-		"video");
-
-	web_stream_open("ID=1", "URL=https://loadtest.uxcrowd.ru/videos/2020-08-20-10-09-46-17002087-blob.mp4", "Protocol=HTTP", "LAST");
-
-	 
-
-
-
-
-
-
-
-	web_add_auto_header("Sec-Fetch-Site", 
-		"cross-site");
-
-	web_add_auto_header("Sec-Fetch-Mode", 
-		"cors");
-
-	web_add_auto_header("Sec-Fetch-Dest", 
-		"empty");
-
-	web_add_header("Origin", 
-		"https://loadtest.uxcrowd.ru");
-
-	web_add_cookie("intercom-session-fkbc3no8=WjRHYXl5RENjcTNSQndBakVVMWlITFUyVmhvcUVwTjJ1QXZZcUhjc01YY1o0ck9Jc2psMDN4elphRXA2MUg0NC0tcDViL002UkdIU0FTWGoxNE92MGNudz09--2226c35fc47a64b6b3d3b023a787a51d259e2e80; DOMAIN=loadtest.uxcrowd.ru");
-
-	web_submit_data("ping_5", 
-		"Action=https://api-iam.intercom.io/messenger/web/ping", 
-		"Method=POST", 
-		"TargetFrame=", 
-		"RecContentType=application/json", 
-		"Referer=", 
-		"Snapshot=t35.inf", 
-		"Mode=HTML", 
-		"EncodeAtSign=YES", 
-		"ITEMDATA", 
-		"Name=app_id", "Value=fkbc3no8", "ENDITEM", 
-		"Name=v", "Value=3", "ENDITEM", 
-		"Name=g", "Value=b328554bf0d56eab47f83ce47cf7e7dd3670982f", "ENDITEM", 
-		"Name=s", "Value=0653de7e-6647-4fad-9a3f-6b630e925b39", "ENDITEM", 
-		"Name=i", "Value=", "ENDITEM", 
-		"Name=r", "Value=https://loadtest.uxcrowd.ru/", "ENDITEM", 
-		"Name=platform", "Value=web", "ENDITEM", 
-		"Name=Idempotency-Key", "Value=9ed92a2f67acb270", "ENDITEM", 
-		"Name=user_data", "Value={\"email\":\"matt.jeevas@mail.ru\",\"user_id\":493309903,\"anonymous_id\":\"d11c0c8f-087f-4628-b90f-26b5b9661d3d\"}", "ENDITEM", 
-		"Name=internal", "Value={}", "ENDITEM", 
-		"Name=page_title", "Value=Видео", "ENDITEM", 
-		"Name=user_active_company_id", "Value=-1", "ENDITEM", 
-		"Name=source", "Value=apiUpdate", "ENDITEM", 
-		"Name=sampling", "Value=false", "ENDITEM", 
-		"Name=h", "Value=false", "ENDITEM", 
-		"Name=referer", "Value=https://loadtest.uxcrowd.ru/app-customer-home/new-video/398215fc-d04f-4af6-8648-7fddf62a8c63", "ENDITEM", 
-		"Name=anonymous_session", "Value=VkxPUUxpTHlsc0dyRm02Y2JYTmhxMmV6ODFMeTRIRFdPSEVocEtwQVcwMlBqS3FnQmlOVVdoZm1OWCtLTkVsTS0takFzU0dJVmVTajZrVktCaWJ1TXZBdz09--0427f1ace2cb6cbcc89966a1849e4f5c1f38af99", "ENDITEM", 
-		"EXTRARES", 
-		"Url=https://loadtest.uxcrowd.ru/videos/2020-08-20-10-09-46-17002087-blob.mp4", "Referer=https://loadtest.uxcrowd.ru/app-customer-home/new-video/398215fc-d04f-4af6-8648-7fddf62a8c63", "ENDITEM", 
-		"Url=https://loadtest.uxcrowd.ru/favicon114w.png", "Referer=https://loadtest.uxcrowd.ru/app-customer-home/new-video/398215fc-d04f-4af6-8648-7fddf62a8c63", "ENDITEM", 
-		"LAST");
-
+	web_stream_stop("ID=1", "LAST");
 	web_stream_close("ID=1", "LAST");
 
+	lr_end_transaction("UC05_TR09_video_streaming", 2);
 	 
-
-	web_websocket_send("ID=2", 
-		"Buffer={\"eventName\":\"nx.UserPresence\",\"eventData\":{\"current_page\":\"https://loadtest.uxcrowd.ru/app-customer-home/new-video/398215fc-d04f-4af6-8648-7fddf62a8c63\"}}", 
-		"IsBinary=0", 
-		"LAST");
-
-	lr_end_transaction("UC05_TR05_video_open",2);
-
-	lr_think_time(13);
-
-	lr_start_transaction("UC05_TR06_vido_watch");
-
-	web_websocket_send("ID=2", 
-		"Buffer={\"eventName\":\"nx.Ping\",\"eventGuid\":\"1597923635720\",\"eventData\":{\"sendTime\":1597923635720,\"endpoint\":\"https://nexus-websocket-a.intercom.io/pubsub/5-aqmvc2WDdJRqT4GdTB0JvuL-eJbavHqrT5YJ6IXA1L897mjFSxd3DY2hCHjHsDCABuDEed_ZkNQLQMZbcmNBm1lhU7KLhyU-_CcN\"}}", 
-		"IsBinary=0", 
-		"LAST");
-
 	 
-
 	 
-
-	lr_think_time(20);
-
-	web_websocket_send("ID=2", 
-		"Buffer={\"eventName\":\"nx.UserPresence\",\"eventData\":{\"current_page\":\"https://loadtest.uxcrowd.ru/app-customer-home/new-video/398215fc-d04f-4af6-8648-7fddf62a8c63\"}}", 
-		"IsBinary=0", 
-		"LAST");
-
-	lr_end_transaction("UC05_TR06_vido_watch",2);
-
+	
 	return 0;
 }
-# 5 "c:\\users\\annihilator\\documents\\vugen\\scripts\\uxcrowdprojectgit\\loadrunner_uxcrowd_loadtesting\\uc05_video_watch\\\\combined_UC05_video_watch.c" 2
+# 5 "c:\\users\\annihilator\\documents\\vugen\\scripts\\uxcrowdprojectgit\\loadrunner_uxcrowd_loadtesting\\uc05_video_watch\\\\combined_UC05.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
 	return 0;
 }
-# 6 "c:\\users\\annihilator\\documents\\vugen\\scripts\\uxcrowdprojectgit\\loadrunner_uxcrowd_loadtesting\\uc05_video_watch\\\\combined_UC05_video_watch.c" 2
+# 6 "c:\\users\\annihilator\\documents\\vugen\\scripts\\uxcrowdprojectgit\\loadrunner_uxcrowd_loadtesting\\uc05_video_watch\\\\combined_UC05.c" 2
 
