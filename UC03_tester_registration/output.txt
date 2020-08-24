@@ -1,6 +1,6 @@
 Warning: Failed to post to 'http://127.0.0.1:8182/shunra/api/emulation/packetCaptureOnly', retcode=7.
 Warning: Failed to start NV emulation. Perhaps the NV server is not working, and therefore a NV report will not be generated.
-Virtual User Script started at: 24.08.2020 15:58:36
+Virtual User Script started at: 24.08.2020 16:09:38
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (èþë 24 2017 19:46:00)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -79,10 +79,7 @@ Action.c(11): Warning -26570: Ignoring 7139 byte(s) of data beyond the logical e
 Action.c(11): Warning -26570: Ignoring 1193 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
 Action.c(11): Warning -26570: Ignoring 1111 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
 Action.c(11): Warning -26570: Ignoring 5894 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
-Action.c(11): ssl_handle_status encounter error : SSL_ERROR_SSL, error message : error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error  	[MsgId: MMSG-26000]
-Action.c(11): Warning -27774: SSL protocol error when attempting to connect with host "use.typekit.net"  	[MsgId: MWAR-27774]
-Action.c(11): Warning -27760: Request "https://use.typekit.net/hym5rnq.js" failed  	[MsgId: MWAR-27760]
-Action.c(11): web_url("loadtest.uxcrowd.ru") highest severity level was "warning", 2194051 body bytes, 16749 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(11): web_url("loadtest.uxcrowd.ru") highest severity level was "warning", 2207764 body bytes, 17132 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26387]
 Action.c(21): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
 Action.c(21): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
 Action.c(26): web_url("ru.json") started  	[MsgId: MMSG-26355]
@@ -137,10 +134,10 @@ Action.c(52): Found resource "https://loadtest.uxcrowd.ru/assets/images/Rectangl
 Action.c(52): Found resource "https://loadtest.uxcrowd.ru/assets/images/nl-home-blot-bottom-mobile.svg" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/home.html"  	[MsgId: MMSG-26659]
 Action.c(52): Warning -26570: Ignoring 7992 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
 Action.c(52): Warning -26570: Ignoring 588 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
-Action.c(52): Warning -26570: Ignoring 5682 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(52): Warning -26570: Ignoring 1586 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
 Action.c(52): Warning -26570: Ignoring 626 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
-Action.c(52): Warning -26570: Ignoring 4554 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
-Action.c(52): web_url("home.html") highest severity level was "warning", 1360996 body bytes, 14528 header bytes  	[MsgId: MMSG-26388]
+Action.c(52): Warning -26570: Ignoring 458 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(52): web_url("home.html") highest severity level was "warning", 1360946 body bytes, 14528 header bytes  	[MsgId: MMSG-26388]
 Action.c(62): web_url("footer.html") started  	[MsgId: MMSG-26355]
 Action.c(62): Found resource "https://loadtest.uxcrowd.ru/assets/images/ux-logo-new-white.svg" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/footer.html"  	[MsgId: MMSG-26659]
 Action.c(62): Found resource "https://loadtest.uxcrowd.ru/assets/images/youtube.svg" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/footer.html"  	[MsgId: MMSG-26659]
@@ -152,12 +149,12 @@ Action.c(62): web_url("footer.html") highest severity level was "warning", 61247
 Action.c(74): web_url("modal-login.html") started  	[MsgId: MMSG-26355]
 Action.c(74): Warning -26570: Ignoring 3466 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
 Action.c(74): web_url("modal-login.html") highest severity level was "warning", 6941 body bytes, 507 header bytes  	[MsgId: MMSG-26388]
-Action.c(84): Notify: Transaction "UC03_TR01_mainpage_open" ended with a "Pass" status (Duration: 9,4899 Wasted Time: 1,2416).
+Action.c(84): Notify: Transaction "UC03_TR01_mainpage_open" ended with a "Pass" status (Duration: 9,5988 Wasted Time: 1,4638).
 Action.c(86): Notify: Transaction "UC03_TR02_signupdata_post" started.
 Action.c(86): Warning: Failed to get NV emulation handle.
 Action.c(88): web_custom_request("register") started  	[MsgId: MMSG-26355]
 Action.c(88): web_custom_request("register") was successful, 0 body bytes, 566 header bytes  	[MsgId: MMSG-26386]
-Action.c(100): Notify: Transaction "UC03_TR02_signupdata_post" ended with a "Pass" status (Duration: 0,3805 Wasted Time: 0,0501).
+Action.c(100): Notify: Transaction "UC03_TR02_signupdata_post" ended with a "Pass" status (Duration: 0,4871 Wasted Time: 0,0745).
 Action.c(103): Notify: Transaction "UC03_TR03_successpage_open" started.
 Action.c(103): Warning: Failed to get NV emulation handle.
 Action.c(105): web_url("modal_window.html") started  	[MsgId: MMSG-26355]
@@ -181,7 +178,7 @@ Action.c(125): Resource "https://loadtest.uxcrowd.ru/assets/images/google-play-b
 Action.c(125): Warning -26570: Ignoring 2603 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
 Action.c(125): Warning -26570: Ignoring 303 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
 Action.c(125): web_url("header.html") highest severity level was "warning", 21182 body bytes, 2046 header bytes  	[MsgId: MMSG-26388]
-Action.c(135): Notify: Transaction "UC03_TR03_successpage_open" ended with a "Pass" status (Duration: 0,8248 Wasted Time: 0,2704).
+Action.c(135): Notify: Transaction "UC03_TR03_successpage_open" ended with a "Pass" status (Duration: 0,9438 Wasted Time: 0,3028).
 Action.c(137): Notify: Transaction "UC03_TR04_DB_PosgreSQL" started.
 Action.c(137): Warning: Failed to get NV emulation handle.
 Action.c(139): DB Connection "connectBD" started ... Wait ....
@@ -196,7 +193,7 @@ Action.c(157): Warning :No dataset was created.
 Action.c(157): ================================================
 Action.c(163): DB disconnect "Disconnect" started
 Action.c(163): ================================================
-Action.c(166): Notify: Transaction "UC03_TR04_DB_PosgreSQL" ended with a "Pass" status (Duration: 1,1517 Wasted Time: 0,8626).
+Action.c(166): Notify: Transaction "UC03_TR04_DB_PosgreSQL" ended with a "Pass" status (Duration: 0,5645 Wasted Time: 0,3816).
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...

@@ -3,6 +3,8 @@ Action()
 	char *VtsServer = "http://0a28b0e54604.eu.ngrok.io";
 	int nPort = 80;
 	
+	web_set_max_html_param_len("1024");
+	
 	web_set_sockets_option("SSL_VERSION", "TLS1.2");
 	
 	
