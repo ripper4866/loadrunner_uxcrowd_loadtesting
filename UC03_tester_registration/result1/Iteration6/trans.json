@@ -1,0 +1,22 @@
+[
+    {
+        "transactionName": "UC03_TR01_mainpage_open",
+        "rawStartTime": 1598270555471,
+        "rawEndTime": 1598270561877
+    },
+    {
+        "transactionName": "UC03_TR02_signupdata_post",
+        "rawStartTime": 1598270561879,
+        "rawEndTime": 1598270562445
+    },
+    {
+        "transactionName": "UC03_TR03_successpage_open",
+        "rawStartTime": 1598270562447,
+        "rawEndTime": 1598270563838
+    },
+    {
+        "transactionName": "UC03_TR04_DB_PosgreSQL",
+        "rawStartTime": 1598270563840,
+        "rawEndTime": 1598270564334
+    }
+]

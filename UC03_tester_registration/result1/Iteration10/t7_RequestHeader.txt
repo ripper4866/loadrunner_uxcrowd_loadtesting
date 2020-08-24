@@ -1,0 +1,11 @@
+GET /tmpl/tmpl_home/modal-login.html HTTP/1.1
+Cookie: XSRF-TOKEN=ce483da4-b015-448e-9c1d-870e9d467a69; CSRF-TOKEN=ce483da4-b015-448e-9c1d-870e9d467a69
+Referer: https://loadtest.uxcrowd.ru/
+X-XSRF-TOKEN: ce483da4-b015-448e-9c1d-870e9d467a69
+User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)
+Accept-Encoding: gzip, deflate
+Accept: */*
+Host: loadtest.uxcrowd.ru
+Connection: Keep-Alive
+Cache-Control: no-cache
+

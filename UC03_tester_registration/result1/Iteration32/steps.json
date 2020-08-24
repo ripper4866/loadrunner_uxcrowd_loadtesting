@@ -1,0 +1,62 @@
+[
+    {
+        "stepId": "STEP311",
+        "stepName": "Url: loadtest.uxcrowd.ru",
+        "infFile": "t1.inf",
+        "time": 1598270814548
+    },
+    {
+        "stepId": "STEP312",
+        "stepName": "Url: ru.json",
+        "infFile": "t3.inf",
+        "time": 1598270815389
+    },
+    {
+        "stepId": "STEP313",
+        "stepName": "Url: headerGreenWhite.html",
+        "infFile": "t4.inf",
+        "time": 1598270816357
+    },
+    {
+        "stepId": "STEP314",
+        "stepName": "Url: home.html",
+        "infFile": "t5.inf",
+        "time": 1598270818114
+    },
+    {
+        "stepId": "STEP315",
+        "stepName": "Url: footer.html",
+        "infFile": "t6.inf",
+        "time": 1598270818994
+    },
+    {
+        "stepId": "STEP316",
+        "stepName": "Url: modal-login.html",
+        "infFile": "t7.inf",
+        "time": 1598270819560
+    },
+    {
+        "stepId": "STEP317",
+        "stepName": "Custom Request: register",
+        "infFile": "t8.inf",
+        "time": 1598270820321
+    },
+    {
+        "stepId": "STEP318",
+        "stepName": "Url: modal_window.html",
+        "infFile": "t9.inf",
+        "time": 1598270820857
+    },
+    {
+        "stepId": "STEP319",
+        "stepName": "Url: footerWhite.html",
+        "infFile": "t10.inf",
+        "time": 1598270821641
+    },
+    {
+        "stepId": "STEP320",
+        "stepName": "Url: header.html",
+        "infFile": "t11.inf",
+        "time": 1598270822427
+    }
+]

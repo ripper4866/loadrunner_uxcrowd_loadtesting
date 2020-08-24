@@ -1,0 +1,13 @@
+[t7]
+SnapshotXmlFile=snapshot_6.xml
+ContentType=text/html
+StepName=Url: modal-login.html
+Total=1
+FileName1=t7.html
+RequestHeaderFile=t7_RequestHeader.txt
+ResponseHeaderFile=t7_ResponseHeader.txt
+RawStepEndTime=1598270890088
+RawStepName=modal-login.html
+RequestBodyFile=t7_RequestBody.txt
+RawStepStartTime=1598270889336
+URL1=https://loadtest.uxcrowd.ru/tmpl/tmpl_home/modal-login.html

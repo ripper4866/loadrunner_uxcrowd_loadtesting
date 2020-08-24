@@ -1,0 +1,11 @@
+GET /tmpl/tmpl_landing_new/headerGreenWhite.html HTTP/1.1
+Cookie: XSRF-TOKEN=c851f587-7437-422f-ae99-37cd75a38c0f; CSRF-TOKEN=c851f587-7437-422f-ae99-37cd75a38c0f
+Referer: https://loadtest.uxcrowd.ru/
+X-XSRF-TOKEN: c851f587-7437-422f-ae99-37cd75a38c0f
+User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)
+Accept-Encoding: gzip, deflate
+Accept: */*
+Host: loadtest.uxcrowd.ru
+Connection: Keep-Alive
+Cache-Control: no-cache
+
