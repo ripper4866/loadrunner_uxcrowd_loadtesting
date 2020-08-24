@@ -1,0 +1,11 @@
+[t34]
+SnapshotXmlFile=snapshot_33.xml
+FileName1=t34.mp4.html
+URL1=https://loadtest.uxcrowd.ru/videos/2020-08-20-10-09-46-17002087-blob.mp4
+Total=1
+RequestHeaderFile=t34_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t34_ResponseHeader.txt
+ContentType=video/mp4
+[ProtocolInfo]
+ProtocolId=QTWeb

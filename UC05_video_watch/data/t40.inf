@@ -1,0 +1,9 @@
+[t40]
+FileName1=t40.html
+URL1=https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/headerGreenWhite.html
+Total=1
+RequestHeaderFile=t40_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t40_ResponseHeader.txt
+ContentType=
+SnapshotXmlFile=snapshot_40.xml

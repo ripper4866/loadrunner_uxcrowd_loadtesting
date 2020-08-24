@@ -16,11 +16,11 @@
     <FileEntry Name="WebSocketBuffer.h" Filter="2" />
     <FileEntry Name="WebSocketCB.c" Filter="2" />
     <FileEntry Name="combined_UC05.c" Filter="2" />
+    <FileEntry Name="combined_UC05_video_watch.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
-    <FileEntry Name="data.zip" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
@@ -36,6 +36,9 @@
     <FileEntry Name="UC05.ci" Filter="1" />
     <FileEntry Name="UC05.prm.bak" Filter="1" />
     <FileEntry Name="UC05.sdf" Filter="1" />
+    <FileEntry Name="UC05_video_watch.c.pickle" Filter="1" />
+    <FileEntry Name="UC05_video_watch.ci" Filter="1" />
+    <FileEntry Name="UC05_video_watch.sdf" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
     <FileEntry Name="data\" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />

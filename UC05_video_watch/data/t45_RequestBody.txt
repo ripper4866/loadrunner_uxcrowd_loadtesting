@@ -1,0 +1,5 @@
+"app_id=fkbc3no8&v=3&g=b328554bf0d56eab47f83ce47cf7e7dd3670982f&s=6cafc087-488f-48d2-86a9-44a58"
+"3fcaabd&i=&r=https%3A%2F%2Floadtest.uxcrowd.ru%2F&platform=web&Idempotency-Key=a7a1739d3dc855b"
+"1&user_data=%7B%7D&internal=%7B%7D&page_title=%D0%92%D0%B8%D0%B4%D0%B5%D0%BE&user_active_compa"
+"ny_id=undefined&source=apiBoot&sampling=false&h=false&referer=https%3A%2F%2Floadtest.uxcrowd.r"
+"u%2Fapp-customer-home%2Fnew-video%2F398215fc-d04f-4af6-8648-7fddf62a8c63"

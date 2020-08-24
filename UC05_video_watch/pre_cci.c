@@ -1,4 +1,4 @@
-# 1 "c:\\users\\allaa\\documents\\vugen\\scripts\\uc05\\\\combined_UC05.c"
+# 1 "c:\\users\\annihilator\\documents\\vugen\\scripts\\uxcrowdprojectgit\\loadrunner_uxcrowd_loadtesting\\uc05_video_watch\\\\combined_UC05.c"
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h" 1
  
  
@@ -962,7 +962,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\allaa\\documents\\vugen\\scripts\\uc05\\\\combined_UC05.c" 2
+# 1 "c:\\users\\annihilator\\documents\\vugen\\scripts\\uxcrowdprojectgit\\loadrunner_uxcrowd_loadtesting\\uc05_video_watch\\\\combined_UC05.c" 2
 
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1126,7 +1126,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\allaa\\documents\\vugen\\scripts\\uc05\\\\combined_UC05.c" 2
+# 2 "c:\\users\\annihilator\\documents\\vugen\\scripts\\uxcrowdprojectgit\\loadrunner_uxcrowd_loadtesting\\uc05_video_watch\\\\combined_UC05.c" 2
 
 # 1 "globals.h" 1
 
@@ -2767,15 +2767,31 @@ long WebSocketReceiveLen2   = sizeof(WebSocketReceive2) - 1;
 
 
 
-# 3 "c:\\users\\allaa\\documents\\vugen\\scripts\\uc05\\\\combined_UC05.c" 2
+# 3 "c:\\users\\annihilator\\documents\\vugen\\scripts\\uxcrowdprojectgit\\loadrunner_uxcrowd_loadtesting\\uc05_video_watch\\\\combined_UC05.c" 2
 
 # 1 "vuser_init.c" 1
-
 vuser_init()
 {
+	
+	char *VtsServer = "192.168.0.10";
+	int nPort = 4001;
+	int rc;
+
+	lrvtc_connect(VtsServer, nPort, 0x01);
+	
+	lrvtc_rotate_message("video_id", 1);
+	
+ 
+ 
+ 
+	
+ 
+
+	lrvtc_disconnect(); 
+	
 	return 0;
 }
-# 4 "c:\\users\\allaa\\documents\\vugen\\scripts\\uc05\\\\combined_UC05.c" 2
+# 4 "c:\\users\\annihilator\\documents\\vugen\\scripts\\uxcrowdprojectgit\\loadrunner_uxcrowd_loadtesting\\uc05_video_watch\\\\combined_UC05.c" 2
 
 # 1 "Action.c" 1
 double videoDuration;
@@ -3164,12 +3180,12 @@ Action()
 	
 	return 0;
 }
-# 5 "c:\\users\\allaa\\documents\\vugen\\scripts\\uc05\\\\combined_UC05.c" 2
+# 5 "c:\\users\\annihilator\\documents\\vugen\\scripts\\uxcrowdprojectgit\\loadrunner_uxcrowd_loadtesting\\uc05_video_watch\\\\combined_UC05.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\allaa\\documents\\vugen\\scripts\\uc05\\\\combined_UC05.c" 2
+# 6 "c:\\users\\annihilator\\documents\\vugen\\scripts\\uxcrowdprojectgit\\loadrunner_uxcrowd_loadtesting\\uc05_video_watch\\\\combined_UC05.c" 2
 

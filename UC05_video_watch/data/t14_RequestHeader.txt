@@ -1,0 +1,15 @@
+GET /app-customer-home/list-orders HTTP/1.1
+Host: loadtest.uxcrowd.ru
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: https://loadtest.uxcrowd.ru/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: CSRF-TOKEN=20145215-56c2-481b-87cf-d377e161cc20; intercom-id-fkbc3no8=d11c0c8f-087f-4628-b90f-26b5b9661d3d; intercom-session-fkbc3no8=; XSRF-TOKEN=f9e19e06-4fbe-436c-94fd-64f671e58231; remember-me=MUQlMkZEbTIxWHVWRlFzQVJjbjNpU2RBJTNEJTNEOmZJd1hLVWpuZDJuWUh0MHRtNzdzemclM0QlM0Q; userId=493309903; JSESSIONID=4368EBC30D3377498F1DD62258289F24
+

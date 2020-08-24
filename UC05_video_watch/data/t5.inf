@@ -1,0 +1,13 @@
+[t5]
+FileName1=t5.htm
+URL1=https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/home.html
+Total=2
+RequestHeaderFile=t5_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t5_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_5.xml
+FileName2=t5_youtube-play.svg
+URL2=https://loadtest.uxcrowd.ru/assets/css/landing/youtube-play.svg
+[ProtocolInfo]
+ProtocolId=QTWeb

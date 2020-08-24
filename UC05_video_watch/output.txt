@@ -1,0 +1,7 @@
+Virtual User Script started at: 24.08.2020 12:19:04
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 7; build 911 (èþë 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36  	[MsgId: MMSG-26988]
+Run-Time Settings file: "C:\Users\Annihilator\Documents\VuGen\Scripts\UXCrowdProjectGit\loadrunner_uxcrowd_loadtesting\UC05_video_watch\\default.cfg"  	[MsgId: MMSG-27141]
+Abort was called from an action.

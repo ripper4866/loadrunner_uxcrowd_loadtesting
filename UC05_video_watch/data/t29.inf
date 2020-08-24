@@ -1,0 +1,17 @@
+[t29]
+FileName1=t29.html
+URL1=https://api-iam.intercom.io/messenger/web/ping
+Total=4
+RequestHeaderFile=t29_RequestHeader.txt
+RequestBodyFile=t29_RequestBody.txt
+ResponseHeaderFile=t29_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_28.xml
+FileName2=t29_2.a431f707.chunk.html
+URL2=https://loadtest.uxcrowd.ru/assets/js/customer_js/react/new_video/2.a431f707.chunk.js?_=1597923385160
+FileName3=t29_main.5e193360.chunk.html
+URL3=https://loadtest.uxcrowd.ru/assets/js/customer_js/react/new_video/main.5e193360.chunk.js?_=1597923385161
+FileName4=t29_runtime-main.1a5f5893.html
+URL4=https://loadtest.uxcrowd.ru/assets/js/customer_js/react/new_video/runtime-main.1a5f5893.js?_=1597923385162
+[ProtocolInfo]
+ProtocolId=QTWeb

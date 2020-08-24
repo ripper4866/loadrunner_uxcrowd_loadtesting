@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Annihilator\Documents\VuGen\Scripts\UXCrowdProjectGit\loadrunner_uxcrowd_loadtesting\UC05_video_watch
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\annihilator\documents\vugen\scripts\uxcrowdprojectgit\loadrunner_uxcrowd_loadtesting\uc05_video_watch\\logfile.log
+c:\users\annihilator\documents\vugen\scripts\uxcrowdprojectgit\loadrunner_uxcrowd_loadtesting\uc05_video_watch\\combined_UC05.c
+c:\users\annihilator\documents\vugen\scripts\uxcrowdprojectgit\loadrunner_uxcrowd_loadtesting\uc05_video_watch\\pre_cci.c

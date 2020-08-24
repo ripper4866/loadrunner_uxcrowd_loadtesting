@@ -1,0 +1,9 @@
+[t43]
+FileName1=t43.html
+URL1=https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/footer.html
+Total=1
+RequestHeaderFile=t43_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t43_ResponseHeader.txt
+ContentType=
+SnapshotXmlFile=snapshot_39.xml
