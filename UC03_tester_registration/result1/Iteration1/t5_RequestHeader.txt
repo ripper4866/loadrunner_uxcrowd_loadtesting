@@ -1,7 +1,7 @@
 GET /tmpl/tmpl_landing_new/home.html HTTP/1.1
-Cookie: XSRF-TOKEN=322212e6-feac-4dbe-a424-54c2c73d2878; CSRF-TOKEN=322212e6-feac-4dbe-a424-54c2c73d2878
+Cookie: XSRF-TOKEN=8a2e0bde-22f5-4a0a-b248-a76a8f84aae8; CSRF-TOKEN=8a2e0bde-22f5-4a0a-b248-a76a8f84aae8
 Referer: https://loadtest.uxcrowd.ru/
-X-XSRF-TOKEN: 322212e6-feac-4dbe-a424-54c2c73d2878
+X-XSRF-TOKEN: 8a2e0bde-22f5-4a0a-b248-a76a8f84aae8
 User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)
 Accept-Encoding: gzip, deflate
 Accept: */*

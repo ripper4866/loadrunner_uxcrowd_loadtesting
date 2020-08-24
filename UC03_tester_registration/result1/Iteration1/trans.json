@@ -1,22 +1,22 @@
 [
     {
         "transactionName": "UC03_TR01_mainpage_open",
-        "rawStartTime": 1598258370783,
-        "rawEndTime": 1598258377477
+        "rawStartTime": 1598270487046,
+        "rawEndTime": 1598270510577
     },
     {
         "transactionName": "UC03_TR02_signupdata_post",
-        "rawStartTime": 1598258377480,
-        "rawEndTime": 1598258377994
+        "rawStartTime": 1598270510579,
+        "rawEndTime": 1598270511107
     },
     {
         "transactionName": "UC03_TR03_successpage_open",
-        "rawStartTime": 1598258377997,
-        "rawEndTime": 1598258379291
+        "rawStartTime": 1598270511109,
+        "rawEndTime": 1598270512344
     },
     {
         "transactionName": "UC03_TR04_DB_PosgreSQL",
-        "rawStartTime": 1598258379293,
-        "rawEndTime": 1598258379859
+        "rawStartTime": 1598270512346,
+        "rawEndTime": 1598270513432
     }
 ]
