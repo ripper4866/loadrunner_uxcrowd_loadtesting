@@ -1,11 +1,11 @@
 Warning: Failed to post to 'http://127.0.0.1:8182/shunra/api/emulation/packetCaptureOnly', retcode=7.
 Warning: Failed to start NV emulation. Perhaps the NV server is not working, and therefore a NV report will not be generated.
-Virtual User Script started at: 23.08.2020 1:34:20
+Virtual User Script started at: 24.08.2020 11:32:18
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (èþë 24 2017 19:46:00)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
 Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
-Run-Time Settings file: "C:\Users\User\Documents\VuGen\Scripts\shortestVersionTesterReg\\default.cfg"  	[MsgId: MMSG-27141]
+Run-Time Settings file: "C:\Users\User\Desktop\loadrunner_uxcrowd_loadtesting\UC03_tester_registration\\default.cfg"  	[MsgId: MMSG-27141]
 Warning -27070: Replay statistic collection is not supported by the WinInet Replay and is ignored  	[MsgId: MWAR-27070]
 Warning: Failed to get NV emulation handle.
 Ending action vuser_init.
@@ -100,7 +100,7 @@ Action.c(49): Found resource "https://www.youtube.com/s/player/530216c1/www-play
 Action.c(49): Found resource "https://www.youtube.com/s/player/530216c1/www-embed-player.vflset/www-embed-player.js" in HTML "https://www.youtube.com/embed/Q2CnE_Nlsbc"  	[MsgId: MMSG-26659]
 Action.c(49): Found resource "https://www.youtube.com/s/player/530216c1/player_ias.vflset/ru_RU/base.js" in HTML "https://www.youtube.com/embed/Q2CnE_Nlsbc"  	[MsgId: MMSG-26659]
 Action.c(49): Found resource "https://www.youtube.com/yts/jsbin/fetch-polyfill-vfl6MZH8P/fetch-polyfill.js" in HTML "https://www.youtube.com/embed/Q2CnE_Nlsbc"  	[MsgId: MMSG-26659]
-Action.c(49): web_url("home.html") was successful, 1221071 body bytes, 16211 header bytes  	[MsgId: MMSG-26386]
+Action.c(49): web_url("home.html") was successful, 1221071 body bytes, 16212 header bytes  	[MsgId: MMSG-26386]
 Action.c(59): web_url("footer.html") started  	[MsgId: MMSG-26355]
 Action.c(59): Found resource "https://loadtest.uxcrowd.ru/assets/images/ux-logo-new-white.svg" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/footer.html"  	[MsgId: MMSG-26659]
 Action.c(59): Found resource "https://loadtest.uxcrowd.ru/assets/images/youtube.svg" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/footer.html"  	[MsgId: MMSG-26659]
@@ -109,13 +109,13 @@ Action.c(59): Resource "https://loadtest.uxcrowd.ru/assets/images/google-play-bt
 Action.c(59): web_url("footer.html") was successful, 30583 body bytes, 2131 header bytes  	[MsgId: MMSG-26386]
 Action.c(71): web_url("modal-login.html") started  	[MsgId: MMSG-26355]
 Action.c(71): web_url("modal-login.html") was successful, 3466 body bytes, 549 header bytes  	[MsgId: MMSG-26386]
-Action.c(81): Notify: Transaction "UC03_TR01_mainpage_open" ended with a "Pass" status (Duration: 5,4825 Wasted Time: 1,3769).
+Action.c(81): Notify: Transaction "UC03_TR01_mainpage_open" ended with a "Pass" status (Duration: 6,5718 Wasted Time: 1,4398).
 Action.c(83): Notify: Transaction "UC03_TR02_signupdata_post" started.
 Action.c(83): Warning: Failed to get NV emulation handle.
 Action.c(85): web_custom_request("register") started  	[MsgId: MMSG-26355]
 Action.c(85): web_custom_request("register") was successful, 0 body bytes, 578 header bytes  	[MsgId: MMSG-26386]
-Action.c(97): Notify: Transaction "UC03_TR02_signupdata_post" ended with a "Pass" status (Duration: 0,5320 Wasted Time: 0,0485).
-Action.c(100): Notify: Transaction "UC03_TR02_successpage_open" started.
+Action.c(97): Notify: Transaction "UC03_TR02_signupdata_post" ended with a "Pass" status (Duration: 0,4997 Wasted Time: 0,0515).
+Action.c(100): Notify: Transaction "UC03_TR03_successpage_open" started.
 Action.c(100): Warning: Failed to get NV emulation handle.
 Action.c(102): web_url("modal_window.html") started  	[MsgId: MMSG-26355]
 Action.c(102): web_url("modal_window.html") was successful, 2064 body bytes, 548 header bytes  	[MsgId: MMSG-26386]
@@ -134,7 +134,22 @@ Action.c(122): Resource "https://loadtest.uxcrowd.ru/assets/images/youtube-color
 Action.c(122): Resource "https://loadtest.uxcrowd.ru/assets/images/facebook-colored.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(122): Resource "https://loadtest.uxcrowd.ru/assets/images/google-play-btn.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(122): web_url("header.html") was successful, 10564 body bytes, 2130 header bytes  	[MsgId: MMSG-26386]
-Action.c(132): Notify: Transaction "UC03_TR02_successpage_open" ended with a "Pass" status (Duration: 1,5576 Wasted Time: 0,2295).
+Action.c(132): Notify: Transaction "UC03_TR03_successpage_open" ended with a "Pass" status (Duration: 1,2758 Wasted Time: 0,2313).
+Action.c(134): Notify: Transaction "UC03_TR04_DB_PosgreSQL" started.
+Action.c(134): Warning: Failed to get NV emulation handle.
+Action.c(136): DB Connection "connectBD" started ... Wait ....
+Action.c(142): SQL Statement  execution "updatePassword" started
+Action.c(142): Warning :No dataset was created.
+Action.c(142): ================================================
+Action.c(148): SQL Statement  execution "updateRole" started
+Action.c(148): Warning :No dataset was created.
+Action.c(148): ================================================
+Action.c(154): SQL Statement  execution "updateTesterData" started
+Action.c(154): Warning :No dataset was created.
+Action.c(154): ================================================
+Action.c(160): DB disconnect "Disconnect" started
+Action.c(160): ================================================
+Action.c(163): Notify: Transaction "UC03_TR04_DB_PosgreSQL" ended with a "Pass" status (Duration: 0,5528 Wasted Time: 0,3749).
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...
