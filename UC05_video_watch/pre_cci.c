@@ -2772,39 +2772,34 @@ long WebSocketReceiveLen2   = sizeof(WebSocketReceive2) - 1;
 # 1 "vuser_init.c" 1
 vuser_init()
 {
-	
+
 	char *VtsServer = "192.168.0.10";
 	int nPort = 4001;
-	int rc;
 
+ 
 	lrvtc_connect(VtsServer, nPort, 0x01);
-	
+
+ 
 	lrvtc_rotate_message("video_id", 1);
 	
- 
- 
- 
-	
- 
-
-	lrvtc_disconnect(); 
+	lrvtc_disconnect();
 	
 	return 0;
 }
 # 4 "c:\\users\\annihilator\\documents\\vugen\\scripts\\uxcrowdprojectgit\\loadrunner_uxcrowd_loadtesting\\uc05_video_watch\\\\combined_UC05.c" 2
 
-# 1 "Action.c" 1
+# 1 "Action_UC05.c" 1
 double videoDuration;
 int videoDurationInteger, i, j;
 
-Action()
+Action_UC05()
 {
 	web_set_sockets_option("SSL_VERSION", "TLS1.2");
 	
 	 
 	 
 	 
-	lr_save_string("16997737", "testNum");
+ 
  
 	 
 	 
@@ -3036,9 +3031,9 @@ Action()
 			lr_param_sprintf("testCheckBuffer", "{testBuffer_%d}", j);
 
 			 
-			if (!strcmp(lr_eval_string(lr_eval_string("{testCheckBuffer}")), lr_eval_string("{testNum}"))) break;
+			if (!strcmp(lr_eval_string(lr_eval_string("{testCheckBuffer}")), lr_eval_string("{video_id}"))) break;
 		}
-		if (!strcmp(lr_eval_string(lr_eval_string("{testCheckBuffer}")), lr_eval_string("{testNum}"))) break;
+		if (!strcmp(lr_eval_string(lr_eval_string("{testCheckBuffer}")), lr_eval_string("{video_id}"))) break;
 	}
 	
 	lr_save_string(lr_eval_string(lr_eval_string("{testCheckBuffer}")), "targetTest");
@@ -3055,7 +3050,7 @@ Action()
 	lr_start_transaction("UC05_TR05_open_test_page");
 	
 	web_url("testPage", 
-		"URL={host}/app-customer-home/tests/{testNum}", 
+		"URL={host}/app-customer-home/tests/{video_id}", 
 		"Resource=0", 
 		"RecContentType=text/html", 
 		"Referer=", 
@@ -3081,10 +3076,10 @@ Action()
 
 	
 	web_url("testJson", 
-		"URL={host}/api/v3/customer/order/{testNum}", 
+		"URL={host}/api/v3/customer/order/{video_id}", 
 		"Resource=0", 
 		"RecContentType=application/json", 
-		"Referer={host}/app-customer-home/tests/{testNum}", 
+		"Referer={host}/app-customer-home/tests/{video_id}", 
 		"Snapshot=t673.inf", 
 		"Mode=HTTP", 
 		"LAST");
@@ -3093,7 +3088,7 @@ Action()
 		"URL={host}/app-customer-home/new-video/{videoId}", 
 		"Resource=0", 
 		"RecContentType=application/json", 
-		"Referer={host}/app-customer-home/tests/{testNum}", 
+		"Referer={host}/app-customer-home/tests/{video_id}", 
 		"Snapshot=t674.inf", 
 		"Mode=HTTP", 
 		"LAST");	

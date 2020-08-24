@@ -1,14 +1,14 @@
 double videoDuration;
 int videoDurationInteger, i, j;
 
-Action()
+Action_UC05()
 {
 	web_set_sockets_option("SSL_VERSION", "TLS1.2");
 	
 	// ====================================
 	// ====================================
 	// DEFINE TEST ID HERE!!!
-	lr_save_string("16997737", "testNum");
+//	lr_save_string("17002587", "video_id");
 //	lr_save_string("16999189", "testNum");
 	// ====================================
 	// ====================================
@@ -240,9 +240,9 @@ Action()
 			lr_param_sprintf("testCheckBuffer", "{testBuffer_%d}", j);
 
 			//	end of the loop when the required test is found
-			if (!strcmp(lr_eval_string(lr_eval_string("{testCheckBuffer}")), lr_eval_string("{testNum}"))) break;
+			if (!strcmp(lr_eval_string(lr_eval_string("{testCheckBuffer}")), lr_eval_string("{video_id}"))) break;
 		}
-		if (!strcmp(lr_eval_string(lr_eval_string("{testCheckBuffer}")), lr_eval_string("{testNum}"))) break;
+		if (!strcmp(lr_eval_string(lr_eval_string("{testCheckBuffer}")), lr_eval_string("{video_id}"))) break;
 	}
 	
 	lr_save_string(lr_eval_string(lr_eval_string("{testCheckBuffer}")), "targetTest");
@@ -259,7 +259,7 @@ Action()
 	lr_start_transaction("UC05_TR05_open_test_page");
 	
 	web_url("testPage", 
-		"URL={host}/app-customer-home/tests/{testNum}", 
+		"URL={host}/app-customer-home/tests/{video_id}", 
 		"Resource=0", 
 		"RecContentType=text/html", 
 		"Referer=", 
@@ -285,10 +285,10 @@ Action()
 
 	
 	web_url("testJson", 
-		"URL={host}/api/v3/customer/order/{testNum}", 
+		"URL={host}/api/v3/customer/order/{video_id}", 
 		"Resource=0", 
 		"RecContentType=application/json", 
-		"Referer={host}/app-customer-home/tests/{testNum}", 
+		"Referer={host}/app-customer-home/tests/{video_id}", 
 		"Snapshot=t673.inf", 
 		"Mode=HTTP", 
 		LAST);
@@ -297,7 +297,7 @@ Action()
 		"URL={host}/app-customer-home/new-video/{videoId}", 
 		"Resource=0", 
 		"RecContentType=application/json", 
-		"Referer={host}/app-customer-home/tests/{testNum}", 
+		"Referer={host}/app-customer-home/tests/{video_id}", 
 		"Snapshot=t674.inf", 
 		"Mode=HTTP", 
 		LAST);	
