@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\rossi\Documents\VuGen\Scripts\UC_01_Client_registration
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\rossi\documents\vugen\scripts\uc_01_client_registration\\logfile.log
+c:\users\rossi\documents\vugen\scripts\uc_01_client_registration\\combined_UC_01_Client_registration.c
+c:\users\rossi\documents\vugen\scripts\uc_01_client_registration\\pre_cci.c

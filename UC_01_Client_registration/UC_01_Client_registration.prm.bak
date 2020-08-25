@@ -1,0 +1,10 @@
+[parameter:iterator1]
+Format="%d"
+OriginalValue=""
+ParamName="iterator1"
+Type="CurrentIteration"
+[parameter:login]
+Format="%s"
+OriginalValue=""
+ParamName="login"
+Type="Host"

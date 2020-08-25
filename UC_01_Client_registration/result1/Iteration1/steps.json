@@ -1,0 +1,26 @@
+[
+    {
+        "stepId": "STEP1",
+        "stepName": "Url: loadtest.uxcrowd.ru",
+        "infFile": "t1.inf",
+        "time": 1598274525984
+    },
+    {
+        "stepId": "STEP2",
+        "stepName": "Url: ru.json",
+        "infFile": "t3.inf",
+        "time": 1598274527896
+    },
+    {
+        "stepId": "STEP3",
+        "stepName": "Url: loadtest.uxcrowd.ru_2",
+        "infFile": "t4.inf",
+        "time": 1598274527995
+    },
+    {
+        "stepId": "STEP4",
+        "stepName": "Custom Request: register",
+        "infFile": "t5.inf",
+        "time": 1598274528341
+    }
+]
