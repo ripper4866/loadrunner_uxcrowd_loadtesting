@@ -10,6 +10,11 @@ vuser_init()
 //	extracting order id with video
 	lrvtc_rotate_message("video_id", VTSEND_STACKED);
 	lr_save_string(lr_eval_string("{video_id}"), "order_video_id");
+	
+	if(!strlen(lr_eval_string("{order_video_id}"))) {
+		lrvtc_rotate_message("video_id", VTSEND_STACKED);
+		lr_save_string(lr_eval_string("{video_id}"), "order_video_id");
+	}
 
 	lrvtc_disconnect();
 	

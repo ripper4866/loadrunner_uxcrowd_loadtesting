@@ -340,8 +340,8 @@ Action_UC05()
 	web_stream_open("ID=1",
 		"URL={host}/videos/{videoFileName}.mp4",
 		"Protocol=HTTP",
-		"StreamBufferingTimeout=1200",
-		//"DumpPath=file.mp4", // debug only, saves the video in storage using path address
+//		"StreamBufferingTimeout=1200",
+//		"DumpPath=/C:/tmp/fig.mp4", // debug only, saves the video in storage using path address
 		LAST);
 	
 	web_stream_set_param_double("1", SPEED, 2.0);
