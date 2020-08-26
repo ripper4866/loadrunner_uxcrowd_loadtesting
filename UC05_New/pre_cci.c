@@ -2826,48 +2826,6 @@ Action_UC05()
 		"Mode=HTTP",
 		"LAST");
 
-	
-
-	 
-	
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
 	lr_end_transaction("UC05_TR01_open_mainpage", 2);
 	 
 	 
@@ -3138,12 +3096,16 @@ Action_UC05()
 		"URL={host}/videos/{videoFileName}.mp4",
 		"Protocol=HTTP",
  
- 
+		"DumpPath=C:\Users\Annihilator\Documents\VuGen\Scripts\UXCrowdProjectGit\loadrunner_uxcrowd_loadtesting\\UC05_New", 
 		"LAST");
 	
 	web_stream_set_param_double("1", 13, 2.0);
  
-	
+
+
+	web_stream_wait("ID=1", "Percentage=100", "LAST");
+
+
 	lr_end_transaction("UC05_TR08_video_stream_init", 2);
 	 
 	 
@@ -3161,18 +3123,18 @@ Action_UC05()
 	 
 	 
 	 
-	lr_start_transaction("UC05_TR09_video_streaming");
-	
-	lr_param_sprintf("videoDurationStreamParam", "PlayingDuration=%d", videoDurationInteger);
-	web_stream_play("ID=1", lr_eval_string("{videoDurationStreamParam}"), "Speed=2", "LAST");
-	
-
-	 
-
-	web_stream_stop("ID=1", "LAST");
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 	web_stream_close("ID=1", "LAST");
 
-	lr_end_transaction("UC05_TR09_video_streaming", 2);
+ 
 	 
 	 
 	 

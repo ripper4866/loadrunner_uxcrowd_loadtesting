@@ -305,7 +305,7 @@ Action_UC05()
 //	web_stream_set_param_int("1", BUFFERING_TIMEOUT, 60);
 
 
-	web_stream_wait("ID=1", "Percentage=100", LAST);
+//	web_stream_wait("ID=1", "Percentage=100", LAST);
 
 
 	lr_end_transaction("UC05_TR08_video_stream_init", LR_AUTO);
