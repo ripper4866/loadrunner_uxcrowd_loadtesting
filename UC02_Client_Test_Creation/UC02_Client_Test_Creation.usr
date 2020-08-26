@@ -55,7 +55,7 @@ vuser_end=cci
 [TransactionsOrder]
 Order="UC02_TR01_login__*delimiter*__UC02_TR02_create_new_test__*delimiter*__UC02_TR03_test_description__*delimiter*__UC02_TR04_test_crowd__*delimiter*__UC02_TR05_test_tasks__*delimiter*__UC02_TR06_test_confirmation__*delimiter*__UC02_TR07_to_tests_list__*delimiter*__UC02_TR08_logout"
 [StateManagement]
-LastReplayStatus=2
+LastReplayStatus=1
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1

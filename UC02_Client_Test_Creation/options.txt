@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--ID:\UC02_Client_Test_Creation
+-IC:\Users\ttt\Desktop\LoadRunner scripts\UC02_Client_Test_Creation
 -IC:\Program Files (x86)\HPE\LoadRunner\include
--ed:\uc02_client_test_creation\\logfile.log
-d:\uc02_client_test_creation\\combined_UC02_Client_Test_Creation.c
-d:\uc02_client_test_creation\\pre_cci.c
+-ec:\users\ttt\desktop\loadrunner scripts\uc02_client_test_creation\\logfile.log
+c:\users\ttt\desktop\loadrunner scripts\uc02_client_test_creation\\combined_UC02_Client_Test_Creation.c
+c:\users\ttt\desktop\loadrunner scripts\uc02_client_test_creation\\pre_cci.c

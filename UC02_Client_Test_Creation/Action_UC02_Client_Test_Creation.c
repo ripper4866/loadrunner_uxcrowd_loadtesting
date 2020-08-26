@@ -1,61 +1,65 @@
 Action_UC02_Client_Test_Creation()
 {
-//	char *VtsServer = "localhost"; //указывайте свой IP
-//	int nPort = 8889; //порт instance
-//	
-//	lrvtc_connect(VtsServer,nPort,VTOPT_KEEP_ALIVE); //подсоединение к vts
-//	lrvtc_retrieve_message("email"); //положить в переменную email первое значение из одноименного столбца
-//	lr_log_message("Retrieved value is: %s", lr_eval_string("{email}")); //отладка
-////	lrvtc_send_message("db_clients", "{raw_clients}");//добавление в колонку db_clients последним значением raw_clients
-//	lrvtc_send_message("Username", "{username}");//добавление в колонку db_clients последним значением raw_clients
-//	lrvtc_send_message("Password", "{password}");//добавление в колонку db_clients последним значением raw_clients
-//	lrvtc_disconnect();//отсоединение от vts
+//	char *VtsServer = "localhost";
+//	int nPort = 8888;
+	
+	char *VtsServer = "http://e1fb0127c9a8.eu.ngrok.io";
+	int nPort = 80;
+	lrvtc_connect(VtsServer,nPort,VTOPT_KEEP_ALIVE); // vts connection
 	
 	web_set_sockets_option("SSL_VERSION", "TLS1.2");
 	
-	web_url("loadtest.uxcrowd.ru", 
-		"URL=https://loadtest.uxcrowd.ru/", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer=", 
-		"Snapshot=t177.inf", 
-		"Mode=HTML",  
-		LAST);
+web_url("loadtest.uxcrowd.ru", 
+    "URL=https://loadtest.uxcrowd.ru/", 
+    "TargetFrame=", 
+    "Resource=0", 
+    "RecContentType=text/html", 
+    "Referer=", 
+    "Snapshot=t177.inf", 
+    "Mode=HTML",  
+    LAST);
 
-	web_reg_save_param_ex("ParamName=XSRF-TOKEN", "LB/IC=XSRF-TOKEN=", "RB/IC=;",LAST);
-	
+  web_reg_save_param_ex("ParamName=XSRF-TOKEN", "LB/IC=XSRF-TOKEN=", "RB/IC=;",LAST);
+
+
+
 // token extraction
 
-	lr_continue_on_error(1);
-	web_url("loadtest.uxcrowd.ru", 
-		"URL=https://loadtest.uxcrowd.ru/api/account", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"Referer=", 
-		"Snapshot=t297.inf", 
-		"Mode=HTML", 
-		LAST);
-	lr_continue_on_error(0);
-	
-	web_url("ru.json", 
-		"URL=https://loadtest.uxcrowd.ru/assets/lang/ru.json", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"RecContentType=application/json", 
-		"Referer=https://loadtest.uxcrowd.ru/", 
-		"Snapshot=t178.inf", 
-		"Mode=HTML", 
-		LAST);
+//	lr_continue_on_error(1);
+//	web_url("loadtest.uxcrowd.ru", 
+//		"URL=https://loadtest.uxcrowd.ru/api/account", 
+//		"TargetFrame=", 
+//		"Resource=0", 
+//		"Referer=", 
+//		"Snapshot=t297.inf", 
+//		"Mode=HTML", 
+//		LAST);
+//	lr_continue_on_error(0);
 
-	web_add_auto_header("X-XSRF-TOKEN", "{XSRF-TOKEN}");
-	web_add_auto_header("Origin", "https://loadtest.uxcrowd.ru");
+  web_url("ru.json", 
+    "URL=https://loadtest.uxcrowd.ru/assets/lang/ru.json", 
+    "TargetFrame=", 
+    "Resource=0", 
+    "RecContentType=application/json", 
+    "Referer=https://loadtest.uxcrowd.ru/", 
+    "Snapshot=t2.inf", 
+    "Mode=HTML", 
+    EXTRARES, 
+    "Url=/api/account", ENDITEM, 
+    LAST);
 
+//  web_add_auto_header("X-XSRF-TOKEN", "{XSRF-TOKEN}");
+  web_add_auto_header("X-XSRF-TOKEN", 
+    "{XSRF-TOKEN}");
 
 //TR01
 	
 	lr_start_transaction("UC02_TR01_login");
-
+	
+	lr_save_string("mattjeevas","c_username");
+	//lrvtc_retrieve_message("c_username");
+	
+	// second token extraction
 	web_reg_save_param_ex("ParamName=XSRF-TOKEN", "LB/IC=XSRF-TOKEN=", "RB/IC=; Path", "Ordinal=2",LAST);
 	
 	web_submit_data("authentication", 
@@ -66,12 +70,13 @@ Action_UC02_Client_Test_Creation()
 		"Snapshot=t193.inf", 
 		"Mode=HTML", 
 		ITEMDATA, 
-		"Name=username", "Value={username}", ENDITEM, 
-		"Name=password", "Value={password}", ENDITEM, 
+		"Name=username", "Value={c_username}", ENDITEM, 
+		"Name=password", "Value={c_password}", ENDITEM, 
 		"Name=remember-me", "Value=undefined", ENDITEM, 
 		"Name=submit", "Value=Login", ENDITEM, 
 		LAST);
-
+	
+	// adding header
 	web_add_auto_header("X-XSRF-TOKEN", "{XSRF-TOKEN}");
 
 	web_url("account", 
@@ -130,17 +135,18 @@ Action_UC02_Client_Test_Creation()
 
 //TR02-END
 
-	lr_save_string(lr_eval_string("test-{randomNumber}"),"newTestTitle");
+	//orderID
+	web_reg_save_param_regexp("ParamName=order_id", 
+		"RegExp=\n(........)", "Ordinal=14",
+		LAST);
+
+	lr_save_string(lr_eval_string("test-{iterationNumber}"),"newTestTitle");
+
 
 //TR03	
 	
 	lr_start_transaction("UC02_TR03_test_description");
 	
-	//orderID
-	web_reg_save_param_regexp("ParamName=orderID", 
-		"RegExp=\n(........)", "Ordinal=14",
-		LAST);
-
 	web_custom_request("draft", 
 		"URL=https://loadtest.uxcrowd.ru/api/v2/customer/draft", 
 		"Method=POST", 
@@ -158,6 +164,7 @@ Action_UC02_Client_Test_Creation()
 
 //TR03-END
 
+	lrvtc_send_message("order_id", lr_eval_string("{order_id}"));
 
 //TR04
 
@@ -168,7 +175,7 @@ Action_UC02_Client_Test_Creation()
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=application/json", 
-		"Referer=https://loadtest.uxcrowd.ru/app-customer-home/order?id={orderID}", 
+		"Referer=https://loadtest.uxcrowd.ru/app-customer-home/order?id={order_id}", 
 		"Snapshot=t268.inf", 
 		"Mode=HTML", 
 		LAST);
@@ -180,10 +187,10 @@ Action_UC02_Client_Test_Creation()
 		"Resource=0", 
 		"RecContentType=application/json", 
 		"EncType=application/json; charset=utf-8",
-		"Referer=https://loadtest.uxcrowd.ru/app-customer-home/order?id={orderID}", 
+		"Referer=https://loadtest.uxcrowd.ru/app-customer-home/order?id={order_id}", 
 		"Snapshot=t275.inf", 
 		"Mode=HTML", 
-		"Body={\"orderId\":{orderID},\"testerType\":\"OUR\",\"participantGroupDTO\":[{\"ageRange\":{\"min\":18,\"max\":61},\"children\":\"ANY\",\"count\":50,\"educations\":[\"COMMON\",\"MIDDLE_FULL\",\"MIDDLE_SPEC\",\"HIGH_NOT_FULL\",\"HIGH\"],\"familyStatus\":\"ANY\",\"gender\":\"ANY\",\"groupName\":\"segment\",\"incomeRange\":{\"min\":0,\"max\":55000},\"socialStatuses\":[\"STUDENT\",\"UNEMPLOYED\",\"HOUSEWIFE\",\"FREELANCER\",\"WORKER\",\"SPECIALIST\",\"CHIEF_DEPT\"],\"ordinal\":0}]}", 
+		"Body={\"orderId\":{order_id},\"testerType\":\"OUR\",\"participantGroupDTO\":[{\"ageRange\":{\"min\":18,\"max\":61},\"children\":\"ANY\",\"count\":50,\"educations\":[\"COMMON\",\"MIDDLE_FULL\",\"MIDDLE_SPEC\",\"HIGH_NOT_FULL\",\"HIGH\"],\"familyStatus\":\"ANY\",\"gender\":\"ANY\",\"groupName\":\"segment\",\"incomeRange\":{\"min\":0,\"max\":55000},\"socialStatuses\":[\"STUDENT\",\"UNEMPLOYED\",\"HOUSEWIFE\",\"FREELANCER\",\"WORKER\",\"SPECIALIST\",\"CHIEF_DEPT\"],\"ordinal\":0}]}", 
 		LAST);
 	
 	lr_end_transaction("UC02_TR04_test_crowd",LR_AUTO);
@@ -203,10 +210,10 @@ Action_UC02_Client_Test_Creation()
 		"Resource=0", 
 		"RecContentType=application/json", 
 		"EncType=application/json; charset=utf-8",
-		"Referer=https://loadtest.uxcrowd.ru/app-customer-home/order?id={orderID}", 
+		"Referer=https://loadtest.uxcrowd.ru/app-customer-home/order?id={order_id}", 
 		"Snapshot=t277.inf", 
 		"Mode=HTML", 
-		"Body={\"orderId\":{orderID},\"steps\":[{\"question\":\"Hmmmm\",\"linkList\":[],\"stepType\":\"TEXT\",\"orderNum\":0},{\"question\":\"Vybor Odnogo\",\"linkList\":[],\"stepType\":\"RADIO\",\"answers\":[{\"value\":\"Odin\",\"orderNum\":0},{\"value\":\"Dva\",\"orderNum\":1},{\"value\":\"Tree\",\"orderNum\":2}],\"orderNum\":1}],\"metrics\":[]}", 
+		"Body={\"orderId\":{order_id},\"steps\":[{\"question\":\"Audio question\",\"linkList\":[],\"stepType\":\"TEXT\",\"orderNum\":0}],\"metrics\":[]}", 
 		LAST);
 
 	lr_end_transaction("UC02_TR05_test_tasks",LR_AUTO);
@@ -223,11 +230,11 @@ Action_UC02_Client_Test_Creation()
 		"Method=POST", 
 		"TargetFrame=", 
 		"Resource=0", 
-		"Referer=https://loadtest.uxcrowd.ru/app-customer-home/order?id={orderID}", 
+		"Referer=https://loadtest.uxcrowd.ru/app-customer-home/order?id={order_id}", 
 		"Snapshot=t135.inf", 
 		"Mode=HTML", 
 		"EncType=application/json;charset=UTF-8", 
-		"Body={\"orderId\":{orderID}}", 
+		"Body={\"orderId\":{order_id}}", 
 		LAST);
 
 	lr_end_transaction("UC02_TR06_test_confirmation",LR_AUTO);
@@ -243,7 +250,7 @@ Action_UC02_Client_Test_Creation()
 		"URL=https://loadtest.uxcrowd.ru/app-customer-home/list-orders", 
 		"TargetFrame=", 
 		"Resource=0", 
-		"Referer=https://loadtest.uxcrowd.ru/app-customer-home/order?id={orderID}", 
+		"Referer=https://loadtest.uxcrowd.ru/app-customer-home/order?id={order_id}", 
 		"Snapshot=t280.inf", 
 		"Mode=HTML", 
 		LAST);
@@ -272,5 +279,6 @@ Action_UC02_Client_Test_Creation()
 	
 //TR08-END
 
+	lrvtc_disconnect();//vts disconnection
 	return 0;
 }
