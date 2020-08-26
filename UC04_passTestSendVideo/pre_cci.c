@@ -1,4 +1,4 @@
-# 1 "c:\\users\\asus\\documents\\vugen\\scripts\\uc04_passtestsendvideo\\\\combined_UC04_passTestSendVideo.c"
+# 1 "c:\\users\\asus\\documents\\vugen\\scripts\\git\\uc04_passtestsendvideo\\\\combined_UC04_passTestSendVideo.c"
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h" 1
  
  
@@ -962,7 +962,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\asus\\documents\\vugen\\scripts\\uc04_passtestsendvideo\\\\combined_UC04_passTestSendVideo.c" 2
+# 1 "c:\\users\\asus\\documents\\vugen\\scripts\\git\\uc04_passtestsendvideo\\\\combined_UC04_passTestSendVideo.c" 2
 
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1126,7 +1126,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\asus\\documents\\vugen\\scripts\\uc04_passtestsendvideo\\\\combined_UC04_passTestSendVideo.c" 2
+# 2 "c:\\users\\asus\\documents\\vugen\\scripts\\git\\uc04_passtestsendvideo\\\\combined_UC04_passTestSendVideo.c" 2
 
 # 1 "globals.h" 1
 
@@ -2570,8 +2570,9 @@ void
 
 # 7 "globals.h" 2
 
-# 1 "lrw_custom_body.h" 1
+# 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrw_custom_body.h" 1
  
+
 
 
 
@@ -2583,7 +2584,7 @@ void
  
 
 
-# 3 "c:\\users\\asus\\documents\\vugen\\scripts\\uc04_passtestsendvideo\\\\combined_UC04_passTestSendVideo.c" 2
+# 3 "c:\\users\\asus\\documents\\vugen\\scripts\\git\\uc04_passtestsendvideo\\\\combined_UC04_passTestSendVideo.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
@@ -2591,7 +2592,7 @@ vuser_init()
 	lrvtc_connect("{VTSserver}",80,0x01);
 	return 0;
 }
-# 4 "c:\\users\\asus\\documents\\vugen\\scripts\\uc04_passtestsendvideo\\\\combined_UC04_passTestSendVideo.c" 2
+# 4 "c:\\users\\asus\\documents\\vugen\\scripts\\git\\uc04_passtestsendvideo\\\\combined_UC04_passTestSendVideo.c" 2
 
 # 1 "Action.c" 1
 char FileLocation[1024];
@@ -2804,12 +2805,19 @@ Action()
 		"Body={\"orderId\":{order_id},\"id\":{videoId},\"screenName\":\"SCREEN_CAPTURE\"}",  
 		"LAST");
 	
-		web_reg_save_param_json(
-        "ParamName=taskId",
-        "QueryString=$.id",
-        "SEARCH_FILTERS",
-        "Scope=Body",
-        "LAST");
+		 
+
+
+
+
+
+	
+		web_reg_save_param_ex("ParamName=taskId",
+                                       "LB={\"id\": \"",
+                                       "RB=\"",
+                                       "SEARCH_FILTERS",
+                    					"Scope=Body",
+                                        "LAST");
 	
 		web_custom_request("create-task", 
 		"URL=https://loadtest.uxcrowd.ru/api/tester/create-task?orderId={order_id}", 
@@ -2902,7 +2910,7 @@ Action()
 		"LAST");
 	
 	lr_end_transaction("UC04_TR08_sendVideo", 2);
-	lrvtc_send_message("video_id",lr_eval_string("{order_id}"));
+	lrvtc_send_message("taskId",lr_eval_string("{taskId}"));
 	
 	lr_start_transaction("UC04_TR09_pressOKafterUpload");
 		web_url("account_4", 
@@ -2955,7 +2963,7 @@ Action()
 
 	return 0;
 }
-# 5 "c:\\users\\asus\\documents\\vugen\\scripts\\uc04_passtestsendvideo\\\\combined_UC04_passTestSendVideo.c" 2
+# 5 "c:\\users\\asus\\documents\\vugen\\scripts\\git\\uc04_passtestsendvideo\\\\combined_UC04_passTestSendVideo.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
@@ -2963,5 +2971,5 @@ vuser_end()
 	lrvtc_disconnect();
 	return 0;
 }
-# 6 "c:\\users\\asus\\documents\\vugen\\scripts\\uc04_passtestsendvideo\\\\combined_UC04_passTestSendVideo.c" 2
+# 6 "c:\\users\\asus\\documents\\vugen\\scripts\\git\\uc04_passtestsendvideo\\\\combined_UC04_passTestSendVideo.c" 2
 

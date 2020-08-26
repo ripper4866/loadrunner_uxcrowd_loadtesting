@@ -51,7 +51,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC04_TR01_startPage__*delimiter*__UC04_TR02_preseVoiti__*delimiter*__UC04_TR03_preseVoiti2__*delimiter*__UC04_TR04_preseProiti__*delimiter*__UC04_TR05_pressNastoiZapis__*delimiter*__UC04_TR06_pressNachatTest__*delimiter*__UC04_TR07_pressZakonchitTest__*delimiter*__UC04_TR08_sendVideo__*delimiter*__UC04_TR10_logOut__*delimiter*__UC04_TR09_pressOKafterUpload"
+Order="UC04_TR01_startPage__*delimiter*__UC04_TR02_preseVoiti__*delimiter*__UC04_TR03_preseVoiti2__*delimiter*__UC04_TR04_preseProiti__*delimiter*__UC04_TR05_pressNastoiZapis__*delimiter*__UC04_TR06_pressNachatTest__*delimiter*__UC04_TR07_pressZakonchitTest__*delimiter*__UC04_TR08_sendVideo__*delimiter*__UC04_TR09_pressOKafterUpload__*delimiter*__UC04_TR10_logOut"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -66,5 +66,5 @@ UC04_TR05_pressNastoiZapis=
 UC04_TR06_pressNachatTest=
 UC04_TR07_pressZakonchitTest=
 UC04_TR08_sendVideo=
-UC04_TR10_logOut=
 UC04_TR09_pressOKafterUpload=
+UC04_TR10_logOut=
