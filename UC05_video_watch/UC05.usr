@@ -1,0 +1,73 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=UC05.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=12
+MinorVersion=55
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=12.55.0.911
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=12.55.0.911
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=ru-RU
+[Actions]
+vuser_init=vuser_init.c
+Action_UC05=Action_UC05.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+WebSocketBuffer.h=
+WebSocketCB.c=
+[Modified Actions]
+vuser_init=1
+Action_UC05=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=1
+Action_UC05=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action_UC05=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Action_UC05=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="UC05_TR01_open_mainpage__*delimiter*__UC05_TR02_auth_client__*delimiter*__UC05_TR03_open_orders__*delimiter*__UC05_TR04_list_orders_pages__*delimiter*__UC05_TR05_open_test_page__*delimiter*__UC06_TR0X_video_get_id__*delimiter*__UC05_TR07_video_get_filename__*delimiter*__UC05_TR08_video_stream_init__*delimiter*__UC05_TR09_video_streaming"
+[StateManagement]
+LastReplayStatus=0
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[ExtraFilesToParse]
+WebSocketCB.c=
+[Transactions]
+UC05_TR01_open_mainpage=
+UC05_TR02_auth_client=
+UC05_TR03_open_orders=
+UC05_TR04_list_orders_pages=
+UC05_TR05_open_test_page=
+UC06_TR0X_video_get_id=
+UC05_TR07_video_get_filename=
+UC05_TR08_video_stream_init=
+UC05_TR09_video_streaming=

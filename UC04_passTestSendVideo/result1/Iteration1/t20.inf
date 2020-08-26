@@ -1,0 +1,13 @@
+[t20]
+SnapshotXmlFile=snapshot_19.xml
+ContentType=application/json
+StepName=Url: profile_4
+Total=1
+FileName1=t20.json
+RequestHeaderFile=t20_RequestHeader.txt
+ResponseHeaderFile=t20_ResponseHeader.txt
+RawStepEndTime=1598467072244
+RawStepName=profile_4
+RequestBodyFile=t20_RequestBody.txt
+RawStepStartTime=1598467072077
+URL1=https://loadtest.uxcrowd.ru/api/v2/tester/profile

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HTTPSnapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="3">
+  <HTTPTask id="3" url="https://loadtest.uxcrowd.ru/api/authentication" origin="Primary" startDateTime="2020-08-25T18:30:58.940+03:00" startTime="6864">
+    <HTTPRequest method="POST" />
+  </HTTPTask>
+</HTTPSnapshot>

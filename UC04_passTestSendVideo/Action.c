@@ -208,12 +208,19 @@ Action()
 		"Body={\"orderId\":{order_id},\"id\":{videoId},\"screenName\":\"SCREEN_CAPTURE\"}", //\"16997737\"  "orderId":"16997737","id":20166,"screenName":"SCREEN_CAPTURE"}
 		LAST);
 	
-		web_reg_save_param_json(
+		/*web_reg_save_param_json(
         "ParamName=taskId",
         "QueryString=$.id",
         SEARCH_FILTERS,
         "Scope=Body",
-        "LAST");
+        "LAST");*/
+	
+		web_reg_save_param_ex("ParamName=taskId",
+                                       "LB={\"id\": \"",
+                                       "RB=\"",
+                                       SEARCH_FILTERS,
+                    					"Scope=Body",
+                                        LAST);
 	
 		web_custom_request("create-task", 
 		"URL=https://loadtest.uxcrowd.ru/api/tester/create-task?orderId={order_id}", 
@@ -306,7 +313,7 @@ Action()
 		LAST);
 	
 	lr_end_transaction("UC04_TR08_sendVideo", LR_AUTO);
-	lrvtc_send_message("video_id",lr_eval_string("{order_id}"));
+	lrvtc_send_message("taskId",lr_eval_string("{taskId}"));
 	
 	lr_start_transaction("UC04_TR09_pressOKafterUpload");
 		web_url("account_4", 

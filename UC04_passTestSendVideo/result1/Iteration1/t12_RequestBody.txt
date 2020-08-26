@@ -1,0 +1,3 @@
+"{"os":"Windows NT 10.0  Win64","browserVersion":"Chrome 84.0.4147.125","screenResolution":"136"
+"6x768","archName":"x86_64","processorModel":"Intel(R) Core(TM) i5-3317U CPU @ 1.70GHz","numOfP"
+"rocessors":4}"

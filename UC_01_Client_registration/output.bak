@@ -1,4 +1,4 @@
-Virtual User Script started at: 24.08.2020 16:06:13
+Virtual User Script started at: 24.08.2020 16:08:12
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (èþë 24 2017 19:46:00)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -68,12 +68,12 @@ Action.c(10): Warning -26570: Ignoring 5954 byte(s) of data beyond the logical e
 Action.c(10): Warning -26570: Ignoring 1436 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
 Action.c(10): Warning -26570: Ignoring 276 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
 Action.c(10): Warning -26570: Ignoring 454 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(10): Warning -26570: Ignoring 6620 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
 Action.c(10): Warning -26570: Ignoring 7139 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
 Action.c(10): Warning -26570: Ignoring 1193 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
 Action.c(10): Warning -26570: Ignoring 1111 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
 Action.c(10): Warning -26570: Ignoring 5894 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
-Action.c(10): Warning -26570: Ignoring 6620 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
-Action.c(10): web_url("loadtest.uxcrowd.ru") highest severity level was "warning", 2208329 body bytes, 17105 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(10): web_url("loadtest.uxcrowd.ru") highest severity level was "warning", 2207977 body bytes, 17132 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26387]
 Action.c(19): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
 Action.c(19): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
 Action.c(24): web_url("ru.json") started  	[MsgId: MMSG-26355]
@@ -128,8 +128,10 @@ Action.c(67): ================================================
 Action.c(73): SQL Statement  execution "updateTariffType" started
 Action.c(73): Warning :No dataset was created.
 Action.c(73): ================================================
-Action.c(79): Error: lrvtc_connect: Failed to connect server. Please check the server name, port number, network connectivity or whether server above 11.52 version is started.
-Abort was called from an action.
+Action.c(83): DB disconnect "Disconnect" started
+Action.c(83): ================================================
+Ending action Action.
+Ending iteration 1.
 Ending Vuser...
 Starting action vuser_end.
 Ending action vuser_end.

@@ -1,0 +1,13 @@
+[t18]
+SnapshotXmlFile=snapshot_17.xml
+ContentType=application/json
+StepName=Url: account_4
+Total=1
+FileName1=t18.json
+RequestHeaderFile=t18_RequestHeader.txt
+ResponseHeaderFile=t18_ResponseHeader.txt
+RawStepEndTime=1598467070664
+RawStepName=account_4
+RequestBodyFile=t18_RequestBody.txt
+RawStepStartTime=1598467070527
+URL1=https://loadtest.uxcrowd.ru/api/account

@@ -1,0 +1,20 @@
+[
+    {
+        "stepId": "STEP1",
+        "stepName": "Url: loadtest.uxcrowd.ru",
+        "infFile": "t1.inf",
+        "time": 1598369458073
+    },
+    {
+        "stepId": "STEP2",
+        "stepName": "Url: ru.json",
+        "infFile": "t2.inf",
+        "time": 1598369458405
+    },
+    {
+        "stepId": "STEP3",
+        "stepName": "Submit Data: authentication",
+        "infFile": "t3.inf",
+        "time": 1598369459030
+    }
+]

@@ -1,0 +1,6 @@
+[vuser_init]
+SnapshotIndex=I1_vuser_init
+[Action_UC02_Client_Test_Creation]
+SnapshotIndex=I1_Action_UC02_Client_Test_Creation
+[vuser_end]
+SnapshotIndex=I1_vuser_end

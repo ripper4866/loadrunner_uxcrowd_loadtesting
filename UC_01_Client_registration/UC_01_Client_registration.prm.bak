@@ -1,10 +1,8 @@
-[parameter:iterator1]
-Format="%d"
+[parameter:RandNum]
+Format="%lu"
+GenerateNewVal="EachOccurrence"
+MaxValue="4294967295"
+MinValue="1"
 OriginalValue=""
-ParamName="iterator1"
-Type="CurrentIteration"
-[parameter:login]
-Format="%s"
-OriginalValue=""
-ParamName="login"
-Type="Host"
+ParamName="RandNum"
+Type="Random"

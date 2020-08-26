@@ -1,0 +1,52 @@
+[
+    {
+        "transactionName": "UC04_TR01_startPage",
+        "rawStartTime": 1598467013855,
+        "rawEndTime": 1598467016141
+    },
+    {
+        "transactionName": "UC04_TR02_preseVoiti",
+        "rawStartTime": 1598467016824,
+        "rawEndTime": 1598467017382
+    },
+    {
+        "transactionName": "UC04_TR03_preseVoiti2",
+        "rawStartTime": 1598467018444,
+        "rawEndTime": 1598467024498
+    },
+    {
+        "transactionName": "UC04_TR04_preseProiti",
+        "rawStartTime": 1598467025327,
+        "rawEndTime": 1598467026748
+    },
+    {
+        "transactionName": "UC04_TR05_pressNastoiZapis",
+        "rawStartTime": 1598467028105,
+        "rawEndTime": 1598467029122
+    },
+    {
+        "transactionName": "UC04_TR06_pressNachatTest",
+        "rawStartTime": 1598467029847,
+        "rawEndTime": 1598467030606
+    },
+    {
+        "transactionName": "UC04_TR07_pressZakonchitTest",
+        "rawStartTime": 1598467031478,
+        "rawEndTime": 1598467032032
+    },
+    {
+        "transactionName": "UC04_TR08_sendVideo",
+        "rawStartTime": 1598467033190,
+        "rawEndTime": 1598467069295
+    },
+    {
+        "transactionName": "UC04_TR09_pressOKafterUpload",
+        "rawStartTime": 1598467070149,
+        "rawEndTime": 1598467072258
+    },
+    {
+        "transactionName": "UC04_TR10_logOut",
+        "rawStartTime": 1598467073514,
+        "rawEndTime": 1598467073952
+    }
+]

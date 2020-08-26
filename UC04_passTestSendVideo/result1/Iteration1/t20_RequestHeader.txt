@@ -1,0 +1,9 @@
+GET /api/v2/tester/profile HTTP/1.1
+Referer: https://loadtest.uxcrowd.ru/app-tester-home/new-tasks
+X-XSRF-TOKEN: 6505a087-8317-417c-b87e-1e6367855f06
+User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)
+Accept-Encoding: gzip, deflate
+Accept: */*
+Host: loadtest.uxcrowd.ru
+Cookie: CSRF-TOKEN=5e9deb9c-b2f4-4e03-a1b2-accab3838b89; XSRF-TOKEN=6505a087-8317-417c-b87e-1e6367855f06; remember-me=bmdrNGJLamxvN3g3ejRZTlB5YmlTQSUzRCUzRDpUWllDaklDZzBjMVdETTdtZVlBMCUyQnclM0QlM0Q; userId=493312267; JSESSIONID=4E86A6E75FF6ABFD584D1B03913DE0DA
+

@@ -1,0 +1,13 @@
+[t13]
+SnapshotXmlFile=snapshot_12.xml
+ContentType=application/json
+StepName=Custom Request: update_2
+Total=1
+FileName1=t13.json
+RequestHeaderFile=t13_RequestHeader.txt
+ResponseHeaderFile=t13_ResponseHeader.txt
+RawStepEndTime=1598467030426
+RawStepName=update_2
+RequestBodyFile=t13_RequestBody.txt
+RawStepStartTime=1598467030225
+URL1=https://loadtest.uxcrowd.ru/api/stats/update

@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--ID:\UC02_Client_Test_Creation
+-IC:\Users\Asus\Documents\VuGen\Scripts\GIT\UC02_Client_Test_Creation
 -IC:\Program Files (x86)\HPE\LoadRunner\include
--ed:\uc02_client_test_creation\\logfile.log
-d:\uc02_client_test_creation\\combined_UC02_Client_Test_Creation.c
-d:\uc02_client_test_creation\\pre_cci.c
+-ec:\users\asus\documents\vugen\scripts\git\uc02_client_test_creation\\logfile.log
+c:\users\asus\documents\vugen\scripts\git\uc02_client_test_creation\\combined_UC02_Client_Test_Creation.c
+c:\users\asus\documents\vugen\scripts\git\uc02_client_test_creation\\pre_cci.c

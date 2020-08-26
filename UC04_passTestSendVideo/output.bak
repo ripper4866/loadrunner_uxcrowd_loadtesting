@@ -1,0 +1,104 @@
+Virtual User Script started at: 26/08/2020 9:00:17 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (èþë 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Run-Time Settings file: "C:\Users\Asus\Documents\VuGen\Scripts\GIT\UC04_passTestSendVideo\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(5): web_set_max_html_param_len started  	[MsgId: MMSG-26355]
+Action.c(5): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(6): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(9): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(16): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(16): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(22): Notify: Transaction "UC04_TR01_startPage" started.
+Action.c(23): web_url("ru.json") started  	[MsgId: MMSG-26355]
+Action.c(23): Downloading resource "https://loadtest.uxcrowd.ru/api/account" (specified by argument number 10)  	[MsgId: MMSG-26577]
+Action.c(23): Warning -26547: Authentication required, please use "web_set_user", e.g. web_set_user("domain\\user", "password", "host:port");  	[MsgId: MWAR-26547]
+Action.c(23): Warning -26630: HTTP Status-Code=401 (Unauthorized) for "https://loadtest.uxcrowd.ru/api/account"  	[MsgId: MWAR-26630]
+Action.c(23): Notify: Transaction "https://loadtest.uxcrowd.ru/api/account" will be skipped - could not calculate the transaction time (duration=0.1858, think_time=0.0000, wasted_time=1.1547).
+Action.c(23): Warning -26373: Parameter "XSRFtoken" saved from a resource (URL="https://loadtest.uxcrowd.ru/api/account")  	[MsgId: MWAR-26373]
+Action.c(23): Warning -26373: Parameter "CSRFtoken" saved from a resource (URL="https://loadtest.uxcrowd.ru/api/account")  	[MsgId: MWAR-26373]
+Action.c(23): web_url("ru.json") highest severity level was "warning", 63860 body bytes, 1171 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(34): Notify: Transaction "UC04_TR01_startPage" ended with a "Pass" status (Duration: 3.2585 Wasted Time: 1.2880).
+Action.c(35): web_add_auto_header("X-XSRF-TOKEN") started  	[MsgId: MMSG-26355]
+Action.c(35): web_add_auto_header("X-XSRF-TOKEN") was successful  	[MsgId: MMSG-26392]
+Action.c(37): Notify: Transaction "UC04_TR02_preseVoiti" started.
+Action.c(38): web_url("modal-login.html") started  	[MsgId: MMSG-26355]
+Action.c(38): web_url("modal-login.html") was successful, 3466 body bytes, 549 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(47): Notify: Transaction "UC04_TR02_preseVoiti" ended with a "Pass" status (Duration: 0.4664 Wasted Time: 0.0673).
+Action.c(51): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action.c(51): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+Action.c(56): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(56): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(62): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(62): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(68): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(68): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(75): Notify: Transaction "UC04_TR03_preseVoiti2" started.
+Action.c(77): web_submit_data("authentication") started  	[MsgId: MMSG-26355]
+Action.c(77): web_submit_data("authentication") was successful, 0 body bytes, 1076 header bytes  	[MsgId: MMSG-26386]
+Action.c(92): web_add_auto_header("X-XSRF-TOKEN") started  	[MsgId: MMSG-26355]
+Action.c(92): web_add_auto_header("X-XSRF-TOKEN") was successful  	[MsgId: MMSG-26392]
+Action.c(94): web_url("account") started  	[MsgId: MMSG-26355]
+Action.c(94): web_url("account") was successful, 445 body bytes, 656 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(104): web_url("profile") started  	[MsgId: MMSG-26355]
+Action.c(104): web_url("profile") was successful, 246 body bytes, 656 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(114): web_url("new-tasks") started  	[MsgId: MMSG-26355]
+Action.c(114): web_url("new-tasks") was successful, 1367 body bytes, 679 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(124): web_url("profile_2") started  	[MsgId: MMSG-26355]
+Action.c(124): web_url("profile_2") was successful, 246 body bytes, 656 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(134): Notify: Transaction "UC04_TR03_preseVoiti2" ended with a "Pass" status (Duration: 2.4124 Wasted Time: 0.2256).
+Action.c(136): web_add_auto_header("X-XSRF-TOKEN") started  	[MsgId: MMSG-26355]
+Action.c(136): web_add_auto_header("X-XSRF-TOKEN") was successful  	[MsgId: MMSG-26392]
+Action.c(139): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(139): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(147): Notify: Transaction "UC04_TR04_preseProiti" started.
+Action.c(148): web_custom_request("create") started  	[MsgId: MMSG-26355]
+Action.c(148): web_custom_request("create") was successful, 5 body bytes, 623 header bytes  	[MsgId: MMSG-26386]
+Action.c(161): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(161): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(166): web_custom_request("update") started  	[MsgId: MMSG-26355]
+Action.c(166): Downloading resource "https://loadtest.uxcrowd.ru/api/account" (specified by argument number 11)  	[MsgId: MMSG-26577]
+Action.c(166): Downloading resource "https://loadtest.uxcrowd.ru/api/tester/order-info?id=17088587" (specified by argument number 14)  	[MsgId: MMSG-26577]
+Action.c(166): Warning -26373: Parameter "stepId" saved from a resource (URL="https://loadtest.uxcrowd.ru/api/tester/order-info?id=17088587")  	[MsgId: MWAR-26373]
+Action.c(166): web_custom_request("update") highest severity level was "warning", 652 body bytes, 2042 header bytes, 23 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(179): Notify: Transaction "UC04_TR04_preseProiti" ended with a "Pass" status (Duration: 1.0644 Wasted Time: 0.2628).
+Action.c(198): Notify: Transaction "UC04_TR05_pressNastoiZapis" started.
+Action.c(200): web_custom_request("update") started  	[MsgId: MMSG-26355]
+Action.c(200): web_custom_request("update") was successful, 5 body bytes, 623 header bytes  	[MsgId: MMSG-26386]
+Action.c(218): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(218): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(225): web_custom_request("create-task") started  	[MsgId: MMSG-26355]
+Action.c(225): web_custom_request("create-task") was successful, 18 body bytes, 618 header bytes  	[MsgId: MMSG-26386]
+Action.c(238): Notify: Transaction "UC04_TR05_pressNastoiZapis" ended with a "Pass" status (Duration: 1.9374 Wasted Time: 0.1052).
+Action.c(240): Notify: Transaction "UC04_TR06_pressNachatTest" started.
+Action.c(241): web_custom_request("update_2") started  	[MsgId: MMSG-26355]
+Action.c(241): web_custom_request("update_2") was successful, 5 body bytes, 623 header bytes  	[MsgId: MMSG-26386]
+Action.c(254): web_custom_request("update_3") started  	[MsgId: MMSG-26355]
+Action.c(254): web_custom_request("update_3") was successful, 5 body bytes, 623 header bytes  	[MsgId: MMSG-26386]
+Action.c(267): Notify: Transaction "UC04_TR06_pressNachatTest" ended with a "Pass" status (Duration: 0.6971 Wasted Time: 0.1147).
+Action.c(269): Notify: Transaction "UC04_TR07_pressZakonchitTest" started.
+Action.c(270): web_custom_request("update_4") started  	[MsgId: MMSG-26355]
+Action.c(270): web_custom_request("update_4") was successful, 5 body bytes, 623 header bytes  	[MsgId: MMSG-26386]
+Action.c(282): Notify: Transaction "UC04_TR07_pressZakonchitTest" ended with a "Pass" status (Duration: 0.5949 Wasted Time: 0.0620).
+Action.c(284): Notify: Transaction "UC04_TR08_sendVideo" started.
+Action.c(286): web_submit_data("video-upload-app") started  	[MsgId: MMSG-26355]
+Action.c(286): Warning -27057: "Content-Type" (argument number 0) ignored for a non-File item  	[MsgId: MWAR-27057]
+Action.c(286): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "https://loadtest.uxcrowd.ru/api/video-upload-app"  	[MsgId: MERR-26612]
+Action.c(286): web_submit_data("video-upload-app") highest severity level was "ERROR", 280 body bytes, 325 header bytes  	[MsgId: MMSG-26388]
+Action.c(286): Notify: Transaction "UC04_TR08_sendVideo" ended with a "Fail" status (Duration: 33.2808 Wasted Time: 0.3555).
+Action.c(286): Notify: Transaction "UC04_TR08_sendVideo" has 1 error message(s).
+Action.c(286): Notify: The 1st error message associated with transaction "UC04_TR08_sendVideo" is "Error -26612: HTTP Status-Code=500 (Internal Server Error) for "https://loadtest.uxcrowd.ru/api/video-upload-app""
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

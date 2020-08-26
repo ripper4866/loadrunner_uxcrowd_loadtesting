@@ -1,0 +1,13 @@
+[t12]
+SnapshotXmlFile=snapshot_11.xml
+ContentType=text/html
+StepName=Custom Request: create-task
+Total=1
+FileName1=t12.html
+RequestHeaderFile=t12_RequestHeader.txt
+ResponseHeaderFile=t12_ResponseHeader.txt
+RawStepEndTime=1598467029105
+RawStepName=create-task
+RequestBodyFile=t12_RequestBody.txt
+RawStepStartTime=1598467028931
+URL1=https://loadtest.uxcrowd.ru/api/tester/create-task?orderId=17088637

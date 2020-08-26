@@ -1,4 +1,4 @@
-# 1 "c:\\users\\rossi\\documents\\vugen\\scripts\\uc_01_client_registration\\\\combined_UC_01_Client_registration.c"
+# 1 "c:\\users\\asus\\documents\\vugen\\scripts\\git\\uc_01_client_registration\\\\combined_UC_01_Client_registration.c"
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h" 1
  
  
@@ -962,7 +962,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\rossi\\documents\\vugen\\scripts\\uc_01_client_registration\\\\combined_UC_01_Client_registration.c" 2
+# 1 "c:\\users\\asus\\documents\\vugen\\scripts\\git\\uc_01_client_registration\\\\combined_UC_01_Client_registration.c" 2
 
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1126,7 +1126,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\rossi\\documents\\vugen\\scripts\\uc_01_client_registration\\\\combined_UC_01_Client_registration.c" 2
+# 2 "c:\\users\\asus\\documents\\vugen\\scripts\\git\\uc_01_client_registration\\\\combined_UC_01_Client_registration.c" 2
 
 # 1 "globals.h" 1
 
@@ -2583,19 +2583,19 @@ void
  
 
 
-# 3 "c:\\users\\rossi\\documents\\vugen\\scripts\\uc_01_client_registration\\\\combined_UC_01_Client_registration.c" 2
+# 3 "c:\\users\\asus\\documents\\vugen\\scripts\\git\\uc_01_client_registration\\\\combined_UC_01_Client_registration.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 4 "c:\\users\\rossi\\documents\\vugen\\scripts\\uc_01_client_registration\\\\combined_UC_01_Client_registration.c" 2
+# 4 "c:\\users\\asus\\documents\\vugen\\scripts\\git\\uc_01_client_registration\\\\combined_UC_01_Client_registration.c" 2
 
 # 1 "Action.c" 1
 Action()
 {
-  char *VtsServer = "http://0a28b0e54604.eu.ngrok.io";  
+  char *VtsServer = "http://e1fb0127c9a8.eu.ngrok.io";  
   int nPort = 80;  
   
   
@@ -2682,12 +2682,12 @@ Action()
 
   return 0;
 }
-# 5 "c:\\users\\rossi\\documents\\vugen\\scripts\\uc_01_client_registration\\\\combined_UC_01_Client_registration.c" 2
+# 5 "c:\\users\\asus\\documents\\vugen\\scripts\\git\\uc_01_client_registration\\\\combined_UC_01_Client_registration.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\rossi\\documents\\vugen\\scripts\\uc_01_client_registration\\\\combined_UC_01_Client_registration.c" 2
+# 6 "c:\\users\\asus\\documents\\vugen\\scripts\\git\\uc_01_client_registration\\\\combined_UC_01_Client_registration.c" 2
 

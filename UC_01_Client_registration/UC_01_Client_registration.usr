@@ -21,7 +21,7 @@ LastCodeGenerationVer=
 DisableRegenerate=0
 Encoding=
 Description=
-ScriptLocale=ru-RU
+ScriptLocale=en-001
 [Actions]
 vuser_init=vuser_init.c
 Action=Action.c

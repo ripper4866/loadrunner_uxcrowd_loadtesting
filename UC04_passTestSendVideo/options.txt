@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Asus\Documents\VuGen\Scripts\GIT\UC04_passTestSendVideo
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\asus\documents\vugen\scripts\git\uc04_passtestsendvideo\\logfile.log
+c:\users\asus\documents\vugen\scripts\git\uc04_passtestsendvideo\\combined_UC04_passTestSendVideo.c
+c:\users\asus\documents\vugen\scripts\git\uc04_passtestsendvideo\\pre_cci.c

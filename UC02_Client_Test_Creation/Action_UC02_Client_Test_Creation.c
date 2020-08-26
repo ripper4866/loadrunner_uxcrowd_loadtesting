@@ -31,7 +31,7 @@ Action_UC02_Client_Test_Creation()
 	web_url("loadtest.uxcrowd.ru", 
 		"URL=https://loadtest.uxcrowd.ru/api/account", 
 		"TargetFrame=", 
-		"Resource=0", 
+		"Resource=1", 
 		"Referer=", 
 		"Snapshot=t297.inf", 
 		"Mode=HTML", 

@@ -1,0 +1,13 @@
+[t21]
+SnapshotXmlFile=snapshot_20.xml
+ContentType=text/html
+StepName=Custom Request: logout
+Total=1
+FileName1=t2.html
+RequestHeaderFile=t21_RequestHeader.txt
+ResponseHeaderFile=t21_ResponseHeader.txt
+RawStepEndTime=1598467073937
+RawStepName=logout
+RequestBodyFile=t21_RequestBody.txt
+RawStepStartTime=1598467073803
+URL1=file:

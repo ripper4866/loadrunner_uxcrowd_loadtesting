@@ -1,0 +1,122 @@
+[
+    {
+        "stepId": "STEP1",
+        "stepName": "Url: ru.json",
+        "infFile": "t1.inf",
+        "time": 1598467016141
+    },
+    {
+        "stepId": "STEP2",
+        "stepName": "Url: modal-login.html",
+        "infFile": "t2.inf",
+        "time": 1598467017381
+    },
+    {
+        "stepId": "STEP3",
+        "stepName": "Submit Data: authentication",
+        "infFile": "t4.inf",
+        "time": 1598467019337
+    },
+    {
+        "stepId": "STEP4",
+        "stepName": "Url: account",
+        "infFile": "t5.inf",
+        "time": 1598467019554
+    },
+    {
+        "stepId": "STEP5",
+        "stepName": "Url: profile",
+        "infFile": "t6.inf",
+        "time": 1598467019704
+    },
+    {
+        "stepId": "STEP6",
+        "stepName": "Url: new-tasks",
+        "infFile": "t7.inf",
+        "time": 1598467024357
+    },
+    {
+        "stepId": "STEP7",
+        "stepName": "Url: profile_2",
+        "infFile": "t8.inf",
+        "time": 1598467024497
+    },
+    {
+        "stepId": "STEP8",
+        "stepName": "Custom Request: create",
+        "infFile": "t9.inf",
+        "time": 1598467026302
+    },
+    {
+        "stepId": "STEP9",
+        "stepName": "Custom Request: update",
+        "infFile": "t10.inf",
+        "time": 1598467026748
+    },
+    {
+        "stepId": "STEP10",
+        "stepName": "Custom Request: update",
+        "infFile": "t11.inf",
+        "time": 1598467028928
+    },
+    {
+        "stepId": "STEP11",
+        "stepName": "Custom Request: create-task",
+        "infFile": "t12.inf",
+        "time": 1598467029122
+    },
+    {
+        "stepId": "STEP12",
+        "stepName": "Custom Request: update_2",
+        "infFile": "t13.inf",
+        "time": 1598467030440
+    },
+    {
+        "stepId": "STEP13",
+        "stepName": "Custom Request: update_3",
+        "infFile": "t14.inf",
+        "time": 1598467030606
+    },
+    {
+        "stepId": "STEP14",
+        "stepName": "Custom Request: update_4",
+        "infFile": "t15.inf",
+        "time": 1598467032032
+    },
+    {
+        "stepId": "STEP15",
+        "stepName": "Submit Data: video-upload-app",
+        "infFile": "t16.inf",
+        "time": 1598467069031
+    },
+    {
+        "stepId": "STEP16",
+        "stepName": "Custom Request: update_5",
+        "infFile": "t17.inf",
+        "time": 1598467069295
+    },
+    {
+        "stepId": "STEP17",
+        "stepName": "Url: account_4",
+        "infFile": "t18.inf",
+        "time": 1598467070681
+    },
+    {
+        "stepId": "STEP18",
+        "stepName": "Url: new-tasks_5",
+        "infFile": "t19.inf",
+        "time": 1598467072077
+    },
+    {
+        "stepId": "STEP19",
+        "stepName": "Url: profile_4",
+        "infFile": "t20.inf",
+        "time": 1598467072258
+    },
+    {
+        "stepId": "STEP20",
+        "stepName": "Custom Request: logout",
+        "infFile": "t21.inf",
+        "time": 1598467073952
+    }
+]

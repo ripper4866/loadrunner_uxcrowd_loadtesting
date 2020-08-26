@@ -20,7 +20,7 @@ ScriptLanguage=C
 LastCodeGenerationVer=12.55.0.911
 DisableRegenerate=0
 Description=
-ScriptLocale=ru-RU
+ScriptLocale=en-001
 Encoding=ANSI
 [Actions]
 vuser_init=vuser_init.c

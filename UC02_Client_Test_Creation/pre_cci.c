@@ -1,4 +1,4 @@
-# 1 "d:\\uc02_client_test_creation\\\\combined_UC02_Client_Test_Creation.c"
+# 1 "c:\\users\\asus\\documents\\vugen\\scripts\\git\\uc02_client_test_creation\\\\combined_UC02_Client_Test_Creation.c"
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h" 1
  
  
@@ -962,7 +962,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "d:\\uc02_client_test_creation\\\\combined_UC02_Client_Test_Creation.c" 2
+# 1 "c:\\users\\asus\\documents\\vugen\\scripts\\git\\uc02_client_test_creation\\\\combined_UC02_Client_Test_Creation.c" 2
 
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1126,7 +1126,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "d:\\uc02_client_test_creation\\\\combined_UC02_Client_Test_Creation.c" 2
+# 2 "c:\\users\\asus\\documents\\vugen\\scripts\\git\\uc02_client_test_creation\\\\combined_UC02_Client_Test_Creation.c" 2
 
 # 1 "globals.h" 1
 
@@ -2847,7 +2847,7 @@ long WebSocketReceiveLen9   = sizeof(WebSocketReceive9) - 1;
 
 
 
-# 3 "d:\\uc02_client_test_creation\\\\combined_UC02_Client_Test_Creation.c" 2
+# 3 "c:\\users\\asus\\documents\\vugen\\scripts\\git\\uc02_client_test_creation\\\\combined_UC02_Client_Test_Creation.c" 2
 
 # 1 "vuser_init.c" 1
  
@@ -2862,7 +2862,7 @@ vuser_init()
 {
 	return 0;
 }
-# 4 "d:\\uc02_client_test_creation\\\\combined_UC02_Client_Test_Creation.c" 2
+# 4 "c:\\users\\asus\\documents\\vugen\\scripts\\git\\uc02_client_test_creation\\\\combined_UC02_Client_Test_Creation.c" 2
 
 # 1 "Action_UC02_Client_Test_Creation.c" 1
 Action_UC02_Client_Test_Creation()
@@ -2898,7 +2898,7 @@ Action_UC02_Client_Test_Creation()
 	web_url("loadtest.uxcrowd.ru", 
 		"URL=https://loadtest.uxcrowd.ru/api/account", 
 		"TargetFrame=", 
-		"Resource=0", 
+		"Resource=1", 
 		"Referer=", 
 		"Snapshot=t297.inf", 
 		"Mode=HTML", 
@@ -3141,12 +3141,12 @@ Action_UC02_Client_Test_Creation()
 
 	return 0;
 }
-# 5 "d:\\uc02_client_test_creation\\\\combined_UC02_Client_Test_Creation.c" 2
+# 5 "c:\\users\\asus\\documents\\vugen\\scripts\\git\\uc02_client_test_creation\\\\combined_UC02_Client_Test_Creation.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "d:\\uc02_client_test_creation\\\\combined_UC02_Client_Test_Creation.c" 2
+# 6 "c:\\users\\asus\\documents\\vugen\\scripts\\git\\uc02_client_test_creation\\\\combined_UC02_Client_Test_Creation.c" 2
 

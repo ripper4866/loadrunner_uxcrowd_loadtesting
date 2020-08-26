@@ -21,7 +21,7 @@ LastCodeGenerationVer=12.55.0.911
 DisableRegenerate=0
 Encoding=ANSI
 Description=
-ScriptLocale=ru-RU
+ScriptLocale=en-001
 [Actions]
 vuser_init=vuser_init.c
 Action_UC05=Action_UC05.c
@@ -55,7 +55,7 @@ vuser_end=cci
 [TransactionsOrder]
 Order="UC05_TR01_open_mainpage__*delimiter*__UC05_TR02_auth_client__*delimiter*__UC05_TR03_open_orders__*delimiter*__UC05_TR04_list_orders_pages__*delimiter*__UC05_TR05_open_test_page__*delimiter*__UC06_TR0X_video_get_id__*delimiter*__UC05_TR07_video_get_filename__*delimiter*__UC05_TR08_video_stream_init__*delimiter*__UC05_TR09_video_streaming"
 [StateManagement]
-LastReplayStatus=1
+LastReplayStatus=2
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1
