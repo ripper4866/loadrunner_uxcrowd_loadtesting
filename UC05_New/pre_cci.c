@@ -2931,76 +2931,76 @@ Action_UC05()
 	 
 	 
 	 
-	lr_start_transaction("UC05_TR04_list_orders_pages");
-
-	 
-	for(i = 0; i < atoi(lr_eval_string("{pagesAll}")); i++) {
-
-		 
-		lr_param_sprintf("bodyOrders", 
-			"{\"direction\":\"DESC\",\"filter\"" 
-			":[\"ACTIVE\",\"COMPLETED\",\"DRAFT\"," 
-			"\"WAIT_CONFIRMATION\"],\"page\":%d" 
-			",\"size\":10,\"sort\":[\"startDate\"]}", 
-			i);
-		
-		 
-		web_reg_find("Text=testTitle",
-			"SaveCount=testsOnPage",
-			"LAST" );
-
-		web_custom_request("orders", 
-			"URL=https://loadtest.uxcrowd.ru/api/v3/customer/orders", 
-			"Method=POST", 
-			"TargetFrame=", 
-			"Resource=0", 
-			"RecContentType=application/json", 
-			"Referer=https://loadtest.uxcrowd.ru/app-customer-home/list-orders", 
-			"Snapshot=t25.inf", 
-			"Mode=HTML", 
-			"EncType=application/json;charset=UTF-8", 
-			"Body={bodyOrders}", 
-			"LAST");
-
-		 
-		for (j = 1; j <= atoi(lr_eval_string("{testsOnPage}")); j++) {
-			
-			lr_save_int(j, "testCount");
-
-			 
-			web_reg_save_param_regexp(
-				"ParamName=testBuffer_{testCount}",
-				"RegExp=id\":(\\d{8}),",
-				"Ordinal={testCount}",
-				"LAST");
-		}
-
-		 
-		web_custom_request("orders", 
-			"URL=https://loadtest.uxcrowd.ru/api/v3/customer/orders", 
-			"Method=POST", 
-			"TargetFrame=", 
-			"Resource=0", 
-			"RecContentType=application/json", 
-			"Referer=https://loadtest.uxcrowd.ru/app-customer-home/list-orders", 
-			"Snapshot=t25.inf", 
-			"Mode=HTML", 
-			"EncType=application/json;charset=UTF-8", 
-			"Body={bodyOrders}", 
-			"LAST");
-		
-		 
-		for (j = 1; j <= atoi(lr_eval_string("{testsOnPage}")); j++){
-			
-			lr_param_sprintf("testCheckBuffer", "{testBuffer_%d}", j);
-
-			 
-			if (!strcmp(lr_eval_string(lr_eval_string("{testCheckBuffer}")), lr_eval_string("{order_video_id}"))) break;
-		}
-		if (!strcmp(lr_eval_string(lr_eval_string("{testCheckBuffer}")), lr_eval_string("{order_video_id}"))) break;
-	}
-
-	lr_end_transaction("UC05_TR04_list_orders_pages", 2);
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 	 
 	 
 	 
@@ -3096,14 +3096,13 @@ Action_UC05()
 		"URL={host}/videos/{videoFileName}.mp4",
 		"Protocol=HTTP",
  
-		"DumpPath=C:\Users\Annihilator\Documents\VuGen\Scripts\UXCrowdProjectGit\loadrunner_uxcrowd_loadtesting\\UC05_New", 
 		"LAST");
 	
 	web_stream_set_param_double("1", 13, 2.0);
  
 
 
-	web_stream_wait("ID=1", "Percentage=100", "LAST");
+ 
 
 
 	lr_end_transaction("UC05_TR08_video_stream_init", 2);
@@ -3112,7 +3111,7 @@ Action_UC05()
 	 
 	
 	videoDuration = web_stream_get_param_double("1", 6);
-	videoDurationInteger = videoDuration;
+	videoDurationInteger = 10;
 	
 	lr_output_message("Actual movie length : %lf", videoDuration);
 	lr_output_message("Movie length to watch (integer seconds): %d", videoDurationInteger);
@@ -3123,18 +3122,18 @@ Action_UC05()
 	 
 	 
 	 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+	lr_start_transaction("UC05_TR09_video_streaming");
+	
+	lr_param_sprintf("videoDurationStreamParam", "PlayingDuration=%d", videoDurationInteger);
+	web_stream_play("ID=1", lr_eval_string("{videoDurationStreamParam}"), "Speed=2", "LAST");
+	
+
+	 
+
+	web_stream_stop("ID=1", "LAST");
 	web_stream_close("ID=1", "LAST");
 
- 
+	lr_end_transaction("UC05_TR09_video_streaming", 2);
 	 
 	 
 	 
