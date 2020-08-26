@@ -29,48 +29,6 @@ Action_UC05()
 		"Mode=HTTP",
 		LAST);
 
-	
-
-	// These HTML partials are not necessary in script, but can produce load
-	
-//	web_url("headerGreenWhite.html", 
-//		"URL={host}/tmpl/tmpl_landing_new/headerGreenWhite.html", 
-//		"TargetFrame=", 
-//		"Resource=0", 
-//		"RecContentType=text/html", 
-//		"Referer={host}/", 
-//		"Snapshot=t262.inf", 
-//		"Mode=HTML", 
-//		LAST);
-//
-//	web_url("home.html", 
-//		"URL={host}/tmpl/tmpl_landing_new/home.html", 
-//		"TargetFrame=", 
-//		"Resource=0", 
-//		"RecContentType=text/html", 
-//		"Referer={host}/", 
-//		"Snapshot=t263.inf", 
-//		"Mode=HTML", 
-//		LAST);
-//
-//	web_url("footer.html", 
-//		"URL={host}/tmpl/tmpl_landing_new/footer.html", 
-//		"TargetFrame=", 
-//		"Resource=0", 
-//		"RecContentType=text/html", 
-//		"Referer={host}/", 
-//		"Snapshot=t264.inf", 
-//		"Mode=HTML", 
-//		LAST);
-//	web_url("modal-login.html",
-//		"URL={host}/tmpl/tmpl_home/modal-login.html",
-//		"TargetFrame=",
-//		"Resource=0",
-//		"RecContentType=text/html",
-//		"Referer={host}/",
-//		"Snapshot=t269.inf",
-//		"Mode=HTML",
-//		LAST);
 	lr_end_transaction("UC05_TR01_open_mainpage", LR_AUTO);
 	// ====================================
 	//	UC05_TR01_open_mainpage_end
@@ -341,12 +299,15 @@ Action_UC05()
 		"URL={host}/videos/{videoFileName}.mp4",
 		"Protocol=HTTP",
 //		"StreamBufferingTimeout=1200",
-//		"DumpPath=/C:/tmp/fig.mp4", // debug only, saves the video in storage using path address
 		LAST);
 	
 	web_stream_set_param_double("1", SPEED, 2.0);
 //	web_stream_set_param_int("1", BUFFERING_TIMEOUT, 60);
-	
+
+
+	web_stream_wait("ID=1", "Percentage=100", LAST);
+
+
 	lr_end_transaction("UC05_TR08_video_stream_init", LR_AUTO);
 	// ====================================
 	//	UC05_TR08_video_stream_init_end
