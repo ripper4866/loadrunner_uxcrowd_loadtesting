@@ -1,6 +1,6 @@
-Action()
+Action_UC01()
 {
-  char *VtsServer = "http://0a28b0e54604.eu.ngrok.io"; //IP
+  char *VtsServer = "e1fb0127c9a8.eu.ngrok.io"; //IP
   int nPort = 80; //port instance
   
   
