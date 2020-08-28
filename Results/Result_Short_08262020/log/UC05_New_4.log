@@ -1,0 +1,12 @@
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+UC05_New.c(350): Notify: Transaction "UC05_TR08_video_stream_init" ended with a "Pass" status (Duration: 5.2132 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+UC05_New.c(355): web_stream_get_param_double started  	[MsgId: MMSG-26355]
+UC05_New.c(355): web_stream_get_param_double was successful  	[MsgId: MMSG-26392]
+UC05_New.c(358): Actual movie length : 0.000000	[MsgId: MMSG-17999]
+UC05_New.c(359): Movie length to watch (integer seconds): 10	[MsgId: MMSG-17999]
+UC05_New.c(362): lr_think_time: 15.00 seconds.	[MsgId: MMSG-15948]
+UC05_New.c(362): Aborting download of URL "https://loadtest.uxcrowd.ru/videos/2020-08-24-23-58-03-49977354-blob.mp4" (RelFrameId=1, Internal ID=84) (e.g., due to the target document or object being deleted)  	[MsgId: MMSG-26507]
+UC05_New.c(362): Stream "https://loadtest.uxcrowd.ru/videos/2020-08-24-23-58-03-49977354-blob.mp4"  	[MsgId: MMSG-35157]
+UC05_New.c(362): Error: C interpreter run time error: UC05_New.c (362):  Error -- memory violation : Exception ACCESS_VIOLATION received.	[MsgId: MERR-19890]
+End auto log messages stack.	[MsgId: MMSG-10544]
+

@@ -1,0 +1,203 @@
+Warning: Failed to post to 'http://127.0.0.1:8182/shunra/api/emulation/packetCaptureOnly', retcode=7.
+Warning: Failed to start NV emulation. Perhaps the NV server is not working, and therefore a NV report will not be generated.
+Virtual User Script started at: 24.08.2020 16:09:38
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (èþë 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Run-Time Settings file: "C:\Users\User\Desktop\loadrunner_uxcrowd_loadtesting\UC03_tester_registration\\default.cfg"  	[MsgId: MMSG-27141]
+Warning: Failed to get NV emulation handle.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Warning: Failed to get NV emulation handle.
+Action.c(6): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(6): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(9): Notify: Transaction "UC03_TR01_mainpage_open" started.
+Action.c(9): Warning: Failed to get NV emulation handle.
+Action.c(11): web_url("loadtest.uxcrowd.ru") started  	[MsgId: MMSG-26355]
+Action.c(11): Found resource "https://fonts.googleapis.com/css?family=Roboto&display=swap" in HTML "https://loadtest.uxcrowd.ru/"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "https://loadtest.uxcrowd.ru/assets/gulp/sup_css.css" in HTML "https://loadtest.uxcrowd.ru/"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "https://loadtest.uxcrowd.ru/assets/css/landing/webflow.css" in HTML "https://loadtest.uxcrowd.ru/"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "https://loadtest.uxcrowd.ru/assets/css/landing/uxcrowd.webflow.css" in HTML "https://loadtest.uxcrowd.ru/"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "https://loadtest.uxcrowd.ru/assets/css/landing/YouTube.HD.Thumbnail.css" in HTML "https://loadtest.uxcrowd.ru/"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "https://loadtest.uxcrowd.ru/assets/gulp/env.js" in HTML "https://loadtest.uxcrowd.ru/"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "https://use.typekit.net/hym5rnq.js" in HTML "https://loadtest.uxcrowd.ru/"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "https://www.googletagmanager.com/gtag/js?id=UA-76628941-1" in HTML "https://loadtest.uxcrowd.ru/"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "https://ulogin.ru/js/ulogin.js" in HTML "https://loadtest.uxcrowd.ru/"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "https://loadtest.uxcrowd.ru/library/jquery.js" in HTML "https://loadtest.uxcrowd.ru/"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "https://loadtest.uxcrowd.ru/library/jquery.form.js" in HTML "https://loadtest.uxcrowd.ru/"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "https://loadtest.uxcrowd.ru/library/moment.min.js" in HTML "https://loadtest.uxcrowd.ru/"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "https://loadtest.uxcrowd.ru/library/jquery.uploadfile.min.js" in HTML "https://loadtest.uxcrowd.ru/"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "https://loadtest.uxcrowd.ru/assets/js/main_js/validation.js" in HTML "https://loadtest.uxcrowd.ru/"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "https://loadtest.uxcrowd.ru/library/FileSaver.js" in HTML "https://loadtest.uxcrowd.ru/"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "https://loadtest.uxcrowd.ru/assets/gulp/sup_js.js" in HTML "https://loadtest.uxcrowd.ru/"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "https://loadtest.uxcrowd.ru/assets/js/main_js/init.js" in HTML "https://loadtest.uxcrowd.ru/"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "https://loadtest.uxcrowd.ru/assets/js/main_js/validation.rule.js" in HTML "https://loadtest.uxcrowd.ru/"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "https://loadtest.uxcrowd.ru/assets/js/app_js/auth.interceptor.js" in HTML "https://loadtest.uxcrowd.ru/"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "https://loadtest.uxcrowd.ru/assets/js/main_js/mediaelement-and-player.js" in HTML "https://loadtest.uxcrowd.ru/"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "https://loadtest.uxcrowd.ru/assets/gulp/app_js.js" in HTML "https://loadtest.uxcrowd.ru/"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "https://loadtest.uxcrowd.ru/assets/gulp/admin_js.js" in HTML "https://loadtest.uxcrowd.ru/"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "https://loadtest.uxcrowd.ru/assets/gulp/customer_js.js" in HTML "https://loadtest.uxcrowd.ru/"  	[MsgId: MMSG-26659]
+Action.c(11): Warning -26570: Ignoring 4650 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(11): Warning -26570: Ignoring 1995 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(11): Warning -26570: Ignoring 5478 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(11): Warning -26570: Ignoring 513 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(11): Warning -26570: Ignoring 331 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(11): Warning -26570: Ignoring 3348 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(11): Warning -26570: Ignoring 5541 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(11): Warning -26570: Ignoring 2294 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(11): Warning -26570: Ignoring 5084 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(11): Warning -26570: Ignoring 2812 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(11): Warning -26570: Ignoring 2475 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(11): Found resource "https://loadtest.uxcrowd.ru/assets/gulp/blog_js.js" in HTML "https://loadtest.uxcrowd.ru/"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "https://loadtest.uxcrowd.ru/assets/gulp/home_js.js" in HTML "https://loadtest.uxcrowd.ru/"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "https://loadtest.uxcrowd.ru/assets/gulp/moderator_js.js" in HTML "https://loadtest.uxcrowd.ru/"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "https://loadtest.uxcrowd.ru/assets/gulp/new_tester_js.js" in HTML "https://loadtest.uxcrowd.ru/"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "https://loadtest.uxcrowd.ru/assets/gulp/tester_js.js" in HTML "https://loadtest.uxcrowd.ru/"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "https://loadtest.uxcrowd.ru/library/require.js" in HTML "https://loadtest.uxcrowd.ru/"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "https://loadtest.uxcrowd.ru/assets/js/main_js/path_controller.js" in HTML "https://loadtest.uxcrowd.ru/"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "https://loadtest.uxcrowd.ru/assets/js/landing/jQuery.YouTube.HD.Thumbnail.js" in HTML "https://loadtest.uxcrowd.ru/"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "https://loadtest.uxcrowd.ru/assets/js/main_js/main_route.js" in HTML "https://loadtest.uxcrowd.ru/"  	[MsgId: MMSG-26659]
+Action.c(11): Warning -26570: Ignoring 3260 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(11): Warning -26570: Ignoring 6392 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(11): Warning -26570: Ignoring 887 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(11): Warning -26570: Ignoring 860 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(11): Warning -26570: Ignoring 1724 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(11): Warning -26570: Ignoring 4915 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(11): Warning -26570: Ignoring 398 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(11): Warning -26570: Ignoring 1166 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(11): Warning -26570: Ignoring 6620 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(11): Warning -26570: Ignoring 440 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(11): Warning -26570: Ignoring 5954 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(11): Warning -26570: Ignoring 1436 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(11): Warning -26570: Ignoring 276 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(11): Warning -26570: Ignoring 454 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(11): Warning -26570: Ignoring 7139 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(11): Warning -26570: Ignoring 1193 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(11): Warning -26570: Ignoring 1111 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(11): Warning -26570: Ignoring 5894 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(11): web_url("loadtest.uxcrowd.ru") highest severity level was "warning", 2207764 body bytes, 17132 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(21): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action.c(21): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+Action.c(26): web_url("ru.json") started  	[MsgId: MMSG-26355]
+Action.c(26): Downloading resource "https://loadtest.uxcrowd.ru/api/account" (specified by argument number 10)  	[MsgId: MMSG-26577]
+Action.c(26): Warning -26570: Ignoring 6506 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(26): Warning -26547: Authentication required, please use "web_set_user", e.g. web_set_user("domain\\user", "password", "host:port");  	[MsgId: MWAR-26547]
+Action.c(26): Warning -26630: HTTP Status-Code=401 (Unauthorized) for "https://loadtest.uxcrowd.ru/api/account"  	[MsgId: MWAR-26630]
+Action.c(26): web_url("ru.json") highest severity level was "warning", 127801 body bytes, 904 header bytes  	[MsgId: MMSG-26388]
+Action.c(38): web_add_auto_header("X-XSRF-TOKEN") started  	[MsgId: MMSG-26355]
+Action.c(38): web_add_auto_header("X-XSRF-TOKEN") was successful  	[MsgId: MMSG-26392]
+Action.c(42): web_url("headerGreenWhite.html") started  	[MsgId: MMSG-26355]
+Action.c(42): Found resource "https://loadtest.uxcrowd.ru/assets/images/uxcrowd-logo-new.svg" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/headerGreenWhite.html"  	[MsgId: MMSG-26659]
+Action.c(42): Found resource "https://loadtest.uxcrowd.ru/assets/images/burger-white-mobile.svg" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/headerGreenWhite.html"  	[MsgId: MMSG-26659]
+Action.c(42): Found resource "https://loadtest.uxcrowd.ru/assets/images/uxcrowd-logo-white-mobile.svg" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/headerGreenWhite.html"  	[MsgId: MMSG-26659]
+Action.c(42): Found resource "https://loadtest.uxcrowd.ru/assets/images/avatar-white-mobile.svg" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/headerGreenWhite.html"  	[MsgId: MMSG-26659]
+Action.c(42): Found resource "https://loadtest.uxcrowd.ru/assets/images/youtube-colored.svg" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/headerGreenWhite.html"  	[MsgId: MMSG-26659]
+Action.c(42): Found resource "https://loadtest.uxcrowd.ru/assets/images/facebook-colored.svg" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/headerGreenWhite.html"  	[MsgId: MMSG-26659]
+Action.c(42): Found resource "https://loadtest.uxcrowd.ru/assets/images/google-play-btn.png" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/headerGreenWhite.html"  	[MsgId: MMSG-26659]
+Action.c(42): Warning -26570: Ignoring 2726 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(42): Warning -26570: Ignoring 297 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(42): Warning -26570: Ignoring 675 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(42): web_url("headerGreenWhite.html") highest severity level was "warning", 119019 body bytes, 4097 header bytes  	[MsgId: MMSG-26388]
+Action.c(52): web_url("home.html") started  	[MsgId: MMSG-26355]
+Action.c(52): Found resource "https://loadtest.uxcrowd.ru/assets/images/nl-home-girl.svg" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/home.html"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "https://loadtest.uxcrowd.ru/assets/images/nl-home-work-arrow.svg" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/home.html"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "https://loadtest.uxcrowd.ru/assets/images/nl-home-work-blot-rect.svg" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/home.html"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "https://loadtest.uxcrowd.ru/assets/images/nl-home-work-blot-circle.svg" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/home.html"  	[MsgId: MMSG-26659]
+Action.c(52): Detected non-resource "https://www.youtube.com/embed/Q2CnE_Nlsbc" in "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/home.html"  	[MsgId: MMSG-26574]
+Action.c(52): Found resource "https://loadtest.uxcrowd.ru/assets/images/nl-home-helpful-block-1.svg" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/home.html"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "https://loadtest.uxcrowd.ru/assets/images/nl-home-helpful-block-2.svg" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/home.html"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "https://loadtest.uxcrowd.ru/assets/images/nl-home-helpful-block-3.svg" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/home.html"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "https://loadtest.uxcrowd.ru/assets/images/nl-home-clients-logo-rabota_ru.svg" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/home.html"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "https://loadtest.uxcrowd.ru/assets/images/nl-home-clients-logo-gazprombank.svg" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/home.html"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "https://loadtest.uxcrowd.ru/assets/images/nl-home-clients-logo-5.svg" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/home.html"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "https://loadtest.uxcrowd.ru/assets/images/nl-home-clients-logo-2.svg" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/home.html"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "https://loadtest.uxcrowd.ru/assets/images/nl-home-clients-logo-4.svg" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/home.html"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "https://loadtest.uxcrowd.ru/assets/images/nl-home-clients-logo-3.svg" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/home.html"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "https://loadtest.uxcrowd.ru/assets/images/nl-home-clients-logo-1.svg" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/home.html"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "https://loadtest.uxcrowd.ru/assets/images/egor_golubev.png" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/home.html"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "https://loadtest.uxcrowd.ru/assets/images/svetlana_gorshkova.jpg" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/home.html"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "https://loadtest.uxcrowd.ru/assets/images/ildar_mullahmetov.png" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/home.html"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "https://loadtest.uxcrowd.ru/assets/images/nl-home-center-blot.png" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/home.html"  	[MsgId: MMSG-26659]
+Action.c(52): Warning -26570: Ignoring 237 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(52): Warning -26570: Ignoring 187 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(52): Warning -26570: Ignoring 212 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(52): Found resource "https://loadtest.uxcrowd.ru/assets/images/nl-home-clients-blot-mobile.svg" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/home.html"  	[MsgId: MMSG-26659]
+Action.c(52): Detected non-resource "https://www.youtube.com/embed/Q2CnE_Nlsbc" in "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/home.html"  	[MsgId: MMSG-26574]
+Action.c(52): Detected non-resource "https://www.youtube.com/embed/Q2CnE_Nlsbc" in "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/home.html"  	[MsgId: MMSG-26574]
+Action.c(52): Found resource "https://loadtest.uxcrowd.ru/assets//images/question.png" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/home.html"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "https://loadtest.uxcrowd.ru/assets/images/nl-home-top-blot.svg" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/home.html"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "https://loadtest.uxcrowd.ru/assets/images/Rectangle 5.2.png" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/home.html"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "https://loadtest.uxcrowd.ru/assets/images/nl-home-blot-bottom-mobile.svg" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/home.html"  	[MsgId: MMSG-26659]
+Action.c(52): Warning -26570: Ignoring 7992 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(52): Warning -26570: Ignoring 588 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(52): Warning -26570: Ignoring 1586 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(52): Warning -26570: Ignoring 626 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(52): Warning -26570: Ignoring 458 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(52): web_url("home.html") highest severity level was "warning", 1360946 body bytes, 14528 header bytes  	[MsgId: MMSG-26388]
+Action.c(62): web_url("footer.html") started  	[MsgId: MMSG-26355]
+Action.c(62): Found resource "https://loadtest.uxcrowd.ru/assets/images/ux-logo-new-white.svg" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/footer.html"  	[MsgId: MMSG-26659]
+Action.c(62): Found resource "https://loadtest.uxcrowd.ru/assets/images/youtube.svg" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/footer.html"  	[MsgId: MMSG-26659]
+Action.c(62): Found resource "https://loadtest.uxcrowd.ru/assets/images/facebook.svg" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/footer.html"  	[MsgId: MMSG-26659]
+Action.c(62): Resource "https://loadtest.uxcrowd.ru/assets/images/google-play-btn.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(62): Warning -26570: Ignoring 1239 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(62): Warning -26570: Ignoring 675 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(62): web_url("footer.html") highest severity level was "warning", 61247 body bytes, 2047 header bytes  	[MsgId: MMSG-26388]
+Action.c(74): web_url("modal-login.html") started  	[MsgId: MMSG-26355]
+Action.c(74): Warning -26570: Ignoring 3466 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(74): web_url("modal-login.html") highest severity level was "warning", 6941 body bytes, 507 header bytes  	[MsgId: MMSG-26388]
+Action.c(84): Notify: Transaction "UC03_TR01_mainpage_open" ended with a "Pass" status (Duration: 9,5988 Wasted Time: 1,4638).
+Action.c(86): Notify: Transaction "UC03_TR02_signupdata_post" started.
+Action.c(86): Warning: Failed to get NV emulation handle.
+Action.c(88): web_custom_request("register") started  	[MsgId: MMSG-26355]
+Action.c(88): web_custom_request("register") was successful, 0 body bytes, 566 header bytes  	[MsgId: MMSG-26386]
+Action.c(100): Notify: Transaction "UC03_TR02_signupdata_post" ended with a "Pass" status (Duration: 0,4871 Wasted Time: 0,0745).
+Action.c(103): Notify: Transaction "UC03_TR03_successpage_open" started.
+Action.c(103): Warning: Failed to get NV emulation handle.
+Action.c(105): web_url("modal_window.html") started  	[MsgId: MMSG-26355]
+Action.c(105): Warning -26570: Ignoring 2064 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(105): web_url("modal_window.html") highest severity level was "warning", 4137 body bytes, 506 header bytes  	[MsgId: MMSG-26388]
+Action.c(115): web_url("footerWhite.html") started  	[MsgId: MMSG-26355]
+Action.c(115): Found resource "https://loadtest.uxcrowd.ru/assets/images/ux-logo-new-green.svg" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/footerWhite.html"  	[MsgId: MMSG-26659]
+Action.c(115): Resource "https://loadtest.uxcrowd.ru/assets/images/youtube-colored.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(115): Resource "https://loadtest.uxcrowd.ru/assets/images/facebook-colored.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(115): Resource "https://loadtest.uxcrowd.ru/assets/images/google-play-btn.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(115): Warning -26570: Ignoring 1262 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(115): web_url("footerWhite.html") highest severity level was "warning", 51910 body bytes, 1022 header bytes  	[MsgId: MMSG-26388]
+Action.c(125): web_url("header.html") started  	[MsgId: MMSG-26355]
+Action.c(125): Resource "https://loadtest.uxcrowd.ru/assets/images/uxcrowd-logo-new.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(125): Found resource "https://loadtest.uxcrowd.ru/assets/images/burger-gray-mobile.svg" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/header.html"  	[MsgId: MMSG-26659]
+Action.c(125): Found resource "https://loadtest.uxcrowd.ru/assets/images/uxcrowd-logo-green-mobile.svg" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/header.html"  	[MsgId: MMSG-26659]
+Action.c(125): Found resource "https://loadtest.uxcrowd.ru/assets/images/avatar-gray-mobile.svg" in HTML "https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/header.html"  	[MsgId: MMSG-26659]
+Action.c(125): Resource "https://loadtest.uxcrowd.ru/assets/images/youtube-colored.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(125): Resource "https://loadtest.uxcrowd.ru/assets/images/facebook-colored.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(125): Resource "https://loadtest.uxcrowd.ru/assets/images/google-play-btn.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(125): Warning -26570: Ignoring 2603 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(125): Warning -26570: Ignoring 303 byte(s) of data beyond the logical end of the response  	[MsgId: MWAR-26570]
+Action.c(125): web_url("header.html") highest severity level was "warning", 21182 body bytes, 2046 header bytes  	[MsgId: MMSG-26388]
+Action.c(135): Notify: Transaction "UC03_TR03_successpage_open" ended with a "Pass" status (Duration: 0,9438 Wasted Time: 0,3028).
+Action.c(137): Notify: Transaction "UC03_TR04_DB_PosgreSQL" started.
+Action.c(137): Warning: Failed to get NV emulation handle.
+Action.c(139): DB Connection "connectBD" started ... Wait ....
+Action.c(145): SQL Statement  execution "updatePassword" started
+Action.c(145): Warning :No dataset was created.
+Action.c(145): ================================================
+Action.c(151): SQL Statement  execution "updateRole" started
+Action.c(151): Warning :No dataset was created.
+Action.c(151): ================================================
+Action.c(157): SQL Statement  execution "updateTesterData" started
+Action.c(157): Warning :No dataset was created.
+Action.c(157): ================================================
+Action.c(163): DB disconnect "Disconnect" started
+Action.c(163): ================================================
+Action.c(166): Notify: Transaction "UC03_TR04_DB_PosgreSQL" ended with a "Pass" status (Duration: 0,5645 Wasted Time: 0,3816).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Warning: Failed to get NV emulation handle.
+Ending action vuser_end.
+Vuser Terminated.

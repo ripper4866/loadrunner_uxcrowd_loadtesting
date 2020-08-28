@@ -1,0 +1,13 @@
+Start auto log messages stack - Iteration 85.	[MsgId: MMSG-10545]
+Action_UC01_Client_registration.c(49): web_custom_request("register") started  	[MsgId: MMSG-26355]
+Action_UC01_Client_registration.c(49): web_custom_request("register") was successful, 0 body bytes, 577 header bytes  	[MsgId: MMSG-26386]
+Action_UC01_Client_registration.c(61): DB Connection "connectBD" started ... Wait ....	[MsgId: MMSG-17944]
+Action_UC01_Client_registration.c(67): SQL Statement  execution "updatePassword" started	[MsgId: MMSG-17927]
+Action_UC01_Client_registration.c(67): Warning :No dataset was created.	[MsgId: MMSG0]
+Action_UC01_Client_registration.c(67): ================================================	[MsgId: MMSG0]
+Action_UC01_Client_registration.c(73): SQL Statement  execution "updateTariffType" started	[MsgId: MMSG-17927]
+Action_UC01_Client_registration.c(73): Warning :No dataset was created.	[MsgId: MMSG0]
+Action_UC01_Client_registration.c(73): ================================================	[MsgId: MMSG0]
+Action_UC01_Client_registration.c(79): Error: : Failed to connect server. Please check the server name, port number, network connectivity or whether server above 11.52 version is started.	[MsgId: MERR-18999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+

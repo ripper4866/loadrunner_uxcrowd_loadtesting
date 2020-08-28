@@ -1,0 +1,48 @@
+[Scenario]
+Product=HPE LoadRunner Controller
+Version=12.55.0.0
+Path=C:\Users\User\Desktop\ScenarioShort.lrs
+Subject=ScenarioShort
+Result_file=c:\users\user\desktop\lrrr\result0\result0.lrr
+Description=
+ResultName=result0
+Time_Zone=-10800
+Start_time=1598446725
+Daylight_Bias=0
+Stop_time=1598452400
+
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+
+[Running_mode]
+Start_reason=By command
+Stop_reason=By a user
+
+[Data Collection]
+FullData=1
+SummaryEnded=1
+
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Group schedule for: uc02_client_test_creation
+Mode=Group Scheduling
+Scenario Duration=Unknown duration
+Load Behavior=Defined per scenario group
+
+[Scripts]
+UC_01_Client_registration=C:\Users\User\Desktop\LRRR\UC_01_Client_registration\UC_01_Client_registration.usr
+UC02_Client_Test_Creation=C:\Users\User\Desktop\LRRR\UC02_Client_Test_Creation\UC02_Client_Test_Creation.usr
+UC04_passTestSendVideo=C:\Users\User\Desktop\LRRR\UC04_passTestSendVideo\UC04_passTestSendVideo.usr
+UC03_tester_registration=C:\Users\User\Desktop\LRRR\UC03_tester_registration\UC03_tester_registration.usr
+UC05_New=C:\Users\User\Desktop\LRRR\UC05_New\UC05_New.usr
+
+[Scripts_types]
+UC_01_Client_registration=Multi+QTWeb
+UC02_Client_Test_Creation=Multi+QTWeb
+UC04_passTestSendVideo=Multi+QTWeb
+UC03_tester_registration=Multi+QTWeb
+UC05_New=Multi+QTWeb
+

@@ -1,0 +1,72 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=UC02_Client_Test_Creation.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=12
+MinorVersion=55
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=12.55.0.911
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=12.55.0.911
+DisableRegenerate=0
+Description=
+ScriptLocale=ru-RU
+Encoding=ANSI
+[Actions]
+vuser_init=vuser_init.c
+Action_UC02_Client_Test_Creation=Action_UC02_Client_Test_Creation.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+WebSocketBuffer.h=
+WebSocketCB.c=
+[Modified Actions]
+vuser_init=1
+Action_UC02_Client_Test_Creation=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=1
+Action_UC02_Client_Test_Creation=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action_UC02_Client_Test_Creation=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Action_UC02_Client_Test_Creation=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="UC02_TR01_login__*delimiter*__UC02_TR02_create_new_test__*delimiter*__UC02_TR03_test_description__*delimiter*__UC02_TR04_test_crowd__*delimiter*__UC02_TR05_test_tasks__*delimiter*__UC02_TR06_test_confirmation__*delimiter*__UC02_TR07_to_tests_list__*delimiter*__UC02_TR08_logout"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=
+ActiveRunName=
+[Transactions]
+UC02_TR01_login=
+UC02_TR02_create_new_test=
+UC02_TR03_test_description=
+UC02_TR04_test_crowd=
+UC02_TR05_test_tasks=
+UC02_TR06_test_confirmation=
+UC02_TR07_to_tests_list=
+UC02_TR08_logout=
+[ExtraFilesToParse]
+WebSocketCB.c=

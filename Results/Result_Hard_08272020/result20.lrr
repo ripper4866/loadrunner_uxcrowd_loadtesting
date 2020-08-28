@@ -1,0 +1,78 @@
+[Scenario]
+Product=HPE LoadRunner Controller
+Version=12.55.0.0
+Path=C:\Users\User\Desktop\HardScenario.lrs
+Subject=ScenarioShort
+Result_file=c:\users\user\desktop\lrrr\result20\result20.lrr
+Description=
+ResultName=result20
+Time_Zone=-10800
+Start_time=1598559514
+Daylight_Bias=0
+Stop_time=1598575624
+
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+
+[Running_mode]
+Start_reason=By command
+Stop_reason=By a user
+
+[Data Collection]
+FullData=1
+SummaryEnded=1
+
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Group schedule for: uc05_new_2
+Mode=Group Scheduling
+Scenario Duration=Unknown duration
+Load Behavior=Defined per scenario group
+
+[Scripts]
+UC04_passTestSendVideo_2=C:\Users\User\Desktop\loadrunner_uxcrowd_loadtesting\UC04_passTestSendVideo\UC04_passTestSendVideo.usr
+UC02_Client_Test_Creation_5=C:\Users\User\Desktop\loadrunner_uxcrowd_loadtesting\UC02_Client_Test_Creation\UC02_Client_Test_Creation.usr
+UC_01_Client_registration_5=C:\Users\User\Desktop\loadrunner_uxcrowd_loadtesting\UC_01_Client_registration\UC_01_Client_registration.usr
+UC03_tester_registration_5=C:\Users\User\Desktop\loadrunner_uxcrowd_loadtesting\UC03_tester_registration\UC03_tester_registration.usr
+UC05_New_5=C:\Users\User\Desktop\loadrunner_uxcrowd_loadtesting\UC05_New\UC05_New.usr
+UC05_New_1=C:\Users\User\Desktop\loadrunner_uxcrowd_loadtesting\UC05_New\UC05_New.usr
+UC02_Client_Test_Creation_1=C:\Users\User\Desktop\loadrunner_uxcrowd_loadtesting\UC02_Client_Test_Creation\UC02_Client_Test_Creation.usr
+UC_01_Client_registration_1=C:\Users\User\Desktop\loadrunner_uxcrowd_loadtesting\UC_01_Client_registration\UC_01_Client_registration.usr
+UC03_tester_registration_1=C:\Users\User\Desktop\loadrunner_uxcrowd_loadtesting\UC03_tester_registration\UC03_tester_registration.usr
+UC02_Client_Test_Creation_2=C:\Users\User\Desktop\loadrunner_uxcrowd_loadtesting\UC02_Client_Test_Creation\UC02_Client_Test_Creation.usr
+UC_01_Client_registration_2=C:\Users\User\Desktop\loadrunner_uxcrowd_loadtesting\UC_01_Client_registration\UC_01_Client_registration.usr
+UC05_New_2=C:\Users\User\Desktop\loadrunner_uxcrowd_loadtesting\UC05_New\UC05_New.usr
+UC03_tester_registration_2=C:\Users\User\Desktop\loadrunner_uxcrowd_loadtesting\UC03_tester_registration\UC03_tester_registration.usr
+UC02_Client_Test_Creation_3=C:\Users\User\Desktop\loadrunner_uxcrowd_loadtesting\UC02_Client_Test_Creation\UC02_Client_Test_Creation.usr
+UC_01_Client_registration_3=C:\Users\User\Desktop\loadrunner_uxcrowd_loadtesting\UC_01_Client_registration\UC_01_Client_registration.usr
+UC04_passTestSendVideo_1=C:\Users\User\Desktop\loadrunner_uxcrowd_loadtesting\UC04_passTestSendVideo\UC04_passTestSendVideo.usr
+UC03_tester_registration_4=C:\Users\User\Desktop\loadrunner_uxcrowd_loadtesting\UC03_tester_registration\UC03_tester_registration.usr
+UC02_Client_Test_Creation_4=C:\Users\User\Desktop\loadrunner_uxcrowd_loadtesting\UC02_Client_Test_Creation\UC02_Client_Test_Creation.usr
+UC05_New_4=C:\Users\User\Desktop\loadrunner_uxcrowd_loadtesting\UC05_New\UC05_New.usr
+UC05_New_3=C:\Users\User\Desktop\loadrunner_uxcrowd_loadtesting\UC05_New\UC05_New.usr
+
+[Scripts_types]
+UC04_passTestSendVideo_2=Multi+QTWeb
+UC02_Client_Test_Creation_5=Multi+QTWeb
+UC_01_Client_registration_5=Multi+QTWeb
+UC03_tester_registration_5=Multi+QTWeb
+UC05_New_5=Multi+QTWeb
+UC05_New_1=Multi+QTWeb
+UC02_Client_Test_Creation_1=Multi+QTWeb
+UC_01_Client_registration_1=Multi+QTWeb
+UC03_tester_registration_1=Multi+QTWeb
+UC02_Client_Test_Creation_2=Multi+QTWeb
+UC_01_Client_registration_2=Multi+QTWeb
+UC05_New_2=Multi+QTWeb
+UC03_tester_registration_2=Multi+QTWeb
+UC02_Client_Test_Creation_3=Multi+QTWeb
+UC_01_Client_registration_3=Multi+QTWeb
+UC04_passTestSendVideo_1=Multi+QTWeb
+UC03_tester_registration_4=Multi+QTWeb
+UC02_Client_Test_Creation_4=Multi+QTWeb
+UC05_New_4=Multi+QTWeb
+UC05_New_3=Multi+QTWeb
+

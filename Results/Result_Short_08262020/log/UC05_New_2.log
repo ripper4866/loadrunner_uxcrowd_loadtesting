@@ -1,0 +1,13 @@
+Start auto log messages stack - Iteration 27.	[MsgId: MMSG-10545]
+UC05_New.c(362): lr_think_time: 15.00 seconds.	[MsgId: MMSG-15948]
+UC05_New.c(362): ssl_handle_status encounter error : SSL_ERROR_SYSCALL, error id : 0  	[MsgId: MMSG-26000]
+UC05_New.c(362): RETRY 8: [10054] Connection reset by peer
+This is probably because the SSL protocol version is not supported. Try switching the TLS/SSL version using "web_set_sockets_option" API.  	[MsgId: MMSG-26000]
+UC05_New.c(362): ssl_handle_status encounter error : SSL_ERROR_SYSCALL, error id : 0  	[MsgId: MMSG-26000]
+UC05_New.c(362): RETRY 9: [10054] Connection reset by peer
+This is probably because the SSL protocol version is not supported. Try switching the TLS/SSL version using "web_set_sockets_option" API.  	[MsgId: MMSG-26000]
+UC05_New.c(362): ssl_handle_status encounter error : SSL_ERROR_SYSCALL, error id : 0  	[MsgId: MMSG-26000]
+UC05_New.c(340): Error -27776: [GENERAL_MSG_CAT_SSL_ERROR]read to host "127.0.0.1" failed: [10054] Connection reset by peer
+This is probably because the SSL protocol version is not supported. Try switching the TLS/SSL version using "web_set_sockets_option" API.   [issued at UC05_New.c(362)]  	[MsgId: MERR-27776]
+End auto log messages stack.	[MsgId: MMSG-10544]
+

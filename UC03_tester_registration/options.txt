@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--IC:\Users\User\Desktop\loadrunner_uxcrowd_loadtesting\UC03_tester_registration
--IC:\Program Files (x86)\HPE\LoadRunner\include
--ec:\users\user\desktop\loadrunner_uxcrowd_loadtesting\uc03_tester_registration\\logfile.log
-c:\users\user\desktop\loadrunner_uxcrowd_loadtesting\uc03_tester_registration\\combined_UC03_tester_registration.c
-c:\users\user\desktop\loadrunner_uxcrowd_loadtesting\uc03_tester_registration\\pre_cci.c

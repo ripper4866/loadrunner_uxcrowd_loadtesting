@@ -1,0 +1,8 @@
+Start auto log messages stack - Iteration 33.	[MsgId: MMSG-10545]
+Action_UC01_Client_registration.c(40): Resource "https://loadtest.uxcrowd.ru/assets/js/landing/jQuery.YouTube.HD.Thumbnail.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_UC01_Client_registration.c(40): Resource "https://loadtest.uxcrowd.ru/assets/js/main_js/main_route.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_UC01_Client_registration.c(40): web_url("loadtest.uxcrowd.ru_2") was successful, 0 body bytes, 0 header bytes  	[MsgId: MMSG-26386]
+Action_UC01_Client_registration.c(49): web_custom_request("register") started  	[MsgId: MMSG-26355]
+Action_UC01_Client_registration.c(49): Error -26608: HTTP Status-Code=504 (Gateway Time-out) for "https://loadtest.uxcrowd.ru/api/register"  	[MsgId: MERR-26608]
+End auto log messages stack.	[MsgId: MMSG-10544]
+

@@ -1,0 +1,16 @@
+[parameter:rundomNumber]
+Format="%lu"
+GenerateNewVal="EachIteration"
+MaxValue="4294967295"
+MinValue="1"
+OriginalValue="213213123"
+ParamName="rundomNumber"
+Type="Random"
+[parameter:rundomNumber2]
+Format="%lu"
+GenerateNewVal="EachIteration"
+MaxValue="4294967295"
+MinValue="1"
+OriginalValue=""
+ParamName="rundomNumber2"
+Type="Random"

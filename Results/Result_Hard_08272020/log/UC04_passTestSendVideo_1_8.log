@@ -1,0 +1,18 @@
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+Action_UC04_pass_TestSendVideo.c(105): web_url("profile") started  	[MsgId: MMSG-26355]
+Action_UC04_pass_TestSendVideo.c(105): web_url("profile") was successful, 246 body bytes, 656 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_UC04_pass_TestSendVideo.c(115): web_url("new-tasks") started  	[MsgId: MMSG-26355]
+Action_UC04_pass_TestSendVideo.c(115): web_url("new-tasks") was successful, 26219 body bytes, 679 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_UC04_pass_TestSendVideo.c(125): web_url("profile_2") started  	[MsgId: MMSG-26355]
+Action_UC04_pass_TestSendVideo.c(125): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "https://loadtest.uxcrowd.ru/api/v2/tester/profile"  	[MsgId: MERR-26612]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+Action_UC04_pass_TestSendVideo.c(95): web_url("account") started  	[MsgId: MMSG-26355]
+Action_UC04_pass_TestSendVideo.c(95): web_url("account") was successful, 443 body bytes, 656 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_UC04_pass_TestSendVideo.c(105): web_url("profile") started  	[MsgId: MMSG-26355]
+Action_UC04_pass_TestSendVideo.c(105): web_url("profile") was successful, 245 body bytes, 656 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_UC04_pass_TestSendVideo.c(115): web_url("new-tasks") started  	[MsgId: MMSG-26355]
+Action_UC04_pass_TestSendVideo.c(115): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "https://loadtest.uxcrowd.ru/api/tester/new-tasks?isMobile=false"  	[MsgId: MERR-26612]
+End auto log messages stack.	[MsgId: MMSG-10544]
+

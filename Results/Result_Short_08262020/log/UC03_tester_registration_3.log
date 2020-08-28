@@ -1,0 +1,10 @@
+Start auto log messages stack - Iteration 81.	[MsgId: MMSG-10545]
+UC03_Tester_Registration.c(64): web_url("footer.html") was successful, 30583 body bytes, 2345 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC03_Tester_Registration.c(76): web_url("modal-login.html") started  	[MsgId: MMSG-26355]
+UC03_Tester_Registration.c(76): web_url("modal-login.html") was successful, 3466 body bytes, 549 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC03_Tester_Registration.c(86): Notify: Transaction "UC03_TR01_mainpage_open" ended with a "Pass" status (Duration: 9.1701 Wasted Time: 0.0024).	[MsgId: MMSG-16871]
+UC03_Tester_Registration.c(88): Notify: Transaction "UC03_TR02_signupdata_post" started.	[MsgId: MMSG-16999]
+UC03_Tester_Registration.c(90): web_custom_request("register") started  	[MsgId: MMSG-26355]
+UC03_Tester_Registration.c(90): Error -26631: HTTP Status-Code=400 (Bad Request) for "https://loadtest.uxcrowd.ru/api/register"  	[MsgId: MERR-26631]
+End auto log messages stack.	[MsgId: MMSG-10544]
+

@@ -1,0 +1,7 @@
+[Diagnostics]
+Status=-1
+[Collate Recovery]
+Scenario=C:\Users\User\Desktop\HardScenario.lrs
+Completed=1
+[Hosts]
+25.57.231.99=C:\Users\Serx\AppData\Local\Temp\brr_LSq.749\netdir\res\25.57.231.99_1.eve

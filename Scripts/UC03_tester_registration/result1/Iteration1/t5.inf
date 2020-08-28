@@ -1,0 +1,23 @@
+[t5]
+FileName2=t5f0.html
+RawStepEndTime=1598274587234
+FileName4=t5f2.html
+UseFrameIndex=1
+RequestBodyFile=t5_RequestBody.txt
+RawStepName=home.html
+ContentType=text/html
+URL1=https://loadtest.uxcrowd.ru/tmpl/tmpl_landing_new/home.html
+URL2=file:
+URL3=file:
+ResponseHeaderFile=t5_ResponseHeader.txt
+URL4=file:
+SnapshotXmlFile=snapshot_4.xml
+RequestHeaderFile=t5_RequestHeader.txt
+RawStepStartTime=1598274584686
+Total=4
+StepName=Url: home.html
+FrameIndex2=0.0
+FrameIndex3=0.1
+FrameIndex4=0.2
+FileName1=t5.html
+FileName3=t5f1.html

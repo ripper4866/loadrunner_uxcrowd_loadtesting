@@ -1,0 +1,10 @@
+Start auto log messages stack - Iteration 250.	[MsgId: MMSG-10545]
+Action_UC03_tester_registration.c(64): web_url("footer.html") was successful, 30583 body bytes, 2345 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_UC03_tester_registration.c(76): web_url("modal-login.html") started  	[MsgId: MMSG-26355]
+Action_UC03_tester_registration.c(76): web_url("modal-login.html") was successful, 3466 body bytes, 549 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_UC03_tester_registration.c(86): Notify: Transaction "UC03_TR01_mainpage_open" ended with a "Pass" status (Duration: 4.0176).	[MsgId: MMSG-16873]
+Action_UC03_tester_registration.c(88): Notify: Transaction "UC03_TR02_signupdata_post" started.	[MsgId: MMSG-16999]
+Action_UC03_tester_registration.c(90): web_custom_request("register") started  	[MsgId: MMSG-26355]
+Action_UC03_tester_registration.c(90): Error -26608: HTTP Status-Code=504 (Gateway Time-out) for "https://loadtest.uxcrowd.ru/api/register"  	[MsgId: MERR-26608]
+End auto log messages stack.	[MsgId: MMSG-10544]
+

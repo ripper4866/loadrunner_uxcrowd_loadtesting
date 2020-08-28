@@ -1,0 +1,176 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (6 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (7 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (8 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (9 tries out of 10).
+Action_UC05_New.c(298): Error -26627: HTTP Status-Code=404 (Not Found) for "https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (6 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (7 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (8 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (9 tries out of 10).
+Action_UC05_New.c(298): Error -26627: HTTP Status-Code=404 (Not Found) for "https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (6 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (7 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (8 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (9 tries out of 10).
+Action_UC05_New.c(298): Error -26627: HTTP Status-Code=404 (Not Found) for "https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (6 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (7 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (8 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (9 tries out of 10).
+Action_UC05_New.c(298): Error -26627: HTTP Status-Code=404 (Not Found) for "https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (6 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (7 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (8 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (9 tries out of 10).
+Action_UC05_New.c(298): Error -26627: HTTP Status-Code=404 (Not Found) for "https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (6 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (7 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (8 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (9 tries out of 10).
+Action_UC05_New.c(298): Error -26627: HTTP Status-Code=404 (Not Found) for "https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (6 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (7 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (8 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (9 tries out of 10).
+Action_UC05_New.c(298): Error -26627: HTTP Status-Code=404 (Not Found) for "https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+Start auto log messages stack - Iteration 8.	[MsgId: MMSG-10545]
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (6 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (7 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (8 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (9 tries out of 10).
+Action_UC05_New.c(298): Error -26627: HTTP Status-Code=404 (Not Found) for "https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+Start auto log messages stack - Iteration 9.	[MsgId: MMSG-10545]
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (6 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (7 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (8 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (9 tries out of 10).
+Action_UC05_New.c(298): Error -26627: HTTP Status-Code=404 (Not Found) for "https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+Start auto log messages stack - Iteration 10.	[MsgId: MMSG-10545]
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (6 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (7 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (8 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (9 tries out of 10).
+Action_UC05_New.c(298): Error -26627: HTTP Status-Code=404 (Not Found) for "https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+Start auto log messages stack - Iteration 11.	[MsgId: MMSG-10545]
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (6 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (7 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (8 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (9 tries out of 10).
+Action_UC05_New.c(298): Error -26627: HTTP Status-Code=404 (Not Found) for "https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+Start auto log messages stack - Iteration 12.	[MsgId: MMSG-10545]
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (6 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (7 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (8 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (9 tries out of 10).
+Action_UC05_New.c(298): Error -26627: HTTP Status-Code=404 (Not Found) for "https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+Start auto log messages stack - Iteration 13.	[MsgId: MMSG-10545]
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (6 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (7 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (8 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (9 tries out of 10).
+Action_UC05_New.c(298): Error -26627: HTTP Status-Code=404 (Not Found) for "https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+Start auto log messages stack - Iteration 14.	[MsgId: MMSG-10545]
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (6 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (7 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (8 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (9 tries out of 10).
+Action_UC05_New.c(298): Error -26627: HTTP Status-Code=404 (Not Found) for "https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+Start auto log messages stack - Iteration 15.	[MsgId: MMSG-10545]
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (6 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (7 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (8 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (9 tries out of 10).
+Action_UC05_New.c(298): Error -26627: HTTP Status-Code=404 (Not Found) for "https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+Start auto log messages stack - Iteration 16.	[MsgId: MMSG-10545]
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (6 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (7 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (8 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (9 tries out of 10).
+Action_UC05_New.c(298): Error -26627: HTTP Status-Code=404 (Not Found) for "https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+Start auto log messages stack - Iteration 17.	[MsgId: MMSG-10545]
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (6 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (7 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (8 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (9 tries out of 10).
+Action_UC05_New.c(298): Error -26627: HTTP Status-Code=404 (Not Found) for "https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+Start auto log messages stack - Iteration 18.	[MsgId: MMSG-10545]
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (6 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (7 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (8 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (9 tries out of 10).
+Action_UC05_New.c(298): Error -26627: HTTP Status-Code=404 (Not Found) for "https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+Start auto log messages stack - Iteration 19.	[MsgId: MMSG-10545]
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (6 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (7 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (8 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (9 tries out of 10).
+Action_UC05_New.c(298): Error -26627: HTTP Status-Code=404 (Not Found) for "https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+Start auto log messages stack - Iteration 20.	[MsgId: MMSG-10545]
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (6 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (7 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (8 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (9 tries out of 10).
+Action_UC05_New.c(298): Error -26627: HTTP Status-Code=404 (Not Found) for "https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+Start auto log messages stack - Iteration 21.	[MsgId: MMSG-10545]
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (6 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (7 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (8 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (9 tries out of 10).
+Action_UC05_New.c(298): Error -26627: HTTP Status-Code=404 (Not Found) for "https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+Start auto log messages stack - Iteration 22.	[MsgId: MMSG-10545]
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (6 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (7 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (8 tries out of 10).
+Action_UC05_New.c(298): Notify: Attempting retry for stream "1" with URL="https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4" (9 tries out of 10).
+Action_UC05_New.c(298): Error -26627: HTTP Status-Code=404 (Not Found) for "https://loadtest.uxcrowd.ru/videos/2020-08-26-17-57-25-49978572-blob.mp4"  	[MsgId: MERR-26627]
+End auto log messages stack.	[MsgId: MMSG-10544]
+

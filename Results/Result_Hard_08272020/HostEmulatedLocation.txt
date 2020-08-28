@@ -1,0 +1,38 @@
+[NetworkVirtualization]
+Mode=1
+[Location]
+2.5G Busy=4755CD65-17FC-483D-AC2A-3C1400838FB4
+3G Busy=369A359C-FE6B-4DA9-9716-B278BCE528E1
+3G Good=EE550FDB-49F2-4596-9602-D196653EB210
+3G Typical=81C98456-EAAB-4554-921D-4FFD2E258847
+4G Good=638EA376-033C-45F8-8A85-5A5EEBC4E82E
+AUS to US EC=89249DC8-3B26-432F-9A68-C3C5F2093887
+China to US EC=33280316-F852-4469-BA72-6827E9CBBAE3
+India to US EC=C1727DF3-F02B-449B-ACFF-456DB5824831
+London to US EC=F0AB3E0C-4D41-4B1F-B9D0-81F4ABB132FC
+None=00000000-0000-0000-0000-000000000000
+Satellite=395E095B-5B0A-42E0-8E8E-923EA9944F71
+[00000000-0000-0000-0000-000000000000]
+ScriptCount=22
+ScriptName0=uc04_passtestsendvideo_2
+ScriptName1=uc04_passtestsendvideo_1
+ScriptName2=uc_01_client_registration_5
+ScriptName3=uc_01_client_registration_4
+ScriptName4=uc_01_client_registration_3
+ScriptName5=uc_01_client_registration_2
+ScriptName6=uc_01_client_registration_1
+ScriptName7=uc03_tester_registration_5
+ScriptName8=uc02_client_test_creation_5
+ScriptName9=uc03_tester_registration_4
+ScriptName10=uc02_client_test_creation_4
+ScriptName11=uc03_tester_registration_3
+ScriptName12=uc02_client_test_creation_3
+ScriptName13=uc03_tester_registration_2
+ScriptName14=uc02_client_test_creation_2
+ScriptName15=uc03_tester_registration_1
+ScriptName16=uc02_client_test_creation_1
+ScriptName17=uc05_new_5
+ScriptName18=uc05_new_4
+ScriptName19=uc05_new_3
+ScriptName20=uc05_new_2
+ScriptName21=uc05_new_1
